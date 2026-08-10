@@ -19,6 +19,21 @@ main {
   padding: 100px 20px 30px 20px;
   position: relative;
 }
+/* Внутри style.css */
+
+.hero img {
+  width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto 30px auto;
+  filter: drop-shadow(0 0 25px rgba(255, 200, 80, 0.35));
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.hero img:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 45px rgba(255, 210, 120, 0.7));
+}
 /* ... и все остальные стили для .hero, .hero-title и т.д. ... */
 
 
