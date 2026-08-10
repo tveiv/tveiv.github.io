@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
+<!-- Внутри _layouts/default.html -->
+<header>
+  <h1><a href="/">{{ site.title }}</a></h1>
+  <nav>
+    <a href="/">Главная</a>
+    <a href="/etol/">Этоль</a>
+    <!-- Сюда будем добавлять ссылки на новые статьи -->
+  </nav>
+</header>
 <body>
   <main>
     {{ content }}
