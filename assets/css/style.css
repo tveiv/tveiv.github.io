@@ -62,3 +62,11 @@ main {
   text-align: center;
   letter-spacing: 1px;
 }
+/* Разделитель на главной */
+.lore-separator {
+  margin: 60px auto;
+  width: 120px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  border: none;
+}
