@@ -4,7 +4,7 @@ title: Главная
 ---
 
 <div class="hero">
-  <img src="/assets/img/icon_voidgame.jpg" alt="VoidGame Logo" class="hero-logo">
+  <img src="/assets/img/icon_voidgame.jpeg" alt="VoidGame Logo" class="hero-logo">
   <div class="hero-title">VOIDGAME</div>
   <div class="hero-subtitle">ЭНЦИКЛОПЕДИЯ БЕЗДНЫ</div>
 </div>
