@@ -115,11 +115,16 @@ hr {
   border: none;
 }
 
+/* Внутри style.css */
+
 .lore-dialogue {
   margin-top: 40px;
   font-size: 17px;
   color: #b7bcc9;
-  text-align: left;
+  text-align: left; /* Вот ключевое изменение! */
+  max-width: 500px; /* Делаем блок диалога уже для лучшей читаемости */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .lore-name {
@@ -129,6 +134,7 @@ hr {
   letter-spacing: 1px;
   color: #ffffff;
   text-transform: uppercase;
+  text-align: center; /* Имя персонажа можно оставить по центру */
 }
 
 
