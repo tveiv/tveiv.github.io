@@ -94,5 +94,12 @@ permalink: /etol/
 * Тематика звёзд и гравитационных явлений прослеживается в названиях эффектов («Гений Звёзд», «Разрушитель Звёзд») и валюте «звёзды».
 
 * В альфа-версии режима подземелье Этоля называлось "Системой Этоля". Также во время прохождения встречались некие "Убийцы Гаханы". Имя "Гахана" не встречается в игре, однако, возможно, относится каким-то образом к шести мученикам. 
---- <div class="entity-nav"> <span class="entity-nav-label">Разделы:</span> <a href="/entities/">Божественные сущности</a> <span class="entity-nav-sep">•</span> <a href="/">VoidGame Wiki</a> </div>
+
+---
+
+<div class="entity-nav">
+  <span class="entity-nav-label">Разделы:</span>
+  <a href="/entities/">Божественные сущности</a>
+  <span class="entity-nav-sep">•</span>
+  <a href="/">VoidGame Wiki</a>
 </div>
