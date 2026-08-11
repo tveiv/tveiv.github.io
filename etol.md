@@ -3,7 +3,9 @@ layout: default
 title: "Этоль, Творец Луны"
 permalink: /etol/
 ---
-```
+<div class="void-article" markdown="1">
+<div class="void-article" markdown="1">
+<div class="void-article" markdown="1">
 {% include infobox_entity.html
   name="Этоль"
   title="Творец Луны"
@@ -11,7 +13,6 @@ permalink: /etol/
   status="Активен"
   image="/assets/img/echo_etol.jpeg" 
 %}
-```
 
 **Этоль** — божественная сущность во вселенной VoidGame, известная как **Творец Луны**. Согласно внутриигровому описанию, он «разорвал пелену беспросветной ночи», провозгласив начало новой эпохи, и разделил свою силу между шестью страдальцами, вверив им «ключи от будущего».
 
