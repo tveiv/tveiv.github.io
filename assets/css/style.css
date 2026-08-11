@@ -139,11 +139,12 @@ hr {
 
 
 /* ===== 4. СТИЛИ ДЛЯ СТАТЕЙ ===== */
-.void-article {
-  background: #1a1c23;
+main {
+  max-width: 1000px;
+  margin: 40px auto;
   padding: 40px 50px;
+  background: #1a1c23;
   border-radius: 12px;
-  margin-top: 40px;
 }
 
 .void-article h2 {
@@ -174,4 +175,45 @@ hr {
   margin-bottom: 15px;
   text-align: center;
   letter-spacing: 1px;
+}
+
+/* ===== Инфобокс для статей ===== */
+.entity-infobox {
+  float: right;
+  width: 300px;
+  background: #1a1c23;
+  padding: 20px;
+  margin: 0 0 20px 30px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  color: #d8dbe3;
+  font-size: 15px;
+}
+
+.entity-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.entity-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.entity-details .detail-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.entity-details .detail-label {
+  font-weight: bold;
+  color: #a0a8b8;
 }

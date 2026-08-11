@@ -1,0 +1,32 @@
+<aside class="entity-infobox">
+  {% if include.image %}
+    <figure class="entity-image">
+      <img src="{{ include.image }}" alt="Изображение {{ include.name }}">
+    </figure>
+  {% endif %}
+
+  <div class="entity-title">{{ include.name }}</div>
+
+  <div class="entity-details">
+    {% if include.title %}
+      <div class="detail-item">
+        <span class="detail-label">Титул:</span>
+        <span class="detail-value">{{ include.title }}</span>
+      </div>
+    {% endif %}
+
+    {% if include.type %}
+      <div class="detail-item">
+        <span class="detail-label">Тип:</span>
+        <span class="detail-value">{{ include.type }}</span>
+      </div>
+    {% endif %}
+
+    {% if include.status %}
+      <div class="detail-item">
+        <span class="detail-label">Статус:</span>
+        <span class="detail-value">{{ include.status }}</span>
+      </div>
+    {% endif %}
+  </div>
+</aside>
