@@ -147,6 +147,20 @@ main {
   border-radius: 12px;
 }
 
+.void-article {
+  background: #1a1c23;
+  padding: 40px 50px;
+  border-radius: 12px;
+  margin-top: 40px;
+  overflow: hidden; /* чтобы float не вываливался */
+}
+
+.void-article::after {
+  content: "";
+  display: block;
+  clear: both;      /* сброс обтекания */
+}
+
 .void-article h2 {
   border-bottom: 1px solid rgba(255,255,255,0.1);
   padding-bottom: 10px;
@@ -159,14 +173,15 @@ main {
 
 .entity-infobox {
   float: right;
-  width: 280px;
+  width: 300px;
   background: rgba(20, 22, 30, 0.95);
   padding: 20px;
-  margin: 0 0 20px 30px;
+  margin: 0 0 25px 35px;
   border-radius: 12px;
-  border: 1px solid rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 0 25px rgba(0,0,0,0.45);
   color: #d8dbe3;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .entity-title {
@@ -192,9 +207,10 @@ main {
 
 .entity-image img {
   width: 100%;
-  height: auto;
+  max-height: 260px;
+  object-fit: cover;      /* кадрируем лишнее */
+  display: block;
   border-radius: 8px;
-  margin-bottom: 15px;
 }
 
 .entity-title {
