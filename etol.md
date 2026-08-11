@@ -3,9 +3,9 @@ layout: default
 title: "Этоль, Творец Луны"
 permalink: /etol/
 ---
+
 <div class="void-article" markdown="1">
-<div class="void-article" markdown="1">
-<div class="void-article" markdown="1">
+
 {% include infobox_entity.html
   name="Этоль"
   title="Творец Луны"
@@ -95,7 +95,7 @@ permalink: /etol/
 
 * В альфа-версии режима подземелье Этоля называлось "Системой Этоля". Также во время прохождения встречались некие "Убийцы Гаханы". Имя "Гахана" не встречается в игре, однако, возможно, относится каким-то образом к шести мученикам. 
 
----
+</div>
 
 <div class="entity-nav">
   <span class="entity-nav-label">Разделы:</span>
