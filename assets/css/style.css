@@ -233,3 +233,36 @@ main {
   font-weight: bold;
   color: #a0a8b8;
 }
+/* ===== Навигация внизу статьи ===== */
+
+.entity-nav {
+  margin-top: 40px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  font-size: 14px;
+  color: #9aa3b2;
+  text-align: right;
+}
+
+.entity-nav-label {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.entity-nav a {
+  color: #c3d0ff;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.entity-nav a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.entity-nav-sep {
+  margin: 0 6px;
+  color: #555c6d;
+}
