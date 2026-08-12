@@ -8,77 +8,7 @@ permalink: /entities/
 
 # Божественные сущности
 
-Божественные сущности VoidGame отражаются в подземельях, бонусах, проклятиях и событиях.  
-Ниже приведён краткий обзор известных на данный момент сущностей.
-
-<div class="entity-grid">
-
-<div class="entity-card">
-  <div class="entity-card-name"><a href="/etol/">Этоль</a></div>
-  <div class="entity-card-title">Творец Луны</div>
-  <div class="entity-card-desc">
-    Связан со звёздами, луной и космическими явлениями.
-  </div>
-</div>
-
-<div class="entity-card">
-  <div class="entity-card-name"><a href="/rasima/">Расима</a></div>
-  <div class="entity-card-title">Бессмертная целительница</div>
-  <div class="entity-card-desc">
-    Исцеление. Я не могу помочь тебе, но буду наблюдать.
-  </div>
-</div>
-
-<div class="entity-card">
-  <div class="entity-card-name"><a href="/darkness/">Первородная Тьма</a></div>
-  <div class="entity-card-title">Тьма</div>
-  <div class="entity-card-desc">
-    Изгнанная светом Звезды сущность, затаившаяся в недрах земли и искажающая помыслы слабых.
-  </div>
-</div>
-
-<div class="entity-card">
-  <div class="entity-card-name"><a href="/calamity/">Бедствие</a></div>
-  <div class="entity-card-title">Повелитель болезней</div>
-  <div class="entity-card-desc">
-    Воплощённая Катастрофа: его путь оставляет пепелища и прах, а мир превращается в безмолвное кладбище.
-  </div>
-</div>
-
-<div class="entity-card">
-  <div class="entity-card-name"><a href="/pardimal/">Пардимал</a></div>
-  <div class="entity-card-title">Победитель</div>
-  <div class="entity-card-desc">
-    Самые сокрушительные удары бессильно отскакивают от его груди, а враги трепещут перед его статью.
-  </div>
-</div>
-
-<div class="entity-card">
-  <div class="entity-card-name"><a href="/beast/">Многоликий Куб</a></div>
-  <div class="entity-card-title">Зверь</div>
-  <div class="entity-card-desc">
-    Постоянно меняющаяся форма, порождающая пауков, волков и гигантских пчёл. Танец созидания и разрушения.
-  </div>
-</div>
-
-<div class="entity-card">
-  <div class="entity-card-name"><a href="/killer/">Квинкель</a></div>
-  <div class="entity-card-title">Убийца</div>
-  <div class="entity-card-desc">
-    Истребитель людей, чьё оружие само решает, когда наступит траур.
-  </div>
-</div>
-
-<div class="entity-card">
-  <div class="entity-card-name"><a href="/valotile/">Валотайл</a></div>
-  <div class="entity-card-title">Волшебник</div>
-  <div class="entity-card-desc">
-    Чудотворец, чьи расчёты охватывают каждую частицу мироздания.
-  </div>
-</div>
-
-
-</div> <!-- .entity-grid -->
+Божественные сущности VoidGame отражаются в подземельях, бонусах, проклятиях и событиях. Наведи на карту сущности, чтобы раскрыть её описание.
 
 <div class="entity-wheel">
 
@@ -97,12 +27,12 @@ permalink: /entities/
   </a>
 
   <a href="/darkness/" class="entity-wheel-item entity-wheel-darkness"
-     data-desc="Первородная Тьма, изгнанная светом Звезды.">
+     data-desc="Первородная Тьма, затаившаяся в недрах земли.">
     Тьма
   </a>
 
   <a href="/calamity/" class="entity-wheel-item entity-wheel-calamity"
-     data-desc="Повелитель болезней, следом за которым приходят пепелища и прах.">
+     data-desc="Повелитель болезней, обращающий плоть живых в прах.">
     Бедствие
   </a>
 
@@ -126,30 +56,38 @@ permalink: /entities/
     Валотайл
   </a>
 
-  <div class="entity-wheel-tooltip" id="entityWheelTooltip">
-    Наведи на сущность, чтобы увидеть краткое описание.
-  </div>
+  <!-- Всплывающий тултип, который будет двигаться за мышкой -->
+  <div class="entity-wheel-tooltip" id="entityWheelTooltip"></div>
+
+</div>
 
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+  const wheel = document.querySelector('.entity-wheel');
   const items = document.querySelectorAll('.entity-wheel-item');
   const tooltip = document.getElementById('entityWheelTooltip');
-  if (!tooltip) return;
-
-  const defaultText = 'Наведи на сущность, чтобы увидеть краткое описание.';
+  if (!tooltip || !wheel) return;
 
   items.forEach(item => {
     item.addEventListener('mouseenter', () => {
       const desc = item.getAttribute('data-desc');
-      tooltip.textContent = desc || defaultText;
+      tooltip.textContent = desc;
+      tooltip.style.display = 'block';
+
+      // Позиционируем тултип ровно над активной кнопкой
+      const itemLeft = item.offsetLeft;
+      const itemTop = item.offsetTop;
+      const itemWidth = item.offsetWidth;
+
+      tooltip.style.left = (itemLeft + itemWidth / 2) + 'px';
+      tooltip.style.top = (itemTop - 15) + 'px'; // 15px выше кнопки
     });
+
     item.addEventListener('mouseleave', () => {
-      tooltip.textContent = defaultText;
+      tooltip.style.display = 'none';
     });
   });
 });
 </script>
-
-</div> <!-- .void-article -->
