@@ -399,11 +399,25 @@ main {
   position: relative;
   width: 520px;
   height: 520px;
-  margin: 50px auto 60px auto;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(255,255,255,0.02) 0%, rgba(0,0,0,0) 70%);
+  margin: 50px auto 80px auto;
 }
 
+/* Вращаем только этот слой, центр и иконки внутри */
+.entity-wheel-rotation {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,255,0.02) 0%, rgba(0,0,0,0) 70%);
+  animation: entityWheelRotate 40s linear infinite;
+}
+
+@keyframes entityWheelRotate {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* Центр — вращаем в обратную сторону, чтобы текст оставался ровным */
 .entity-wheel-center {
   position: absolute;
   top: 50%;
@@ -423,56 +437,73 @@ main {
   border: 1px solid rgba(255,255,255,0.1);
   box-shadow: 0 0 30px rgba(0,0,0,0.6);
   color: #ffffff;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) rotate(-360deg);
 }
+
+/* Карточки сущностей (иконка + подпись) */
 
 .entity-wheel-item {
   position: absolute;
-  width: 120px;
-  height: 34px;
-  line-height: 34px;
+  width: 86px;
+  height: 110px;
   text-align: center;
-  border-radius: 17px;
-  background: rgba(18, 20, 30, 0.96);
-  border: 1px solid rgba(255,255,255,0.08);
-  color: #dfe4ff;
-  font-size: 13px;
   text-decoration: none;
-  font-weight: 600;
-
-  /* КЛЮЧЕВОЕ: базовое позиционирование с translate(-50%, -50%) */
+  color: #dfe4ff;
   transform: translate(-50%, -50%);
-  transition: box-shadow 0.2s ease, background-color 0.2s ease;
   z-index: 2;
 }
 
-/* Без масштабирования по hover — только подсветка, чтобы не прыгали */
-.entity-wheel-item:hover {
-  background-color: rgba(45, 60, 120, 0.95);
-  border-color: rgba(120,150,255,0.5);
-  box-shadow: 0 0 18px rgba(110,140,255,0.6);
+.entity-wheel-icon {
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 6px auto;
+  border-radius: 50%;
+  background-color: rgba(18,20,30,0.96);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid rgba(255,255,255,0.16);
+  box-shadow: 0 0 12px rgba(0,0,0,0.9);
+  transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
 }
 
-/* Позиции по кругу для 8 элементов */
-.entity-wheel-etol      { top: 8%;   left: 50%; }
-.entity-wheel-rasima    { top: 23%;  left: 82%; }
-.entity-wheel-darkness  { top: 50%;  left: 94%; }
-.entity-wheel-calamity  { top: 77%;  left: 82%; }
-.entity-wheel-pardimal  { top: 92%;  left: 50%; }
-.entity-wheel-beast     { top: 77%;  left: 18%; }
-.entity-wheel-killer    { top: 50%;  left: 6%;  }
-.entity-wheel-valotile  { top: 23%;  left: 18%; }
+.entity-wheel-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
 
-/* Тултип — статичный, внизу под кругом */
+/* Hover: подсветка иконки, БЕЗ scale по всей кнопке → не прыгает */
+.entity-wheel-item:hover .entity-wheel-icon {
+  border-color: rgba(140,160,255,0.8);
+  box-shadow: 0 0 20px rgba(120,150,255,0.8);
+  transform: scale(1.08);
+}
+
+/* Позиции иконок по кругу */
+.entity-wheel-etol      { top:  8%;  left: 50%; }
+.entity-wheel-rasima    { top: 24%; left: 83%; }
+.entity-wheel-darkness  { top: 52%; left: 95%; }
+.entity-wheel-calamity  { top: 80%; left: 83%; }
+.entity-wheel-pardimal  { top: 96%; left: 50%; }
+.entity-wheel-beast     { top: 80%; left: 17%; }
+.entity-wheel-killer    { top: 52%; left:  5%; }
+.entity-wheel-valotile  { top: 24%; left: 17%; }
+
+/* Тултип — под кругом, расширен по высоте для длинных описаний */
+
 .entity-wheel-tooltip {
   position: absolute;
-  bottom: -70px;
+  bottom: -90px;
   left: 50%;
   transform: translateX(-50%);
-  max-width: 520px;
+  max-width: 620px;
+  min-height: 40px;
   font-size: 13px;
   color: #c2c7d8;
   text-align: center;
-  padding-top: 8px;
+  padding-top: 10px;
   border-top: 1px solid rgba(255,255,255,0.12);
+  line-height: 1.6;
 }
