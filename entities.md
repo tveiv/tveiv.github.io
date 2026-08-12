@@ -15,9 +15,13 @@ permalink: /entities/
 
 <div class="entity-wheel">
 
-  <a href="/entities/" class="entity-wheel-center">
+  <a
+  href="/entities/"
+  class="entity-wheel-center"
+  aria-label="Открыть раздел божественных сущностей"
+>
   Пантеон<br>VoidGame
-	</a>
+</a>
 
   <div class="entity-wheel-rotation">
 

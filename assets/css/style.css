@@ -206,6 +206,21 @@ main {
   clear: both;      /* сброс обтекания */
 }
 
+.void-article h1 {
+  margin-bottom: 10px;
+}
+
+.entities-intro {
+  margin-bottom: 20px;
+}
+
+.entities-intro-separator {
+  width: 120px;
+  height: 1px;
+  margin: 10px 0 0 0;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+}
+
 .void-article h2 {
   border-bottom: 1px solid rgba(255,255,255,0.1);
   padding-bottom: 10px;
@@ -465,9 +480,13 @@ main {
   letter-spacing: 0.5px;
 }
 
+.entity-wheel-item:hover .entity-wheel-label {
+  color: #ffffff;
+}
+
 .entity-wheel-item:hover .entity-wheel-icon {
-  border-color: rgba(140,160,255,0.8);
-  box-shadow: 0 0 20px rgba(120,150,255,0.8);
+  border-color: rgba(160,180,255,0.9);
+  box-shadow: 0 0 22px rgba(140,170,255,0.95);
   transform: scale(1.08);
 }
 
@@ -487,4 +506,56 @@ main {
   padding-bottom: 4px;
   border-top: 1px solid rgba(255,255,255,0.12);
   line-height: 1.6;
+}
+
+/* ===== Наведение на сущности ===== */
+
+.entity-wheel-item,
+.entity-wheel-item:visited,
+.entity-wheel-item:hover,
+.entity-wheel-item:focus-visible {
+  color: #cbd3ef;
+  text-decoration: none !important;
+}
+
+.entity-wheel-label {
+  color: #cbd3ef;
+  transition:
+    color 0.2s ease,
+    text-shadow 0.2s ease;
+}
+
+.entity-wheel-item:hover .entity-wheel-label,
+.entity-wheel-item:focus-visible .entity-wheel-label {
+  color: #f5d78a !important;
+  text-shadow: 0 0 8px rgba(245, 215, 138, 0.7);
+}
+
+/* ===== Кликабельный центр круга ===== */
+
+.entity-wheel-center,
+.entity-wheel-center:visited,
+.entity-wheel-center:hover,
+.entity-wheel-center:focus-visible {
+  color: #ffffff;
+  text-decoration: none !important;
+}
+
+.entity-wheel-center {
+  z-index: 3;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition:
+    color 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.entity-wheel-center:hover,
+.entity-wheel-center:focus-visible {
+  color: #f5d78a;
+  border-color: rgba(245, 215, 138, 0.65);
+  box-shadow:
+    0 0 30px rgba(245, 215, 138, 0.18),
+    inset 0 0 25px rgba(245, 215, 138, 0.04);
 }
