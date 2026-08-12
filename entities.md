@@ -17,7 +17,7 @@ permalink: /entities/
   <div class="entity-card-name"><a href="/etol/">Этоль</a></div>
   <div class="entity-card-title">Творец Луны</div>
   <div class="entity-card-desc">
-    Связан со звёздами, луной и космическими явлениями. Источник меток и подземелий, основанных на структуре чёрной дыры.
+    Связан со звёздами, луной и космическими явлениями.
   </div>
 </div>
 
@@ -25,7 +25,7 @@ permalink: /entities/
   <div class="entity-card-name"><a href="/rasima/">Расима</a></div>
   <div class="entity-card-title">Бессмертная целительница</div>
   <div class="entity-card-desc">
-    Исцеление, связанное с перерождениями, подземельями воспоминаний и противостоянием Наследнице Бедствия.
+    Исцеление. Я не могу помочь тебе, но буду наблюдать.
   </div>
 </div>
 
@@ -49,7 +49,7 @@ permalink: /entities/
   <div class="entity-card-name"><a href="/pardimal/">Пардимал</a></div>
   <div class="entity-card-title">Победитель</div>
   <div class="entity-card-desc">
-    Неостановимый Победитель, чья сталь бессильна перед Бедствием и первобытным страхом.
+    Самые сокрушительные удары бессильно отскакивают от его груди, а враги трепещут перед его статью.
   </div>
 </div>
 
@@ -73,7 +73,7 @@ permalink: /entities/
   <div class="entity-card-name"><a href="/valotile/">Валотайл</a></div>
   <div class="entity-card-title">Волшебник</div>
   <div class="entity-card-desc">
-    Чудотворец, чьи расчёты охватывают каждую частицу мироздания и могут выжечь душу.
+    Чудотворец, чьи расчёты охватывают каждую частицу мироздания.
   </div>
 </div>
 
