@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Валотайл, Чудотворец"
-permalink: /valotail/
+permalink: /valotile//
 ---
 
 <div class="void-article" markdown="1">

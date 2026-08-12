@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Многоликий Куб, Зверь"
-permalink: /zver/
+permalink: /beast/
 ---
 
 <div class="void-article" markdown="1">

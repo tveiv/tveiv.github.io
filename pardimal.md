@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Пардимал, Неостановимый Победитель"
-permalink: /pobeditel/
+permalink: /pardimal/
 ---
 
 <div class="void-article" markdown="1">

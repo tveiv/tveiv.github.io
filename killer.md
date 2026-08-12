@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Квинкель, Истребитель людей"
-permalink: /ubiytsa/
+permalink: /killer/
 ---
 
 <div class="void-article" markdown="1">
