@@ -12,11 +12,11 @@ permalink: /entities/
 
 <div class="entity-wheel">
 
-  <div class="entity-wheel-rotation">  <!-- новый слой для вращения -->
-
-    <div class="entity-wheel-center">
+  <div class="entity-wheel-center">
       Божественные<br>сущности
     </div>
+
+    <div class="entity-wheel-rotation">  <!-- новый слой для вращения -->
 
     <a href="/etol/" class="entity-wheel-item entity-wheel-etol"
        data-desc="Творец Луны, бог звёзд и создатель лунного цикла.">

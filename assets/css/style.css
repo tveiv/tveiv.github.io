@@ -393,8 +393,6 @@ main {
   line-height: 1.6;
 }
 
-/* ===== КРУГ СУЩНОСТЕЙ ===== */
-
 .entity-wheel {
   position: relative;
   width: 520px;
@@ -402,22 +400,7 @@ main {
   margin: 50px auto 80px auto;
 }
 
-/* Вращаем только этот слой, центр и иконки внутри */
-.entity-wheel-rotation {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(255,255,255,0.02) 0%, rgba(0,0,0,0) 70%);
-  animation: entityWheelRotate 40s linear infinite;
-}
-
-@keyframes entityWheelRotate {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
-}
-
-/* Центр — вращаем в обратную сторону, чтобы текст оставался ровным */
+/* Центр — статичен */
 .entity-wheel-center {
   position: absolute;
   top: 50%;
@@ -437,10 +420,24 @@ main {
   border: 1px solid rgba(255,255,255,0.1);
   box-shadow: 0 0 30px rgba(0,0,0,0.6);
   color: #ffffff;
-  transform: translate(-50%, -50%) rotate(-360deg);
+  transform: translate(-50%, -50%);
 }
 
-/* Карточки сущностей (иконка + подпись) */
+/* Вращается только этот слой */
+.entity-wheel-rotation {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,255,255,0.02) 0%, rgba(0,0,0,0) 70%);
+  animation: entityWheelRotate 40s linear infinite;
+}
+
+@keyframes entityWheelRotate {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* Карточки сущностей (теперь текст мы "откручиваем" обратно) */
 
 .entity-wheel-item {
   position: absolute;
@@ -452,6 +449,8 @@ main {
   transform: translate(-50%, -50%);
   z-index: 2;
 }
+
+/* Иконка остаётся крутиться по кругу, но подпись — нет */
 
 .entity-wheel-icon {
   display: block;
@@ -472,17 +471,20 @@ main {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.5px;
+
+  /* Выравниваем текст обратно против вращения контейнера */
+  transform: rotate(-360deg);
 }
 
-/* Hover: подсветка иконки, БЕЗ scale по всей кнопке → не прыгает */
+/* Hover: только иконка увеличивается, текст не прыгает */
 .entity-wheel-item:hover .entity-wheel-icon {
   border-color: rgba(140,160,255,0.8);
   box-shadow: 0 0 20px rgba(120,150,255,0.8);
   transform: scale(1.08);
 }
 
-/* Позиции иконок по кругу */
-.entity-wheel-etol      { top:  8%;  left: 50%; }
+/* Позиции по кругу */
+.entity-wheel-etol      { top:  8%; left: 50%; }
 .entity-wheel-rasima    { top: 24%; left: 83%; }
 .entity-wheel-darkness  { top: 52%; left: 95%; }
 .entity-wheel-calamity  { top: 80%; left: 83%; }
@@ -490,20 +492,20 @@ main {
 .entity-wheel-beast     { top: 80%; left: 17%; }
 .entity-wheel-killer    { top: 52%; left:  5%; }
 .entity-wheel-valotile  { top: 24%; left: 17%; }
-
 /* Тултип — под кругом, расширен по высоте для длинных описаний */
 
 .entity-wheel-tooltip {
   position: absolute;
-  bottom: -90px;
+  bottom: -110px;         /* было -90px → чуть ниже отступ, но главное – больше места */
   left: 50%;
   transform: translateX(-50%);
-  max-width: 620px;
-  min-height: 40px;
+  max-width: 720px;
+  min-height: 55px;
   font-size: 13px;
   color: #c2c7d8;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 12px;
+  padding-bottom: 4px;
   border-top: 1px solid rgba(255,255,255,0.12);
   line-height: 1.6;
 }
