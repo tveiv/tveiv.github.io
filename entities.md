@@ -8,13 +8,16 @@ permalink: /entities/
 
 # Божественные сущности
 
-Божественные сущности VoidGame отражаются в подземельях, бонусах, проклятиях и событиях.
+<div class="entities-intro">
+  Божественные сущности VoidGame отражаются в подземельях, бонусах, проклятиях и событиях.
+  <div class="entities-intro-separator"></div>
+</div>
 
 <div class="entity-wheel">
 
-  <div class="entity-wheel-center">
-    Божественные<br>сущности
-  </div>
+  <a href="/entities/" class="entity-wheel-center">
+  Пантеон<br>VoidGame
+	</a>
 
   <div class="entity-wheel-rotation">
 

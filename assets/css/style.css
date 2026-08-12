@@ -189,7 +189,7 @@ main {
   max-width: 1000px;
   margin: 40px auto;
   padding: 40px 50px;
-  background: rgba(10, 12, 20, 0.96);  /* чуть прозрачнее */
+  background: rgba(10, 12, 20, 0.93); /* было 0.96, можно даже 0.93–0.94 */
   border-radius: 12px;
 }
 
@@ -399,7 +399,7 @@ main {
   position: relative;
   width: 520px;
   height: 520px;
-  margin: 50px auto 120px auto;
+  margin: 60px auto 120px auto;
 }
 
 .entity-wheel-center {
