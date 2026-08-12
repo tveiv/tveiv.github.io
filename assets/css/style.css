@@ -1,11 +1,35 @@
 /* ===== 1. ГЛОБАЛЬНЫЕ СТИЛИ И ТЁМНАЯ ТЕМА ===== */
 body {
-  background-color: #0e0f14;
-  color: #e4e8f1;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.7;
+  color: #e4e8f1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  /* Глубокий тёмный фон */
+  background-color: #050711;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(120, 100, 255, 0.45) 0, transparent 55%),
+    radial-gradient(circle at 80% 80%, rgba(80, 120, 255, 0.30) 0, transparent 55%),
+    radial-gradient(circle at 10% 90%, rgba(255, 255, 255, 0.06) 0, transparent 60%),
+    radial-gradient(circle at 90% 10%, rgba(255, 255, 255, 0.05) 0, transparent 60%),
+    /* мелкие "пиксельные" звёзды */
+    radial-gradient(circle, rgba(140,120,255,0.55) 1px, transparent 2px),
+    radial-gradient(circle, rgba(160,140,255,0.35) 1px, transparent 2px);
+  background-size:
+    800px 800px,
+    900px 900px,
+    700px 700px,
+    600px 600px,
+    140px 140px,
+    180px 180px;
+  background-position:
+    0 0,
+    100% 100%,
+    0 100%,
+    100% 0,
+    0 0,
+    40px 60px;
 }
 
 
