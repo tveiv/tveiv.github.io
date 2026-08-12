@@ -19,13 +19,13 @@ permalink: /entities/
   <div class="entity-wheel-rotation">
 
     <a href="/etol/" class="entity-wheel-item" data-entity="etol"
-       data-desc="Творец Луны, бог звёзд и создатель лунного цикла.">
+       data-desc="Творец Луны, бог звёзд.">
       <span class="entity-wheel-icon" style="background-image:url('/assets/img/entities/etol.png');"></span>
       <span class="entity-wheel-label">Этоль</span>
     </a>
 
     <a href="/rasima/" class="entity-wheel-item" data-entity="rasima"
-       data-desc="Бессмертная целительница, связанная с Исцелением и воспоминаниями.">
+       data-desc="Бессмертная целительница. Кто наложил на тебя это? Позволь мне помочь..">
       <span class="entity-wheel-icon" style="background-image:url('/assets/img/entities/rasima.png');"></span>
       <span class="entity-wheel-label">Расима</span>
     </a>
@@ -43,7 +43,7 @@ permalink: /entities/
     </a>
 
     <a href="/pardimal/" class="entity-wheel-item" data-entity="pardimal"
-       data-desc="Победитель, чья воля ломается только проклятиями Бедствия.">
+       data-desc="Победитель. Самые сокрушительные удары бессильно отскакивают от его груди, а враги трепещут перед его статью.">
       <span class="entity-wheel-icon" style="background-image:url('/assets/img/entities/pardimal.png');"></span>
       <span class="entity-wheel-label">Пардимал</span>
     </a>
