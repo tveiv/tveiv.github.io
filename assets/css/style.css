@@ -393,16 +393,15 @@ main {
   line-height: 1.6;
 }
 
-/* КОЛЕСО */
+/* ===== КРУГ СУЩНОСТЕЙ (JS-вращение, без CSS rotate) ===== */
 
 .entity-wheel {
   position: relative;
   width: 520px;
   height: 520px;
-  margin: 50px auto 110px auto; /* чуть больше места снизу под тултип */
+  margin: 50px auto 120px auto;
 }
 
-/* центр фиксированный */
 .entity-wheel-center {
   position: absolute;
   top: 50%;
@@ -425,21 +424,15 @@ main {
   transform: translate(-50%, -50%);
 }
 
-/* вращаем орбиту */
+/* Орбита — просто круглый фон без анимации */
 .entity-wheel-rotation {
   position: absolute;
   inset: 0;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(255,255,255,0.02) 0%, rgba(0,0,0,0) 70%);
-  animation: entityWheelRotate 40s linear infinite;
 }
 
-@keyframes entityWheelRotate {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
-}
-
-/* каждый элемент компенсирует вращение орбиты */
+/* Элементы, положение по top/left будет задавать JS */
 .entity-wheel-item {
   position: absolute;
   width: 86px;
@@ -447,7 +440,7 @@ main {
   text-align: center;
   text-decoration: none;
   color: #dfe4ff;
-  transform: translate(-50%, -50%) rotate(-1turn); /* -1 оборот = -360deg */
+  transform: translate(-50%, -50%);
   z-index: 2;
 }
 
@@ -472,31 +465,21 @@ main {
   letter-spacing: 0.5px;
 }
 
-/* hover только на иконке */
 .entity-wheel-item:hover .entity-wheel-icon {
   border-color: rgba(140,160,255,0.8);
   box-shadow: 0 0 20px rgba(120,150,255,0.8);
   transform: scale(1.08);
 }
 
-/* позиции на круге */
-.entity-wheel-etol      { top:  8%; left: 50%; }
-.entity-wheel-rasima    { top: 24%; left: 83%; }
-.entity-wheel-darkness  { top: 52%; left: 95%; }
-.entity-wheel-calamity  { top: 80%; left: 83%; }
-.entity-wheel-pardimal  { top: 96%; left: 50%; }
-.entity-wheel-beast     { top: 80%; left: 17%; }
-.entity-wheel-killer    { top: 52%; left:  5%; }
-.entity-wheel-valotile  { top: 24%; left: 17%; }
-/* Тултип — под кругом, расширен по высоте для длинных описаний */
+/* Тултип под кругом */
 
 .entity-wheel-tooltip {
   position: absolute;
-  bottom: -110px;           /* опускаем ниже круга */
+  bottom: -100px;
   left: 50%;
   transform: translateX(-50%);
   max-width: 720px;
-  min-height: 60px;         /* гарантированный "карман" под 2-3 строки */
+  min-height: 60px;
   font-size: 13px;
   color: #c2c7d8;
   text-align: center;
