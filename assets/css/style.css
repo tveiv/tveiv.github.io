@@ -393,14 +393,16 @@ main {
   line-height: 1.6;
 }
 
+/* КОЛЕСО */
+
 .entity-wheel {
   position: relative;
   width: 520px;
   height: 520px;
-  margin: 50px auto 80px auto;
+  margin: 50px auto 110px auto; /* чуть больше места снизу под тултип */
 }
 
-/* Центр — статичен */
+/* центр фиксированный */
 .entity-wheel-center {
   position: absolute;
   top: 50%;
@@ -423,7 +425,7 @@ main {
   transform: translate(-50%, -50%);
 }
 
-/* Вращается только этот слой */
+/* вращаем орбиту */
 .entity-wheel-rotation {
   position: absolute;
   inset: 0;
@@ -437,8 +439,7 @@ main {
   to   { transform: rotate(360deg); }
 }
 
-/* Карточки сущностей (теперь текст мы "откручиваем" обратно) */
-
+/* каждый элемент компенсирует вращение орбиты */
 .entity-wheel-item {
   position: absolute;
   width: 86px;
@@ -446,11 +447,9 @@ main {
   text-align: center;
   text-decoration: none;
   color: #dfe4ff;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) rotate(-1turn); /* -1 оборот = -360deg */
   z-index: 2;
 }
-
-/* Иконка остаётся крутиться по кругу, но подпись — нет */
 
 .entity-wheel-icon {
   display: block;
@@ -471,19 +470,16 @@ main {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.5px;
-
-  /* Выравниваем текст обратно против вращения контейнера */
-  transform: rotate(-360deg);
 }
 
-/* Hover: только иконка увеличивается, текст не прыгает */
+/* hover только на иконке */
 .entity-wheel-item:hover .entity-wheel-icon {
   border-color: rgba(140,160,255,0.8);
   box-shadow: 0 0 20px rgba(120,150,255,0.8);
   transform: scale(1.08);
 }
 
-/* Позиции по кругу */
+/* позиции на круге */
 .entity-wheel-etol      { top:  8%; left: 50%; }
 .entity-wheel-rasima    { top: 24%; left: 83%; }
 .entity-wheel-darkness  { top: 52%; left: 95%; }
@@ -496,11 +492,11 @@ main {
 
 .entity-wheel-tooltip {
   position: absolute;
-  bottom: -110px;         /* было -90px → чуть ниже отступ, но главное – больше места */
+  bottom: -110px;           /* опускаем ниже круга */
   left: 50%;
   transform: translateX(-50%);
   max-width: 720px;
-  min-height: 55px;
+  min-height: 60px;         /* гарантированный "карман" под 2-3 строки */
   font-size: 13px;
   color: #c2c7d8;
   text-align: center;
