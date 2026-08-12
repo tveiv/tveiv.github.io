@@ -194,11 +194,10 @@ main {
 }
 
 .void-article {
-  background: #1a1c23;
-  padding: 40px 50px;
-  border-radius: 12px;
-  margin-top: 40px;
-  overflow: hidden; /* чтобы float не вываливался */
+  background: transparent;
+  padding: 0;
+  margin-top: 0;
+  overflow: hidden;
 }
 
 .void-article::after {
