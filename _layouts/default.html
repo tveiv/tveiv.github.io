@@ -12,9 +12,18 @@
   <a class="site-title" href="/">VoidGame Wiki</a>
 
   <nav class="site-nav">
-    <a href="/">Главная</a>
-    <a href="/entities/">Сущности</a>
-  </nav>
+
+  <a href="/"
+     {% if page.url == "/" %}class="active"{% endif %}>
+    Главная
+  </a>
+
+  <a href="/entities/"
+     {% if page.url contains "/entities" or page.url == "/etol/" or page.url == "/rasima/" or page.url == "/darkness/" or page.url == "/calamity/" or page.url == "/pardimal/" or page.url == "/beast/" or page.url == "/killer/" or page.url == "/valotile/" %}class="active"{% endif %}>
+    Сущности
+  </a>
+
+</nav>
   </header>
 
   <main>

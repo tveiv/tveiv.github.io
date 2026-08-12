@@ -163,6 +163,15 @@ hr {
   width: 50%;
 }
 
+.site-nav a.active {
+  color: #ffffff;
+  background: rgba(157,180,255,0.08);
+}
+
+.site-nav a.active::after {
+  width: 50%;
+}
+
 /* ===== 3. СТИЛИ ДЛЯ ЗАГЛАВНОЙ СТРАНИЦЫ ===== */
 .hero {
   text-align: center;
