@@ -162,7 +162,7 @@ main {
   max-width: 1000px;
   margin: 40px auto;
   padding: 40px 50px;
-  background: #1a1c23;
+  background: rgba(13,15,24,0.96);
   border-radius: 12px;
 }
 
