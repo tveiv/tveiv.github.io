@@ -304,3 +304,46 @@ main {
 .toc a:hover {
   text-decoration: underline;
 }
+
+/* ===== Хаб божественных сущностей ===== */
+
+.entity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.entity-card {
+  background: rgba(10, 12, 20, 0.9);
+  border-radius: 10px;
+  padding: 14px 16px;
+  border: 1px solid rgba(255,255,255,0.05);
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.entity-card-name a {
+  font-weight: 700;
+  font-size: 16px;
+  color: #f0f3ff;
+  text-decoration: none;
+}
+
+.entity-card-name a:hover {
+  text-decoration: underline;
+}
+
+.entity-card-title {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #9aa3c2;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.entity-card-desc {
+  font-size: 13px;
+  color: #c2c7d8;
+  line-height: 1.6;
+}
