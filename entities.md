@@ -77,6 +77,79 @@ permalink: /entities/
   </div>
 </div>
 
+
 </div> <!-- .entity-grid -->
+
+<div class="entity-wheel">
+
+  <div class="entity-wheel-center">
+    Божественные<br>сущности
+  </div>
+
+  <a href="/etol/" class="entity-wheel-item entity-wheel-etol"
+     data-desc="Творец Луны, бог звёзд и создатель лунного цикла.">
+    Этоль
+  </a>
+
+  <a href="/rasima/" class="entity-wheel-item entity-wheel-rasima"
+     data-desc="Бессмертная целительница, связанная с Исцелением и воспоминаниями.">
+    Расима
+  </a>
+
+  <a href="/darkness/" class="entity-wheel-item entity-wheel-darkness"
+     data-desc="Первородная Тьма, изгнанная светом Звезды.">
+    Тьма
+  </a>
+
+  <a href="/calamity/" class="entity-wheel-item entity-wheel-calamity"
+     data-desc="Повелитель болезней, следом за которым приходят пепелища и прах.">
+    Бедствие
+  </a>
+
+  <a href="/pardimal/" class="entity-wheel-item entity-wheel-pardimal"
+     data-desc="Победитель, чья воля ломается только проклятиями Бедствия.">
+    Пардимал
+  </a>
+
+  <a href="/beast/" class="entity-wheel-item entity-wheel-beast"
+     data-desc="Многоликий Куб, порождающий зверей и меняющий форму.">
+    Зверь
+  </a>
+
+  <a href="/killer/" class="entity-wheel-item entity-wheel-killer"
+     data-desc="Квинкель, чьё оружие само решает, когда придёт траур.">
+    Убийца
+  </a>
+
+  <a href="/valotile/" class="entity-wheel-item entity-wheel-valotile"
+     data-desc="Волшебник, чьи расчёты охватывают всё мироздание.">
+    Валотайл
+  </a>
+
+  <div class="entity-wheel-tooltip" id="entityWheelTooltip">
+    Наведи на сущность, чтобы увидеть краткое описание.
+  </div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const items = document.querySelectorAll('.entity-wheel-item');
+  const tooltip = document.getElementById('entityWheelTooltip');
+  if (!tooltip) return;
+
+  const defaultText = 'Наведи на сущность, чтобы увидеть краткое описание.';
+
+  items.forEach(item => {
+    item.addEventListener('mouseenter', () => {
+      const desc = item.getAttribute('data-desc');
+      tooltip.textContent = desc || defaultText;
+    });
+    item.addEventListener('mouseleave', () => {
+      tooltip.textContent = defaultText;
+    });
+  });
+});
+</script>
 
 </div> <!-- .void-article -->
