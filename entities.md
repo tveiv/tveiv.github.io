@@ -86,9 +86,10 @@ permalink: /entities/
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const wheel = document.querySelector('.entity-wheel');
+  const rotation = document.querySelector('.entity-wheel-rotation');
   const items = Array.from(document.querySelectorAll('.entity-wheel-rotation .entity-wheel-item'));
   const tooltip = document.getElementById('entityWheelTooltip');
-  if (!wheel || items.length === 0 || !tooltip) return;
+  if (!wheel || !rotation || items.length === 0 || !tooltip) return;
 
   const defaultText = 'Наведи на карту, чтобы увидеть краткое описание.';
   tooltip.textContent = defaultText;
@@ -96,20 +97,24 @@ document.addEventListener('DOMContentLoaded', function() {
   // Геометрия круга
   const centerX = 260; // половина ширины .entity-wheel (520 / 2)
   const centerY = 260; // половина высоты
-  const radius  = 200; // радиус "орбиты"
+  const radius  = 200; // радиус орбиты
 
   const count = items.length;
-  let baseAngle = 0;          // общий угол, который будем крутить
-  const speed = 0.002;        // скорость вращения (радианы за кадр, чем меньше — тем медленнее)
+  let baseAngle = 0;          // общий угол
+  const speed = 0.002;        // скорость вращения
+  let isPaused = false;       // флаг паузы
+  let rafId = null;           // id requestAnimationFrame
 
-  // Назначаем каждому элементу свой изначальный угол
+  // Предвычисляем базовый угол для каждого элемента
   const entityData = items.map((item, index) => {
-    const angle = (2 * Math.PI / count) * index; // равномерное распределение
+    const angle = (2 * Math.PI / count) * index;
     return { item, base: angle };
   });
 
   function updatePositions() {
-    baseAngle += speed;
+    if (!isPaused) {
+      baseAngle += speed;
+    }
 
     entityData.forEach(({ item, base }) => {
       const angle = base + baseAngle;
@@ -121,20 +126,23 @@ document.addEventListener('DOMContentLoaded', function() {
       item.style.top  = y + 'px';
     });
 
-    requestAnimationFrame(updatePositions);
+    rafId = requestAnimationFrame(updatePositions);
   }
 
-  requestAnimationFrame(updatePositions);
+  // Запускаем вращение
+  rafId = requestAnimationFrame(updatePositions);
 
   // Тултип
   items.forEach(item => {
     item.addEventListener('mouseenter', () => {
       const desc = item.getAttribute('data-desc') || defaultText;
       tooltip.textContent = desc;
+      isPaused = true;
     });
 
     item.addEventListener('mouseleave', () => {
       tooltip.textContent = defaultText;
+      isPaused = false;
     });
   });
 });
