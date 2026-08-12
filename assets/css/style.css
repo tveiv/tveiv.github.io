@@ -393,13 +393,13 @@ main {
   line-height: 1.6;
 }
 
-/* ===== КРУГ СУЩНОСТЕЙ (ОБНОВЛЕННЫЙ) ===== */
+/* ===== КРУГ СУЩНОСТЕЙ ===== */
 
 .entity-wheel {
   position: relative;
-  width: 550px;
-  height: 550px;
-  margin: 60px auto 100px auto;
+  width: 520px;
+  height: 520px;
+  margin: 50px auto 60px auto;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(255,255,255,0.02) 0%, rgba(0,0,0,0) 70%);
 }
@@ -408,7 +408,6 @@ main {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   width: 180px;
   height: 180px;
   border-radius: 50%;
@@ -417,80 +416,63 @@ main {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 20px;
-  font-size: 15px;
+  padding: 18px;
+  font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  border: 1px solid rgba(255,255,255,0.08);
-  box-shadow: 0 0 35px rgba(0,0,0,0.6);
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 30px rgba(0,0,0,0.6);
   color: #ffffff;
+  transform: translate(-50%, -50%);
 }
 
-/* Базовое позиционирование кнопок (теперь без конфликтов) */
 .entity-wheel-item {
   position: absolute;
   width: 120px;
-  height: 36px;
-  line-height: 36px;
+  height: 34px;
+  line-height: 34px;
   text-align: center;
-  border-radius: 18px;
-  background: rgba(18, 20, 30, 0.95);
+  border-radius: 17px;
+  background: rgba(18, 20, 30, 0.96);
   border: 1px solid rgba(255,255,255,0.08);
   color: #dfe4ff;
   font-size: 13px;
-  font-weight: 600;
   text-decoration: none;
-  /* Важно: центрируем точку позиционирования */
+  font-weight: 600;
+
+  /* КЛЮЧЕВОЕ: базовое позиционирование с translate(-50%, -50%) */
   transform: translate(-50%, -50%);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  transition: box-shadow 0.2s ease, background-color 0.2s ease;
   z-index: 2;
 }
 
-/* Эффект при наведении (теперь не прыгает) */
+/* Без масштабирования по hover — только подсветка, чтобы не прыгали */
 .entity-wheel-item:hover {
   background-color: rgba(45, 60, 120, 0.95);
-  border-color: rgba(120, 150, 255, 0.4);
-  box-shadow: 0 0 20px rgba(100, 130, 255, 0.5);
-  transform: translate(-50%, -50%) scale(1.1); /* Сохраняем translate! */
+  border-color: rgba(120,150,255,0.5);
+  box-shadow: 0 0 18px rgba(110,140,255,0.6);
 }
 
-/* Точные координаты по кругу 550x550px (R = 40%) */
-.entity-wheel-etol      { top: 10%;  left: 50%; }
-.entity-wheel-rasima    { top: 21.7%; left: 78.3%; }
-.entity-wheel-darkness  { top: 50%;  left: 90%; }
-.entity-wheel-calamity  { top: 78.3%; left: 78.3%; }
-.entity-wheel-pardimal  { top: 90%;  left: 50%; }
-.entity-wheel-beast     { top: 78.3%; left: 21.7%; }
-.entity-wheel-killer    { top: 50%;  left: 10%; }
-.entity-wheel-valotile  { top: 21.7%; left: 21.7%; }
+/* Позиции по кругу для 8 элементов */
+.entity-wheel-etol      { top: 8%;   left: 50%; }
+.entity-wheel-rasima    { top: 23%;  left: 82%; }
+.entity-wheel-darkness  { top: 50%;  left: 94%; }
+.entity-wheel-calamity  { top: 77%;  left: 82%; }
+.entity-wheel-pardimal  { top: 92%;  left: 50%; }
+.entity-wheel-beast     { top: 77%;  left: 18%; }
+.entity-wheel-killer    { top: 50%;  left: 6%;  }
+.entity-wheel-valotile  { top: 23%;  left: 18%; }
 
-/* Всплывающий тултип над активной кнопкой */
+/* Тултип — статичный, внизу под кругом */
 .entity-wheel-tooltip {
   position: absolute;
-  display: none; /* скрыт по умолчанию, включается через JS */
-  background: rgba(8, 10, 18, 0.98);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 8px;
-  padding: 10px 14px;
-  color: #e4e8f1;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 520px;
   font-size: 13px;
-  line-height: 1.5;
-  width: 200px;
+  color: #c2c7d8;
   text-align: center;
-  pointer-events: none; /* чтобы тултип не мешал мышке */
-  transform: translate(-50%, -100%); /* центрируем и выталкиваем наверх */
-  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
-  z-index: 10;
-  animation: tooltipFade 0.15s ease-out;
-}
-
-@keyframes tooltipFade {
-  from {
-    opacity: 0;
-    transform: translate(-50%, -95%);
-  }
-  to {
-    opacity: 1;
-    transform: translate(-50%, -100%);
-  }
+  padding-top: 8px;
+  border-top: 1px solid rgba(255,255,255,0.12);
 }

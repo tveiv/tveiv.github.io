@@ -8,7 +8,7 @@ permalink: /entities/
 
 # Божественные сущности
 
-Божественные сущности VoidGame отражаются в подземельях, бонусах, проклятиях и событиях. Наведи на карту сущности, чтобы раскрыть её описание.
+Божественные сущности VoidGame отражаются в подземельях, бонусах, проклятиях и событиях.
 
 <div class="entity-wheel">
 
@@ -56,8 +56,9 @@ permalink: /entities/
     Валотайл
   </a>
 
-  <!-- Всплывающий тултип, который будет двигаться за мышкой -->
-  <div class="entity-wheel-tooltip" id="entityWheelTooltip"></div>
+  <div class="entity-wheel-tooltip" id="entityWheelTooltip">
+    Наведи на карту, чтобы увидеть краткое описание.
+  </div>
 
 </div>
 
@@ -65,28 +66,19 @@ permalink: /entities/
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const wheel = document.querySelector('.entity-wheel');
   const items = document.querySelectorAll('.entity-wheel-item');
   const tooltip = document.getElementById('entityWheelTooltip');
-  if (!tooltip || !wheel) return;
+  if (!tooltip) return;
+
+  const defaultText = 'Наведи на карту, чтобы увидеть краткое описание.';
 
   items.forEach(item => {
     item.addEventListener('mouseenter', () => {
-      const desc = item.getAttribute('data-desc');
+      const desc = item.getAttribute('data-desc') || defaultText;
       tooltip.textContent = desc;
-      tooltip.style.display = 'block';
-
-      // Позиционируем тултип ровно над активной кнопкой
-      const itemLeft = item.offsetLeft;
-      const itemTop = item.offsetTop;
-      const itemWidth = item.offsetWidth;
-
-      tooltip.style.left = (itemLeft + itemWidth / 2) + 'px';
-      tooltip.style.top = (itemTop - 15) + 'px'; // 15px выше кнопки
     });
-
     item.addEventListener('mouseleave', () => {
-      tooltip.style.display = 'none';
+      tooltip.textContent = defaultText;
     });
   });
 });
