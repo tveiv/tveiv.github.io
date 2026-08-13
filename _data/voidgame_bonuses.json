@@ -132,7 +132,7 @@
     "rarity_ru": "🔵 Синий",
     "type": "Редкий бонус",
     "description": "Повышает шанс критического удара на **10%**, но снижает эффективность получаемого исцеления на **5%**.",
-    "icon": "arrow.png"
+    "icon": "spectral_arrow.png"
   },
   {
     "id": "unshakable_winner",
