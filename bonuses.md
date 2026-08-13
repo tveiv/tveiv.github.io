@@ -5,253 +5,276 @@ permalink: /bonuses/
 ---
 
 <style>
-/* Стильные карточки и фильтрация, идеально подходящие под дизайн Wiki */
-.wiki-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-}
-
+/* Стили для страницы бонусов и проклятий VoidGame */
 .wiki-header {
     text-align: center;
     margin-bottom: 40px;
 }
 
-.wiki-title {
-    font-size: 2.5rem;
+.wiki-header h1 {
+    font-size: 36px;
     font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #f5d78a, #ffffff, #f5d78a);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 10px;
 }
 
-.wiki-subtitle {
-    color: #666;
-    font-size: 1.1rem;
+.wiki-header p {
+    color: #aeb8d8;
+    font-size: 16px;
+    letter-spacing: 0.5px;
 }
 
-/* Панель поиска и фильтрации */
-.search-filter-panel {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-bottom: 30px;
-    background: rgba(0, 0, 0, 0.03);
-    padding: 20px;
+/* Секция поиска и фильтров */
+.search-filter-section {
+    background: rgba(15, 17, 28, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
-@media(min-width: 768px) {
-    .search-filter-panel {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
-}
-
-.search-input-wrapper {
-    flex-grow: 1;
+.search-wrapper {
     position: relative;
+    margin-bottom: 20px;
 }
 
 .search-input {
     width: 100%;
-    padding: 12px 20px;
-    font-size: 1rem;
-    border: 2px solid #ddd;
+    padding: 14px 20px;
+    background: rgba(5, 7, 18, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 8px;
-    background: #fff;
-    color: #333;
+    color: #fff;
+    font-size: 16px;
     outline: none;
-    transition: border-color 0.2s;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
 }
 
 .search-input:focus {
-    border-color: #1565c0;
+    border-color: #f5d78a;
+    box-shadow: 0 0 12px rgba(245, 215, 138, 0.25);
 }
 
-.filter-buttons {
+.filter-pills {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 10px;
+    justify-content: center;
 }
 
 .filter-btn {
-    padding: 8px 16px;
-    border: 1px solid #ddd;
-    background: #fff;
-    color: #555;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 20px;
-    font-size: 0.9rem;
+    color: #cbd3ef;
+    font-size: 14px;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: all 0.25s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
 .filter-btn:hover {
-    background: #f0f0f0;
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.08);
 }
 
 .filter-btn.active {
-    background: #1565c0;
-    color: #fff;
-    border-color: #1565c0;
+    background: rgba(245, 215, 138, 0.15);
+    color: #f5d78a;
+    border-color: #f5d78a;
+    text-shadow: 0 0 8px rgba(245, 215, 138, 0.4);
+    box-shadow: 0 0 12px rgba(245, 215, 138, 0.15);
 }
 
-/* Грид карточек */
+/* Сетка карточек */
 .bonuses-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 24px;
 }
 
-/* Карточка бонуса */
 .bonus-card {
-    background: #fff;
+    background: rgba(15, 17, 28, 0.65);
+    border: 1px solid rgba(255, 255, 255, 0.05);
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
-    padding: 20px;
-    border-top: 5px solid #ddd;
+    padding: 24px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    transition: transform 0.2s, box-shadow 0.2s;
     position: relative;
     overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 100%;
+    box-sizing: border-box;
 }
 
-.bonus-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+/* Цветная плашка редкости сверху */
+.bonus-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    opacity: 0.8;
 }
 
-/* Цвета редкостей */
-.bonus-card.rarity-green { border-top-color: #2e7d32; }
-.bonus-card.rarity-blue { border-top-color: #1565c0; }
-.bonus-card.rarity-legendary { border-top-color: #ff9800; }
-.bonus-card.rarity-curse { border-top-color: #c62828; }
-.bonus-card.rarity-set { border-top-color: #9c27b0; }
+/* Стили для разных редкостей */
+.bonus-card[data-category="green"]::before { background: #4caf50; }
+.bonus-card[data-category="green"] { border-color: rgba(76, 175, 80, 0.15); }
+.bonus-card[data-category="green"]:hover { 
+    border-color: rgba(76, 175, 80, 0.4); 
+    box-shadow: 0 8px 25px rgba(76, 175, 80, 0.12);
+}
 
-.bonus-header {
+.bonus-card[data-category="blue"]::before { background: #2196f3; }
+.bonus-card[data-category="blue"] { border-color: rgba(33, 150, 243, 0.15); }
+.bonus-card[data-category="blue"]:hover { 
+    border-color: rgba(33, 150, 243, 0.4); 
+    box-shadow: 0 8px 25px rgba(33, 150, 243, 0.12);
+}
+
+.bonus-card[data-category="legendary"]::before { background: #ff9800; }
+.bonus-card[data-category="legendary"] { border-color: rgba(255, 152, 0, 0.15); }
+.bonus-card[data-category="legendary"]:hover { 
+    border-color: rgba(255, 152, 0, 0.4); 
+    box-shadow: 0 8px 25px rgba(255, 152, 0, 0.15);
+}
+
+.bonus-card[data-category="curse"]::before { background: #f44336; }
+.bonus-card[data-category="curse"] { border-color: rgba(244, 67, 54, 0.15); }
+.bonus-card[data-category="curse"]:hover { 
+    border-color: rgba(244, 67, 54, 0.4); 
+    box-shadow: 0 8px 25px rgba(244, 67, 54, 0.15);
+}
+
+.bonus-card[data-category="set"]::before { background: #9c27b0; }
+.bonus-card[data-category="set"] { border-color: rgba(156, 39, 176, 0.15); }
+.bonus-card[data-category="set"]:hover { 
+    border-color: rgba(156, 39, 176, 0.4); 
+    box-shadow: 0 8px 25px rgba(156, 39, 176, 0.15);
+}
+
+.card-top {
     display: flex;
     align-items: center;
-    gap: 15px;
-    margin-bottom: 15px;
-}
-
-.bonus-icon-wrapper {
-    width: 48px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0,0,0,0.03);
-    border-radius: 8px;
+    gap: 16px;
+    margin-bottom: 16px;
 }
 
 .bonus-icon {
-    width: 32px;
-    height: 32px;
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
     image-rendering: pixelated;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.bonus-meta {
-    display: flex;
-    flex-direction: column;
-}
-
-.bonus-name {
-    font-size: 1.15rem;
+.bonus-card-title {
+    font-size: 18px;
     font-weight: 700;
-    color: #111;
+    color: #ffffff;
     margin: 0;
+    line-height: 1.3;
 }
-
-.bonus-badge {
-    display: inline-block;
-    padding: 3px 8px;
-    border-radius: 12px;
-    font-size: 0.75rem;
-    font-weight: 700;
-    margin-top: 4px;
-    text-transform: uppercase;
-}
-
-.badge-green { background: #e8f5e9; color: #2e7d32; }
-.badge-blue { background: #e3f2fd; color: #1565c0; }
-.badge-legendary { background: #fff3e0; color: #e65100; }
-.badge-curse { background: #ffebee; color: #c62828; }
-.badge-set { background: #f3e5f5; color: #8e24aa; }
 
 .bonus-description {
-    color: #444;
-    font-size: 0.95rem;
-    line-height: 1.45;
-    margin-top: 10px;
+    font-size: 14px;
+    color: #c2c7d8;
+    line-height: 1.6;
+    margin: 0 0 20px 0;
     flex-grow: 1;
 }
 
-.bonus-type {
-    font-size: 0.8rem;
-    color: #888;
-    margin-top: 15px;
-    font-weight: 600;
+.bonus-description strong {
+    color: #f5d78a;
 }
 
-/* Ночной режим сайта */
-@media (prefers-color-scheme: dark) {
-    .wiki-container { color: #f5f5f5; }
-    .search-filter-panel { background: rgba(255,255,255,0.05); }
-    .search-input { background: #222; border-color: #444; color: #fff; }
-    .filter-btn { background: #222; border-color: #444; color: #ccc; }
-    .filter-btn:hover { background: #333; }
-    .bonus-card { background: #1e1e1e; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
-    .bonus-name { color: #fff; }
-    .bonus-description { color: #ccc; }
-    .bonus-icon-wrapper { background: rgba(255,255,255,0.05); }
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    margin-top: auto;
+}
+
+.rarity-badge {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.rarity-badge.green { background: rgba(76, 175, 80, 0.12); color: #81c784; }
+.rarity-badge.blue { background: rgba(33, 150, 243, 0.12); color: #64b5f6; }
+.rarity-badge.legendary { background: rgba(255, 152, 0, 0.12); color: #ffb74d; }
+.rarity-badge.curse { background: rgba(244, 67, 54, 0.12); color: #e57373; }
+.rarity-badge.set { background: rgba(156, 39, 176, 0.12); color: #ba68c8; }
+
+.bonus-type {
+    font-size: 12px;
+    color: #8c96a8;
+    font-weight: 500;
 }
 </style>
 
 <div class="wiki-container">
     <div class="wiki-header">
-        <h1 class="wiki-title">Бонусы и Проклятия</h1>
-        <p class="wiki-subtitle">Полная интерактивная база игровых эффектов VoidGame на Cristalix</p>
+        <h1>Бонусы и Проклятия</h1>
+        <p>Полная интерактивная база игровых эффектов VoidGame на Cristalix</p>
     </div>
 
-    <!-- Поиск и фильтрация -->
-    <div class="search-filter-panel">
-        <div class="search-input-wrapper">
-            <input type="text" id="wikiSearch" class="search-input" placeholder="🔍 Поиск бонуса по названию или описанию..." onkeyup="filterBonuses()">
+    <!-- Поиск и Фильтрация -->
+    <div class="search-filter-section">
+        <div class="search-wrapper">
+            <input type="text" id="wiki-search" class="search-input" placeholder="Поиск бонуса по названию или описанию...">
         </div>
-        <div class="filter-buttons">
-            <button class="filter-btn active" onclick="setFilter('all', this)">Все</button>
-            <button class="filter-btn" onclick="setFilter('green', this)">🟢 Зелёные</button>
-            <button class="filter-btn" onclick="setFilter('blue', this)">🔵 Синие</button>
-            <button class="filter-btn" onclick="setFilter('legendary', this)">🟡 Легендарные</button>
-            <button class="filter-btn" onclick="setFilter('curse', this)">🔴 Проклятия</button>
-            <button class="filter-btn" onclick="setFilter('set', this)">🟣 Метки (Сеты)</button>
+        <div class="filter-pills">
+            <button class="filter-btn active" data-filter="all">Все</button>
+            <button class="filter-btn" data-filter="green">🟢 Зелёные</button>
+            <button class="filter-btn" data-filter="blue">🔵 Синие</button>
+            <button class="filter-btn" data-filter="legendary">🟡 Легендарные</button>
+            <button class="filter-btn" data-filter="curse">🔴 Проклятия</button>
+            <button class="filter-btn" data-filter="set">🟣 Метки (Сеты)</button>
         </div>
     </div>
 
-    <!-- Список бонусов -->
-    <div class="bonuses-grid" id="bonusesGrid">
+    <!-- Сетка бонусов из Jekyll Data -->
+    <div class="bonuses-grid" id="bonuses-grid">
         {% for bonus in site.data.voidgame_bonuses %}
-        <div class="bonus-card rarity-{{ bonus.rarity }}" data-rarity="{{ bonus.rarity }}" data-name="{{ bonus.name | downcase }}" data-desc="{{ bonus.description | downcase }}">
-            <div class="bonus-content-top">
-                <div class="bonus-header">
-                    <div class="bonus-icon-wrapper">
-                        <img src="/assets/img/bonuses/{{ bonus.icon }}" alt="{{ bonus.name }}" class="bonus-icon" onerror="this.src='/assets/img/icon_voidgame.jpeg'">
-                    </div>
-                    <div class="bonus-meta">
-                        <h3 class="bonus-name">{{ bonus.name }}</h3>
-                        <span class="bonus-badge badge-{{ bonus.rarity }}">{{ bonus.rarity_ru }}</span>
-                    </div>
+        <div class="bonus-card" data-category="{{ bonus.rarity }}" data-name="{{ bonus.name | downcase }}" data-desc="{{ bonus.description | downcase }}">
+            <div>
+                <div class="card-top">
+                    <img src="/assets/img/bonuses/{{ bonus.icon }}" class="bonus-icon" alt="{{ bonus.name }}" onerror="this.src='/assets/img/bonuses/unknown.png'">
+                    <h3 class="bonus-card-title">{{ bonus.name }}</h3>
                 </div>
-                <div class="bonus-description">
-                    {{ bonus.description }}
-                </div>
+                <p class="bonus-description">{{ bonus.description }}</p>
             </div>
-            <div class="bonus-type">
-                {{ bonus.type }}
+            <div class="card-footer">
+                <span class="rarity-badge {{ bonus.rarity }}">{{ bonus.rarity_ru }}</span>
+                <span class="bonus-type">{{ bonus.type }}</span>
             </div>
         </div>
         {% endfor %}
@@ -259,34 +282,43 @@ permalink: /bonuses/
 </div>
 
 <script>
-let currentFilter = 'all';
-
-function setFilter(rarity, btn) {
-    // Сбросить активную кнопку
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    
-    currentFilter = rarity;
-    filterBonuses();
-}
-
-function filterBonuses() {
-    const searchVal = document.getElementById('wikiSearch').value.toLowerCase();
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('wiki-search');
+    const filterButtons = document.querySelectorAll('.filter-btn');
     const cards = document.querySelectorAll('.bonus-card');
-    
-    cards.forEach(card => {
-        const cardRarity = card.getAttribute('data-rarity');
-        const name = card.getAttribute('data-name');
-        const desc = card.getAttribute('data-desc');
-        
-        const matchesSearch = name.includes(searchVal) || desc.includes(searchVal);
-        const matchesFilter = currentFilter === 'all' || cardRarity === currentFilter;
-        
-        if (matchesSearch && matchesFilter) {
-            card.style.display = 'flex';
-        } else {
-            card.style.display = 'none';
-        }
+
+    let currentFilter = 'all';
+    let searchQuery = '';
+
+    function filterCards() {
+        cards.forEach(card => {
+            const cardCategory = card.getAttribute('data-category');
+            const cardName = card.getAttribute('data-name') || '';
+            const cardDesc = card.getAttribute('data-desc') || '';
+
+            const matchesFilter = (currentFilter === 'all' || cardCategory === currentFilter);
+            const matchesSearch = (searchQuery === '' || cardName.includes(searchQuery) || cardDesc.includes(searchQuery));
+
+            if (matchesFilter && matchesSearch) {
+                card.style.display = 'flex';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    }
+
+    searchInput.addEventListener('input', function(e) {
+        searchQuery = e.target.value.toLowerCase().trim();
+        filterCards();
     });
-}
+
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+            currentFilter = this.getAttribute('data-filter');
+            filterCards();
+        });
+    });
+});
 </script>
