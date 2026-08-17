@@ -1,0 +1,560 @@
+[22:21:28] [ForkJoinPool.commonPool-worker-2/INFO] IntegerCache population took 67ms
+[22:21:29] [Client thread/INFO] Setting user: Tveiv
+[22:21:29] [Client thread/INFO] Client Commit: b90cab564
+[22:21:30] [Client thread/INFO] LWJGL Version: 3.4.2-snapshot
+[22:21:30] [ForkJoinPool.commonPool-worker-7/INFO] Bootstrapping took 1481ms
+[22:21:30] [Client thread/INFO] [STDOUT]: [LWJGL] Setting up window
+[22:21:30] [Client thread/INFO] [STDOUT]: [LWJGL] Creating window
+[22:21:30] [Client thread/INFO] [STDOUT]: [LWJGL] Done creating window
+[22:21:30] [Client thread/INFO] Number of textures in a framebuffer: 2
+[22:21:31] [Client thread/WARN] Skipping bad option: lastServer:
+[22:21:31] [Client thread/INFO] Model view matrix stack size: 64
+[22:21:31] [Client thread/INFO] Projection matrix stack size: 8
+[22:21:31] [Client thread/INFO] Texture matrix stack size: 20
+[22:21:31] [Client thread/INFO] [OptiFine] OS: Windows 10 (amd64) version 10.0
+[22:21:31] [Client thread/INFO] [OptiFine] VM: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation / 1.8.0_442-b06
+[22:21:32] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default
+[22:21:32] [Client thread/WARN] Unknown language en_us
+[22:21:32] [Client thread/WARN] Unknown language ru_ru
+[22:21:32] [Client thread/INFO] Current language: ru_ru
+[22:21:33] [Client thread/INFO] Refreshing resources for the first time
+[22:21:33] [Client thread/INFO] Starting up SoundSystem...
+[22:21:33] [Thread-18/INFO] Initializing LWJGL OpenAL
+[22:21:33] [Thread-18/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:21:33] [Thread-18/INFO] OpenAL audio device: OpenAL Soft on Динамики (MCHOSE V9 PRO)
+[22:21:34] [Thread-18/INFO] OpenAL initialized.
+[22:21:34] [Client thread/INFO] Sound engine started
+[22:21:34] [Client thread/INFO] SoundSystem loading took 71ms
+[22:21:34] [Client thread/INFO] Items registration took 7ms
+[22:21:34] [Client thread/INFO] Total 29242 blocks.
+[22:21:34] [Client thread/INFO] Custom blocks registration took 252ms
+[22:21:34] [Client thread/INFO] Search tree population took 154ms
+[22:21:34] [Client thread/INFO] Using standard Java compressor.
+[22:21:34] [Client thread/INFO] Using standard Java cipher.
+[22:21:34] [Client thread/INFO] [Shaders] Load shaders configuration.
+[22:21:34] [Client thread/INFO] [Shaders] Save shaders configuration.
+[22:21:34] [Client thread/INFO] [Shaders] No shaderpack loaded.
+[22:21:34] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default
+[22:21:34] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[22:21:34] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[22:21:34] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[22:21:34] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[22:21:34] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[22:21:34] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[22:21:34] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[22:21:34] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[22:21:34] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[22:21:34] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[22:21:34] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[22:21:34] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[22:21:34] [Client thread/INFO] SoundSystem shutting down...
+[22:21:34] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[22:21:34] [Client thread/INFO] Starting up SoundSystem...
+[22:21:34] [Thread-20/INFO] Initializing LWJGL OpenAL
+[22:21:34] [Thread-20/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:21:34] [Thread-20/INFO] OpenAL audio device: OpenAL Soft on Динамики (MCHOSE V9 PRO)
+[22:21:34] [Thread-20/INFO] OpenAL initialized.
+[22:21:34] [Client thread/INFO] Sound engine reloaded
+[22:21:34] [Client thread/INFO] Starting Watchdog monitor, timeout is: 90000ms/90s
+[22:21:34] [Client thread/INFO] Watchdog init took 2ms
+[22:21:34] [Client thread/INFO] Start loading of mod Socials
+[22:21:35] [Client thread/INFO] Loading classes of Socials
+[22:21:35] [Client thread/INFO] Start loading of mod Wada
+[22:21:35] [Client thread/INFO] Loading classes of Wada
+[22:21:35] [Client thread/INFO] Start loading of mod Gama
+[22:21:35] [Client thread/INFO] Loading classes of Gama
+[22:21:35] [ForkJoinPool.commonPool-worker-3/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[22:21:35] [ForkJoinPool.commonPool-worker-3/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[22:21:35] [ForkJoinPool.commonPool-worker-3/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[22:21:35] [Client thread/INFO] Has Unsafe: true
+[22:21:35] [Client thread/INFO] Direct buffers preferred: false
+[22:21:35] [Client thread/INFO] Byte order: LITTLE_ENDIAN
+[22:21:35] [Client thread/INFO] Timer resolution: 1000000000
+[22:21:35] [Client thread/INFO] Client loaded for (6.298s/7.098s)
+[22:21:35] [ForkJoinPool.commonPool-worker-4/INFO] Socials-v2.2.2+01a6d45: class verification completed in 282ms
+[22:21:35] [ForkJoinPool.commonPool-worker-4/INFO] Socials-v2.2.2+01a6d45: defineClasses completed in 2ms
+[22:21:35] [ForkJoinPool.commonPool-worker-4/INFO] Loaded classes in mod Socials in 285 ms
+[22:21:35] [ForkJoinPool.commonPool-worker-2/INFO] Gama-v1.5.2+f8523d8: class verification completed in 228ms
+[22:21:35] [ForkJoinPool.commonPool-worker-2/INFO] Gama-v1.5.2+f8523d8: defineClasses completed in 1ms
+[22:21:35] [ForkJoinPool.commonPool-worker-2/INFO] Loaded classes in mod Gama in 232 ms
+[22:21:35] [ForkJoinPool.commonPool-worker-6/INFO] Wada-v4.13.0+a11c20bc: class verification completed in 362ms
+[22:21:35] [ForkJoinPool.commonPool-worker-6/INFO] Wada-v4.13.0+a11c20bc: defineClasses completed in 3ms
+[22:21:35] [ForkJoinPool.commonPool-worker-6/INFO] Loaded classes in mod Wada in 368 ms
+[22:21:35] [Client Scheduler/INFO] Found preferred client: ANY
+[22:21:35] [Client thread/INFO] Loading mod Socials v2.2.2+01a6d45 by Cristalix Team
+[22:21:35] [Client thread/INFO] Loaded mod Socials v2.2.2+01a6d45 in 282 ms
+[22:21:35] [Client thread/INFO] Loading mod Gama v1.5.2+f8523d8 by Cristalix Team
+[22:21:35] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Gama] VAO support: true
+[22:21:35] [ForkJoinPool.commonPool-worker-3/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[22:21:35] [Thread-24/INFO] [STDOUT]: Settings successfully saved to social-settings.json.
+[22:21:35] [ForkJoinPool.commonPool-worker-3/WARN] Unable to resolve texture due to upward reference: #cross in minecraft:models/block/chain.json
+[22:21:35] [ForkJoinPool.commonPool-worker-3/WARN] Unable to resolve texture due to upward reference: #cross in minecraft:models/block/chain.json
+[22:21:35] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] Mipmap levels: 4
+[22:21:36] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Gama] Initialization with mod Gama
+[22:21:36] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] Multi-texturing: false
+[22:21:36] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] Multipass connected textures: false
+[22:21:36] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:mcpatcher/ctm/default/empty, 1 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[22:21:36] [ForkJoinPool.commonPool-worker-3/INFO] load sprites for 104ms
+[22:21:36] [ForkJoinPool.commonPool-worker-3/INFO] Created: 1024x1024 textures-atlas in 196ms
+[22:21:36] [Client thread/INFO] Loaded mod Gama v1.5.2+f8523d8 in 1167 ms
+[22:21:36] [Client thread/INFO] Loading mod Wada v4.13.0+a11c20bc by Cristalix Team
+[22:21:36] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] VAO support: true
+[22:21:37] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Initialization with mod Wada
+[22:21:37] [Client thread/INFO] Loaded mod Wada v4.13.0+a11c20bc in 232 ms
+[22:21:37] [Thread-25/INFO] [STDOUT]: [Enginex v5.16.3 - Gama] Successfully initialized
+[22:21:37] [ForkJoinPool.commonPool-worker-8/INFO] [DEBUG] Atlas assembly for 6.761ms
+[22:21:37] [Client thread/INFO] [DEBUG] upload atlas for 1.315ms
+[22:21:37] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.035ms
+[22:21:37] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[22:21:37] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[22:21:37] [Client thread/INFO] Textures loaded for 2087.127ms
+[22:21:39] [Thread-26/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Successfully initialized
+[22:22:39] [Network thread/INFO] Protocol upgrade mask: 157
+[22:22:39] [Network thread/INFO] Upgrading protocol
+[22:22:39] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] reload requested: ServerConnect
+[22:22:39] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] cleanAndReload begin: sessionId=1, awaitingHandshake=true
+[22:22:39] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] VAO support: true
+[22:22:39] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Initialization with mod Wada
+[22:22:39] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Successfully initialized
+[22:22:39] [Client thread/INFO] Joining server Хаб #2
+[22:22:40] [Client thread/INFO] Start loading of mod Visual Driver
+[22:22:40] [Client thread/INFO] Loading classes of Visual Driver
+[22:22:40] [Client thread/INFO] Start loading of mod HubMod
+[22:22:40] [Client thread/INFO] Loading classes of HubMod
+[22:22:40] [ForkJoinPool.commonPool-worker-1/INFO] HubMod-v1.4.5: class verification completed in 6ms
+[22:22:40] [ForkJoinPool.commonPool-worker-1/INFO] HubMod-v1.4.5: defineClasses completed in 0ms
+[22:22:40] [ForkJoinPool.commonPool-worker-1/INFO] Loaded classes in mod HubMod in 12 ms
+[22:22:40] [ForkJoinPool.commonPool-worker-4/INFO] Visual Driver-v3.8.31+9da32142: class verification completed in 26ms
+[22:22:40] [ForkJoinPool.commonPool-worker-4/INFO] Visual Driver-v3.8.31+9da32142: defineClasses completed in 0ms
+[22:22:40] [ForkJoinPool.commonPool-worker-4/INFO] Loaded classes in mod Visual Driver in 31 ms
+[22:22:41] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=1
+[22:22:41] [Client thread/INFO] Loading mod HubMod v1.4.5 by Cristalix Team
+[22:22:41] [Client thread/INFO] Loaded mod HubMod v1.4.5 in 81 ms
+[22:22:41] [Client thread/INFO] Loading mod Visual Driver v3.8.31+9da32142 by Cristalix Team
+[22:22:41] [Client thread/INFO] Loaded mod Visual Driver v3.8.31+9da32142 in 78 ms
+[22:22:55] [Network thread/INFO] Protocol upgrade mask: 157
+[22:22:55] [Network thread/INFO] Upgrading protocol
+[22:22:55] [Client thread/INFO] Invalidating server data
+[22:22:55] [Client thread/INFO] Unloading mod HubMod/ce20e5ff-ff41-78ad-bedd-efd89aac55ca
+[22:22:55] [Client thread/INFO] Unloading mod Visual Driver/f5fdd75e-7c05-ef0c-a5a8-343c35dd40f7
+[22:22:55] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] reload requested: ServerSwitch
+[22:22:55] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] cleanAndReload begin: sessionId=2, awaitingHandshake=true
+[22:22:55] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] VAO support: true
+[22:22:55] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Initialization with mod Wada
+[22:22:55] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Successfully initialized
+[22:22:55] [Client thread/INFO] Found file C:\Users\tveiv\.cristalix\updates\Minigames\server-resource-packs\40bb4597c7ce6b5b4690666d2a8804747a202ba3 matching requested hash 2a33a213ea168e73eaf34aeab631978eb6603e7b
+[22:22:55] [Client thread/INFO] Allocated new cache for server resource pack
+[22:22:55] [Client thread/INFO] Joining server VoidGame #2
+[22:22:55] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default, 40bb4597c7ce6b5b4690666d2a8804747a202ba3
+[22:22:55] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[22:22:55] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[22:22:55] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[22:22:55] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[22:22:55] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[22:22:55] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[22:22:55] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[22:22:55] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[22:22:55] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[22:22:55] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[22:22:55] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[22:22:55] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[22:22:55] [Client thread/INFO] SoundSystem shutting down...
+[22:22:55] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[22:22:55] [Client thread/INFO] Starting up SoundSystem...
+[22:22:55] [Thread-30/INFO] Initializing LWJGL OpenAL
+[22:22:55] [Thread-30/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:22:55] [Thread-30/INFO] OpenAL audio device: OpenAL Soft on Динамики (MCHOSE V9 PRO)
+[22:22:55] [Thread-30/INFO] OpenAL initialized.
+[22:22:55] [Client thread/INFO] Sound engine reloaded
+[22:22:55] [Client thread/INFO] Start loading of mod VoidMod
+[22:22:55] [Client thread/INFO] Loading mod VoidMod v1.0+089d877 by ZeksterP
+[22:22:55] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11-TEST-2 - VoidMod] VAO support: true
+[22:22:56] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11-TEST-2 - VoidMod] Initialization with mod VoidMod
+[22:22:56] [ForkJoinPool.commonPool-worker-6/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[22:22:56] [ForkJoinPool.commonPool-worker-6/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[22:22:56] [ForkJoinPool.commonPool-worker-6/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[22:22:56] [ForkJoinPool.commonPool-worker-6/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[22:22:56] [ForkJoinPool.commonPool-worker-6/INFO] [OptiFine] Mipmap levels: 4
+[22:22:56] [ForkJoinPool.commonPool-worker-6/INFO] [OptiFine] Multi-texturing: false
+[22:22:56] [ForkJoinPool.commonPool-worker-6/INFO] [OptiFine] Multipass connected textures: false
+[22:22:56] [ForkJoinPool.commonPool-worker-6/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[22:22:56] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/items/wooden_sword.png
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/items/bad_omen, 18 -> 32
+[22:22:56] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/items/trial_omen, 18 -> 32
+[22:22:56] [ForkJoinPool.commonPool-worker-6/INFO] load sprites for 12ms
+[22:22:56] [ForkJoinPool.commonPool-worker-6/INFO] Created: 1024x1024 textures-atlas in 37ms
+[22:22:56] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11-TEST-2 - VoidMod] Successfully initialized
+[22:22:56] [Client thread/INFO] Loaded mod VoidMod v1.0+089d877 in 1047 ms
+[22:22:57] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=2
+[22:22:57] [ForkJoinPool.commonPool-worker-2/INFO] [DEBUG] Atlas assembly for 85.393ms
+[22:22:57] [Client thread/INFO] [DEBUG] upload atlas for 2.034ms
+[22:22:57] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.004ms
+[22:22:57] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[22:22:57] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[22:22:57] [Client thread/INFO] Textures loaded for 840.353ms
+[22:23:02] [Client thread/INFO] [CHAT] [3] Gybka_bob44 » кто со мной пжж
+[22:23:51] [Client thread/INFO] [CHAT] \n   Сейчас трансляции ведут:\n   MEDIA ┃ katyagi\n   Напишите /media для проcмотра активных трансляций\n 
+[22:24:06] [Network thread/INFO] Protocol upgrade mask: 157
+[22:24:06] [Network thread/INFO] Upgrading protocol
+[22:24:06] [Client thread/INFO] Invalidating server data
+[22:24:06] [Client thread/INFO] Unloading mod VoidMod/5bdd84dc-928c-4998-e415-56bde6507426
+[22:24:06] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] reload requested: ServerSwitch
+[22:24:06] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] cleanAndReload begin: sessionId=3, awaitingHandshake=true
+[22:24:06] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] VAO support: true
+[22:24:06] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Initialization with mod Wada
+[22:24:06] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Successfully initialized
+[22:24:06] [Client thread/INFO] Joining server Хаб #2
+[22:24:06] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default
+[22:24:06] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[22:24:06] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[22:24:06] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[22:24:06] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[22:24:06] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[22:24:06] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[22:24:06] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[22:24:06] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[22:24:06] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[22:24:06] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[22:24:06] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[22:24:06] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[22:24:06] [Client thread/INFO] SoundSystem shutting down...
+[22:24:06] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[22:24:06] [Client thread/INFO] Starting up SoundSystem...
+[22:24:06] [Thread-33/INFO] Initializing LWJGL OpenAL
+[22:24:06] [Thread-33/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:24:06] [Thread-33/INFO] OpenAL audio device: OpenAL Soft on Динамики (MCHOSE V9 PRO)
+[22:24:06] [Thread-33/INFO] OpenAL initialized.
+[22:24:06] [Client thread/INFO] Sound engine reloaded
+[22:24:06] [ForkJoinPool.commonPool-worker-3/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[22:24:06] [ForkJoinPool.commonPool-worker-3/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[22:24:06] [ForkJoinPool.commonPool-worker-3/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[22:24:06] [ForkJoinPool.commonPool-worker-3/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[22:24:06] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] Mipmap levels: 4
+[22:24:06] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] Multi-texturing: false
+[22:24:06] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] Multipass connected textures: false
+[22:24:06] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[22:24:06] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[22:24:06] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[22:24:06] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[22:24:06] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[22:24:06] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[22:24:06] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[22:24:06] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[22:24:06] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[22:24:06] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[22:24:06] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[22:24:06] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[22:24:06] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[22:24:06] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[22:24:06] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[22:24:06] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[22:24:06] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[22:24:06] [ForkJoinPool.commonPool-worker-3/INFO] load sprites for 6ms
+[22:24:06] [ForkJoinPool.commonPool-worker-3/INFO] Created: 1024x1024 textures-atlas in 24ms
+[22:24:06] [Client thread/INFO] Loaded mod HubMod/ce20e5ff-ff41-78ad-bedd-efd89aac55ca v1.4.5 in 13 ms
+[22:24:06] [ForkJoinPool.commonPool-worker-3/INFO] [DEBUG] Atlas assembly for 2.061ms
+[22:24:06] [Client thread/INFO] [DEBUG] upload atlas for 1.708ms
+[22:24:06] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.005ms
+[22:24:06] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[22:24:06] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[22:24:06] [Client thread/INFO] Textures loaded for 359.971ms
+[22:24:06] [Client thread/INFO] Loaded mod Visual Driver/f5fdd75e-7c05-ef0c-a5a8-343c35dd40f7 v3.8.31+9da32142 in 6 ms
+[22:24:08] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=3
+[22:24:09] [Client thread/INFO] [CHAT] V ┃ MaximKort329 Хаб #1 » 1
+[22:24:13] [Network thread/INFO] Protocol upgrade mask: 157
+[22:24:13] [Network thread/INFO] Upgrading protocol
+[22:24:13] [Client thread/INFO] Invalidating server data
+[22:24:13] [Client thread/INFO] Unloading mod HubMod/ce20e5ff-ff41-78ad-bedd-efd89aac55ca
+[22:24:13] [Client thread/INFO] Unloading mod Visual Driver/f5fdd75e-7c05-ef0c-a5a8-343c35dd40f7
+[22:24:13] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] reload requested: ServerSwitch
+[22:24:13] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] cleanAndReload begin: sessionId=4, awaitingHandshake=true
+[22:24:13] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] VAO support: true
+[22:24:13] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Initialization with mod Wada
+[22:24:13] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Successfully initialized
+[22:24:13] [Client thread/INFO] Joining server Мастера Мечей Лобби
+[22:24:13] [Client thread/INFO] Start loading of mod MasterSword Lobby
+[22:24:13] [Client thread/INFO] Loading classes of MasterSword Lobby
+[22:24:13] [ForkJoinPool.commonPool-worker-2/INFO] MasterSword Lobby-v1.0.2+166fa12: class verification completed in 3ms
+[22:24:13] [ForkJoinPool.commonPool-worker-2/INFO] MasterSword Lobby-v1.0.2+166fa12: defineClasses completed in 0ms
+[22:24:13] [ForkJoinPool.commonPool-worker-2/INFO] Loaded classes in mod MasterSword Lobby in 6 ms
+[22:24:13] [Client thread/INFO] Loading mod MasterSword Lobby v1.0.2+166fa12 by BuTowka
+[22:24:13] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11 - MasterSword Lobby] VAO support: true
+[22:24:13] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11 - MasterSword Lobby] Initialization with mod MasterSword Lobby
+[22:24:13] [Client thread/INFO] Loaded mod MasterSword Lobby v1.0.2+166fa12 in 161 ms
+[22:24:13] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=4
+[22:24:13] [Thread-37/INFO] [STDOUT]: [Enginex v5.13.11 - MasterSword Lobby] Successfully initialized
+[22:24:16] [Network thread/INFO] Protocol upgrade mask: 157
+[22:24:16] [Network thread/INFO] Upgrading protocol
+[22:24:16] [Client thread/INFO] Invalidating server data
+[22:24:16] [Client thread/INFO] Unloading mod MasterSword Lobby/e3eee00e-b641-b4a3-0b17-845b52c34b46
+[22:24:16] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] reload requested: ServerSwitch
+[22:24:16] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] cleanAndReload begin: sessionId=5, awaitingHandshake=true
+[22:24:16] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] VAO support: true
+[22:24:16] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Initialization with mod Wada
+[22:24:16] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Successfully initialized
+[22:24:16] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] queued (handshake gate): w4:b8s:base
+[22:24:16] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] queued (handshake gate): w4:b8s:levels
+[22:24:16] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] queued (handshake gate): w4:b8s:base
+[22:24:16] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] queued (handshake gate): w4:b8s:levels
+[22:24:16] [Client thread/INFO] Found file C:\Users\tveiv\.cristalix\updates\Minigames\server-resource-packs\b24c300808cacd0f4681aec650d567ee991d1f8a matching requested hash 78481c980eded186b978aae12869c7bbe0f7f1a1
+[22:24:16] [Client thread/INFO] Allocated new cache for server resource pack
+[22:24:16] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default, b24c300808cacd0f4681aec650d567ee991d1f8a
+[22:24:16] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[22:24:16] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[22:24:16] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[22:24:16] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[22:24:16] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[22:24:16] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[22:24:16] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[22:24:16] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[22:24:16] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[22:24:16] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[22:24:16] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[22:24:16] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[22:24:16] [Client thread/INFO] SoundSystem shutting down...
+[22:24:16] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[22:24:16] [Client thread/INFO] Starting up SoundSystem...
+[22:24:16] [Thread-38/INFO] Initializing LWJGL OpenAL
+[22:24:16] [Thread-38/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:24:16] [Thread-38/INFO] OpenAL audio device: OpenAL Soft on Динамики (MCHOSE V9 PRO)
+[22:24:16] [Thread-38/INFO] OpenAL initialized.
+[22:24:16] [Client thread/INFO] Sound engine reloaded
+[22:24:16] [Client thread/INFO] Joining server Мастера Мечей #2
+[22:24:16] [vc-microphone/INFO] Use OpenAL Soft on Микрофон (MCHOSE V9 PRO) as microphone
+[22:24:16] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=5
+[22:24:16] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] flush pending: 4 message(s)
+[22:24:16] [ForkJoinPool.commonPool-worker-6/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[22:24:16] [ForkJoinPool.commonPool-worker-6/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[22:24:16] [ForkJoinPool.commonPool-worker-6/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[22:24:16] [Client thread/INFO] Start loading of mod MasterSwordReborn
+[22:24:16] [Client thread/INFO] Loading classes of MasterSwordReborn
+[22:24:16] [ForkJoinPool.commonPool-worker-5/INFO] MasterSwordReborn-v1.0.4+a4972a30: class verification completed in 18ms
+[22:24:16] [ForkJoinPool.commonPool-worker-5/INFO] MasterSwordReborn-v1.0.4+a4972a30: defineClasses completed in 5ms
+[22:24:16] [ForkJoinPool.commonPool-worker-5/INFO] Loaded classes in mod MasterSwordReborn in 25 ms
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[22:24:16] [Client thread/INFO] Loading mod MasterSwordReborn v1.0.4+a4972a30 by btwk
+[22:24:16] [Client thread/INFO] [STDOUT]: [Enginex v5.14.3 - MasterSwordReborn] VAO support: true
+[22:24:16] [ForkJoinPool.commonPool-worker-6/INFO] [OptiFine] Mipmap levels: 4
+[22:24:16] [ForkJoinPool.commonPool-worker-6/INFO] [OptiFine] Multi-texturing: false
+[22:24:16] [ForkJoinPool.commonPool-worker-6/INFO] [OptiFine] Multipass connected textures: false
+[22:24:16] [ForkJoinPool.commonPool-worker-6/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/item/scissor_blade.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/itemsloc/loc31/war_spear_gold.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/itemsloc/loc20/l20_4, 24 -> 32
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/itemsloc/loc20/l20_3, 24 -> 32
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/dagger_diamond.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/b3.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/b1.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/b2.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/item/ravenous_blade.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/a2.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/a3.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/a1.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/j3.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/j1.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/j2.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/h1.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/h2.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/h3.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/f3.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/f1.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/f2.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:mcpatcher/cit/case/loc7_smoke, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/itemsloc/loc15/l15_6, 24 -> 32
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/itemsloc/loc15/l15_9, 24 -> 32
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/itemsloc/loc15/l15_2, 24 -> 32
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/item/soul_devourer.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/sea_dagger.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:mcpatcher/cit/itemsloc/loc23/calamityblade_gem_cover, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/sword_of_the_swamp.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/3.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/1.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/2.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/itemsloc/loc20/l20_7, 24 -> 32
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:mcpatcher/cit/case/loc7_piston, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/sun_heart_sword_wooden.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/itemsloc/loc31/h_weapon_4_stone.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/itemsloc/loc14/l14_2, 24 -> 32
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/itemsloc/loc14/l14_4, 24 -> 32
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/donate/moneyicon, 60 -> 64
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/blood_storm.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:mcpatcher/cit/case/loc7_piston_1, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/razor_sword.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/item/soul_collector.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/yokai_claws.png
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/case/loc7_cog, 7 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/itemsloc/loc18/l18_8, 24 -> 32
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/itemsloc/loc18/l18_6, 29 -> 32
+[22:24:16] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:mcpatcher/cit/case/loc16_leaf, 8 -> 16
+[22:24:16] [ForkJoinPool.commonPool-worker-6/WARN] Texture minecraft:mcpatcher/cit/case/loc2.png compressed from 512x512 to 256x256
+[22:24:16] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/gold.png
+[22:24:16] [Client thread/INFO] [STDOUT]: [Enginex v5.14.3 - MasterSwordReborn] Initialization with mod MasterSwordReborn
+[22:24:16] [ForkJoinPool.commonPool-worker-6/INFO] load sprites for 99ms
+[22:24:16] [ForkJoinPool.commonPool-worker-6/INFO] Created: 4096x4096 textures-atlas in 131ms
+[22:24:16] [Client thread/INFO] Loaded mod MasterSwordReborn v1.0.4+a4972a30 in 243 ms
+[22:24:16] [ForkJoinPool.commonPool-worker-6/INFO] [DEBUG] Atlas assembly for 31.214ms
+[22:24:16] [Client thread/INFO] [DEBUG] upload atlas for 25.970ms
+[22:24:16] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.005ms
+[22:24:16] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[22:24:16] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[22:24:16] [Client thread/INFO] Textures loaded for 688.542ms
+[22:24:18] [Thread-40/INFO] [STDOUT]: [Enginex v5.14.3 - MasterSwordReborn] Successfully initialized
+[22:24:22] [Client thread/ERROR] Error on png decode
+java.io.EOFException
+	at #sxZYr.scIq(Unknown Source:79)
+	at #jmezQ.sbRO(SourceFile:93)
+	at #FaKMg.shSw(SourceFile:75)
+	at #QmVcX.RJ(SourceFile)
+	at #zaiJF.sgOp(SourceFile:63)
+	at #LGxKi.RJ(SourceFile)
+	at #RpxQO.skJt(Unknown Source:243)
+	at #WHweF.siKt(SourceFile:121)
+	at #uzDIF.kWZ(SourceFile:271)
+	at #uzDIF.eEI(SourceFile)
+	at #YqJut.sgEU(Unknown Source:169)
+	at #nHEpO.bVe(SourceFile)
+	at #zQMKT.skGM(SourceFile:116)
+	at #NzXqW.bVe(SourceFile)
+	at #YbKeD.sgYm(SourceFile:51)
+	at #fBAIZ.OP(SourceFile)
+	at #iWRkW.smZz(SourceFile:204)
+	at #qLlso.sBf(SourceFile:123)
+	at #qLlso.sBf(SourceFile:136)
+	at #EDvEB.saEh(Unknown Source:268)
+	at #BXaHm.sidN(SourceFile:376)
+	at #RlqYH.scDK(SourceFile:1204)
+	at #KKhTP.smHc(Unknown Source:1076)
+	at #voakw.siTy(SourceFile:3489)
+	at #UDbzx.sjbu(SourceFile:1509)
+	at #ZQCSx.shqa(SourceFile:1640)
+	at #kQsKH.smKh(SourceFile:487)
+	at net.minecraft.client.main.GameMain.mgm(SourceFile:220)
+	at net.minecraft.client.main.GameMain.iLJ(SourceFile:156)
+	at #cnUTs.lIs(Unknown Source)
+	at #cnUTs.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+[22:24:37] [Client thread/INFO] [CHAT]  [ANT] [Охотник] P+ ┃ TheVeizer [#144] » у меня ток 2.12/2.5
+[22:24:54] [Client thread/INFO] [CHAT] [Новичок] k3h6w5q9d8j2d [#?] » ура детишки
+[22:25:13] [Client thread/INFO] [CHAT]  [Бессмертный] P ┃ Naxabatii [#347] » ищу банду в лс
+[22:26:04] [Network thread/INFO] Protocol upgrade mask: 157
+[22:26:04] [Network thread/INFO] Upgrading protocol
+[22:26:04] [Client thread/INFO] Invalidating server data
+[22:26:04] [Client thread/INFO] Unloading mod MasterSwordReborn/23fb7412-5a21-5f3f-33b5-3b5974ddfcbc
+[22:26:04] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] reload requested: ServerSwitch
+[22:26:04] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] cleanAndReload begin: sessionId=6, awaitingHandshake=true
+[22:26:04] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] VAO support: true
+[22:26:04] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Initialization with mod Wada
+[22:26:04] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Successfully initialized
+[22:26:04] [Client thread/INFO] Joining server Хаб #1
+[22:26:04] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default
+[22:26:04] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[22:26:04] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[22:26:04] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[22:26:04] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[22:26:04] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[22:26:04] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[22:26:04] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[22:26:04] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[22:26:04] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[22:26:04] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[22:26:04] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[22:26:04] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[22:26:04] [Client thread/INFO] SoundSystem shutting down...
+[22:26:04] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[22:26:04] [Client thread/INFO] Starting up SoundSystem...
+[22:26:04] [Thread-41/INFO] Initializing LWJGL OpenAL
+[22:26:04] [Thread-41/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:26:04] [Thread-41/INFO] OpenAL audio device: OpenAL Soft on Динамики (MCHOSE V9 PRO)
+[22:26:04] [Thread-41/INFO] OpenAL initialized.
+[22:26:04] [Client thread/INFO] Sound engine reloaded
+[22:26:04] [ForkJoinPool.commonPool-worker-7/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[22:26:04] [ForkJoinPool.commonPool-worker-7/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[22:26:04] [ForkJoinPool.commonPool-worker-7/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[22:26:04] [ForkJoinPool.commonPool-worker-7/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[22:26:04] [ForkJoinPool.commonPool-worker-7/INFO] [OptiFine] Mipmap levels: 4
+[22:26:04] [ForkJoinPool.commonPool-worker-7/INFO] [OptiFine] Multi-texturing: false
+[22:26:04] [ForkJoinPool.commonPool-worker-7/INFO] [OptiFine] Multipass connected textures: false
+[22:26:04] [ForkJoinPool.commonPool-worker-7/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[22:26:04] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[22:26:04] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[22:26:04] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[22:26:04] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[22:26:04] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[22:26:04] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[22:26:04] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[22:26:04] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[22:26:04] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[22:26:04] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[22:26:04] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[22:26:04] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[22:26:04] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[22:26:04] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[22:26:04] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[22:26:04] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[22:26:04] [ForkJoinPool.commonPool-worker-7/INFO] load sprites for 6ms
+[22:26:04] [ForkJoinPool.commonPool-worker-7/INFO] Created: 1024x1024 textures-atlas in 20ms
+[22:26:04] [ForkJoinPool.commonPool-worker-7/INFO] [DEBUG] Atlas assembly for 1.760ms
+[22:26:04] [Client thread/INFO] [DEBUG] upload atlas for 1.432ms
+[22:26:04] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.005ms
+[22:26:04] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[22:26:04] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[22:26:04] [Client thread/INFO] Textures loaded for 341.006ms
+[22:26:04] [Client thread/INFO] Loaded mod Visual Driver/f5fdd75e-7c05-ef0c-a5a8-343c35dd40f7 v3.8.31+9da32142 in 4 ms
+[22:26:04] [Client thread/INFO] Loaded mod HubMod/ce20e5ff-ff41-78ad-bedd-efd89aac55ca v1.4.5 in 7 ms
+[22:26:06] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=6
+[22:26:22] [Client thread/INFO] [CHAT] 747dfg Хаб #2 » 1
+[22:26:22] [Client thread/INFO] Stopping!
+[22:26:22] [Client thread/INFO] Unloading mod HubMod/ce20e5ff-ff41-78ad-bedd-efd89aac55ca
+[22:26:22] [Client thread/INFO] Unloading mod Visual Driver/f5fdd75e-7c05-ef0c-a5a8-343c35dd40f7
+[22:26:22] [Client thread/INFO] Unloading mod Wada/55ff00ae-ad04-b3ca-4595-2b4d4640d92c
+[22:26:22] [Client thread/INFO] Unloading mod Socials/a0a2de05-285a-e8ba-5e6e-e136f0b57815
+[22:26:22] [Client thread/INFO] Unloading mod Gama/43d5265a-6d8a-239c-f2b5-58e9ef87914c

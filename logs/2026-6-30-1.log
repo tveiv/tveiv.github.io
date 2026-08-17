@@ -1,0 +1,1111 @@
+[17:20:10] [ForkJoinPool.commonPool-worker-1/INFO] IntegerCache population took 52ms
+[17:20:11] [Client thread/INFO] Setting user: Tveiv
+[17:20:11] [Client thread/INFO] Client Commit: 2be59f554
+[17:20:11] [Client thread/INFO] LWJGL Version: 3.4.2-snapshot
+[17:20:11] [ForkJoinPool.commonPool-worker-5/INFO] Bootstrapping took 1405ms
+[17:20:11] [Client thread/INFO] [STDOUT]: [LWJGL] Setting up window
+[17:20:11] [Client thread/INFO] [STDOUT]: [LWJGL] Creating window
+[17:20:12] [Client thread/INFO] [STDOUT]: [LWJGL] Done creating window
+[17:20:12] [Client thread/INFO] Number of textures in a framebuffer: 2
+[17:20:12] [Client thread/WARN] Skipping bad option: lastServer:
+[17:20:12] [Client thread/INFO] Model view matrix stack size: 64
+[17:20:12] [Client thread/INFO] Projection matrix stack size: 8
+[17:20:12] [Client thread/INFO] Texture matrix stack size: 20
+[17:20:12] [Client thread/INFO] [OptiFine] OS: Windows 10 (amd64) version 10.0
+[17:20:12] [Client thread/INFO] [OptiFine] VM: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation / 1.8.0_442-b06
+[17:20:13] [Client thread/ERROR] {"id":"a9c62d56-be02-44f9-8023-324c1e6309a2","apiGiveable":false,"categoryId":"aura","contributor":"Dionis","name":"Демонический маскарад","rarity":"AWARD","createdTime":1782507600000,"source":"url","sourceFormat":"bedrock","availableInGui":false,"isLimited":true,"type":"FULL","price":249,"locationRotation":0.065,"supportOptions":{},"conflictGroups":["aura"],"hash256":"69ea7acd58f0508936f856ca9d16689aa84d4e68bce267d635b5df936458613e","sourcePath":"https://webdata.c7x.dev/client/p13n/69ea7acd58f0508936f856ca9d16689aa84d4e68bce267d635b5df936458613e.model"}
+#bEDgt: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at path $.locationRotation
+	at #wlIYw.sa(SourceFile:395)
+	at #zyZee.a(SourceFile)
+	at #SiLri.sa(Unknown Source:212)
+	at #NZHLF.a(SourceFile)
+	at #EKmoA.sa(SourceFile:431)
+	at #aUukC.a(SourceFile)
+	at #wlIYw.sa(SourceFile:391)
+	at #zyZee.a(SourceFile)
+	at #hlvdO.sa(SourceFile:1214)
+	at #Iwixj.sa(Unknown Source:1319)
+	at #dXYkJ.sa(Unknown Source:1261)
+	at #pbbDQ.sa(SourceFile:107)
+	at #TYNkf.sa(Unknown Source:44)
+	at #REyfp.sa(SourceFile:27)
+	at #THsUv.sa(SourceFile:76)
+	at #UKLzM.sa(SourceFile:19)
+	at #UvvxZ.sa(Unknown Source:182)
+	at !#iUQJu.sa(SourceFile:82)
+	at #WmDrd.sa(SourceFile:48)
+	at #vrRoR.sb(SourceFile:35)
+	at #vXcAs.sa(SourceFile:58)
+	at #KMGSE.b(SourceFile)
+	at #pvrmz.<init>(SourceFile:184)
+	at #fiqpk.<init>(SourceFile:164)
+	at #cegXK.<init>(SourceFile:28)
+	at #zAVBO.sf(SourceFile:5745)
+	at #CdcMy.sD(SourceFile:557)
+	at #cYnba.sk(SourceFile:476)
+	at net.minecraft.client.main.GameMain.a(SourceFile:220)
+	at net.minecraft.client.main.GameMain.a(SourceFile:156)
+	at #kBJWf.a(Unknown Source)
+	at #kBJWf.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at path $.locationRotation
+	at #NxHQP.a(SourceFile:165)
+	at #bTsHv.sb(Unknown Source:89)
+	at #NxHQP.a(SourceFile)
+	at #wlIYw.sa(SourceFile:384)
+	... 32 more
+[17:20:14] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default
+[17:20:14] [Client thread/WARN] Unknown language en_us
+[17:20:14] [Client thread/WARN] Unknown language ru_ru
+[17:20:14] [Client thread/INFO] Current language: ru_ru
+[17:20:15] [Client thread/INFO] Refreshing resources for the first time
+[17:20:15] [Client thread/INFO] Starting up SoundSystem...
+[17:20:15] [Thread-18/INFO] Initializing LWJGL OpenAL
+[17:20:15] [Thread-18/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:20:15] [Thread-18/INFO] OpenAL audio device: any
+[17:20:15] [Thread-18/INFO] OpenAL initialized.
+[17:20:15] [Client thread/INFO] Sound engine started
+[17:20:15] [Client thread/INFO] SoundSystem loading took 64ms
+[17:20:15] [Client thread/INFO] Items registration took 5ms
+[17:20:15] [Client thread/INFO] Total 29242 blocks.
+[17:20:15] [Client thread/INFO] Custom blocks registration took 212ms
+[17:20:15] [Client thread/INFO] Search tree population took 134ms
+[17:20:15] [Client thread/INFO] Using standard Java compressor.
+[17:20:15] [Client thread/INFO] Using standard Java cipher.
+[17:20:15] [Client thread/INFO] [Shaders] Load shaders configuration.
+[17:20:15] [Client thread/INFO] [Shaders] Save shaders configuration.
+[17:20:15] [Client thread/INFO] [Shaders] No shaderpack loaded.
+[17:20:15] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default
+[17:20:15] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[17:20:15] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[17:20:15] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[17:20:15] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[17:20:15] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[17:20:15] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[17:20:15] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[17:20:15] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[17:20:15] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[17:20:15] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[17:20:15] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[17:20:15] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[17:20:15] [Client thread/INFO] SoundSystem shutting down...
+[17:20:15] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[17:20:15] [Client thread/INFO] Starting up SoundSystem...
+[17:20:15] [Thread-20/INFO] Initializing LWJGL OpenAL
+[17:20:15] [Thread-20/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:20:15] [Thread-20/INFO] OpenAL audio device: any
+[17:20:15] [Thread-20/INFO] OpenAL initialized.
+[17:20:15] [Client thread/INFO] Sound engine reloaded
+[17:20:15] [Client thread/INFO] Starting Watchdog monitor, timeout is: 90000ms/90s
+[17:20:15] [Client thread/INFO] Watchdog init took 2ms
+[17:20:16] [Client thread/INFO] Start loading of mod Socials
+[17:20:16] [Client thread/INFO] Loading classes of Socials
+[17:20:16] [Client thread/INFO] Start loading of mod Wada
+[17:20:16] [Client thread/INFO] Loading classes of Wada
+[17:20:16] [Client thread/INFO] Start loading of mod Gama
+[17:20:16] [Client thread/INFO] Loading classes of Gama
+[17:20:16] [Client thread/INFO] Has Unsafe: true
+[17:20:16] [Client thread/INFO] Direct buffers preferred: false
+[17:20:16] [Client thread/INFO] Byte order: LITTLE_ENDIAN
+[17:20:16] [Client thread/INFO] Timer resolution: 1000000000
+[17:20:16] [Client thread/INFO] Client loaded for (5.855s/6.670s)
+[17:20:16] [ForkJoinPool.commonPool-worker-6/INFO] Socials-v2.2.2+04923ea: class verification completed in 238ms
+[17:20:16] [ForkJoinPool.commonPool-worker-6/INFO] Socials-v2.2.2+04923ea: defineClasses completed in 1ms
+[17:20:16] [ForkJoinPool.commonPool-worker-6/INFO] Loaded classes in mod Socials in 242 ms
+[17:20:16] [ForkJoinPool.commonPool-worker-7/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[17:20:16] [ForkJoinPool.commonPool-worker-7/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[17:20:16] [ForkJoinPool.commonPool-worker-7/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[17:20:16] [ForkJoinPool.commonPool-worker-1/INFO] Gama-v1.5.2+986e683: class verification completed in 188ms
+[17:20:16] [ForkJoinPool.commonPool-worker-1/INFO] Gama-v1.5.2+986e683: defineClasses completed in 0ms
+[17:20:16] [ForkJoinPool.commonPool-worker-1/INFO] Loaded classes in mod Gama in 191 ms
+[17:20:16] [ForkJoinPool.commonPool-worker-5/INFO] Wada-v4.12.0+e1b645e2: class verification completed in 302ms
+[17:20:16] [ForkJoinPool.commonPool-worker-5/INFO] Wada-v4.12.0+e1b645e2: defineClasses completed in 0ms
+[17:20:16] [ForkJoinPool.commonPool-worker-5/INFO] Loaded classes in mod Wada in 307 ms
+[17:20:16] [Client thread/INFO] Loading mod Socials v2.2.2+04923ea by Cristalix Team
+[17:20:16] [Client thread/INFO] Loaded mod Socials v2.2.2+04923ea in 239 ms
+[17:20:16] [Client thread/INFO] Loading mod Gama v1.5.2+986e683 by Cristalix Team
+[17:20:16] [Client thread/INFO] [STDOUT]: [Enginex v5.14.3 - Gama] VAO support: true
+[17:20:16] [ForkJoinPool.commonPool-worker-7/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[17:20:16] [Thread-23/INFO] [STDOUT]: Settings successfully saved to social-settings.json.
+[17:20:17] [ForkJoinPool.commonPool-worker-7/WARN] Unable to resolve texture due to upward reference: #cross in minecraft:models/block/chain.json
+[17:20:17] [Client Scheduler/INFO] Found preferred client: ANY
+[17:20:17] [ForkJoinPool.commonPool-worker-7/WARN] Unable to resolve texture due to upward reference: #cross in minecraft:models/block/chain.json
+[17:20:17] [ForkJoinPool.commonPool-worker-7/INFO] [OptiFine] Mipmap levels: 4
+[17:20:17] [Client thread/INFO] [STDOUT]: [Enginex v5.14.3 - Gama] Initialization with mod Gama
+[17:20:17] [ForkJoinPool.commonPool-worker-7/INFO] [OptiFine] Multi-texturing: false
+[17:20:17] [ForkJoinPool.commonPool-worker-7/INFO] [OptiFine] Multipass connected textures: false
+[17:20:17] [ForkJoinPool.commonPool-worker-7/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:mcpatcher/ctm/default/empty, 1 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[17:20:17] [ForkJoinPool.commonPool-worker-7/INFO] load sprites for 60ms
+[17:20:17] [ForkJoinPool.commonPool-worker-7/INFO] Created: 1024x1024 textures-atlas in 137ms
+[17:20:17] [Client thread/INFO] Loaded mod Gama v1.5.2+986e683 in 1016 ms
+[17:20:17] [Client thread/INFO] Loading mod Wada v4.12.0+e1b645e2 by Cristalix Team
+[17:20:17] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] VAO support: true
+[17:20:18] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Initialization with mod Wada
+[17:20:18] [Client thread/INFO] Loaded mod Wada v4.12.0+e1b645e2 in 176 ms
+[17:20:18] [Thread-25/INFO] [STDOUT]: [Enginex v5.14.3 - Gama] Successfully initialized
+[17:20:18] [ForkJoinPool.commonPool-worker-7/INFO] [DEBUG] Atlas assembly for 5.934ms
+[17:20:18] [Client thread/INFO] [DEBUG] upload atlas for 1.170ms
+[17:20:18] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.031ms
+[17:20:18] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[17:20:18] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[17:20:18] [Client thread/INFO] Textures loaded for 1885.141ms
+[17:20:19] [Thread-26/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Successfully initialized
+[17:20:25] [Network thread/INFO] Protocol upgrade mask: 157
+[17:20:25] [Network thread/INFO] Upgrading protocol
+[17:20:25] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] reload requested: ServerConnect
+[17:20:25] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] cleanAndReload begin: sessionId=1, awaitingHandshake=true
+[17:20:25] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] VAO support: true
+[17:20:25] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Initialization with mod Wada
+[17:20:25] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Successfully initialized
+[17:20:25] [Client thread/INFO] Joining server Хаб #15
+[17:20:26] [Client thread/INFO] Start loading of mod HubMod
+[17:20:26] [Client thread/INFO] Loading classes of HubMod
+[17:20:26] [ForkJoinPool.commonPool-worker-7/INFO] HubMod-v1.4.5: class verification completed in 5ms
+[17:20:26] [ForkJoinPool.commonPool-worker-7/INFO] HubMod-v1.4.5: defineClasses completed in 0ms
+[17:20:26] [ForkJoinPool.commonPool-worker-7/INFO] Loaded classes in mod HubMod in 5 ms
+[17:20:27] [Client thread/INFO] Start loading of mod Visual Driver
+[17:20:27] [Client thread/INFO] Loading classes of Visual Driver
+[17:20:27] [Client thread/INFO] Loading mod HubMod v1.4.5 by Cristalix Team
+[17:20:27] [ForkJoinPool.commonPool-worker-6/INFO] Visual Driver-v3.8.31+9da32142: class verification completed in 30ms
+[17:20:27] [ForkJoinPool.commonPool-worker-6/INFO] Visual Driver-v3.8.31+9da32142: defineClasses completed in 0ms
+[17:20:27] [ForkJoinPool.commonPool-worker-6/INFO] Loaded classes in mod Visual Driver in 33 ms
+[17:20:27] [Client thread/INFO] Loaded mod HubMod v1.4.5 in 67 ms
+[17:20:27] [Client thread/INFO] Loading mod Visual Driver v3.8.31+9da32142 by Cristalix Team
+[17:20:27] [Client thread/INFO] Loaded mod Visual Driver v3.8.31+9da32142 in 58 ms
+[17:20:27] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=1
+[17:22:02] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] ку привет ты альтушка???????
+[17:22:20] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ку нет
+[17:26:10] [Network thread/INFO] Protocol upgrade mask: 157
+[17:26:10] [Network thread/INFO] Upgrading protocol
+[17:26:10] [Client thread/INFO] Invalidating server data
+[17:26:10] [Client thread/INFO] Unloading mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f
+[17:26:10] [Client thread/INFO] Unloading mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3
+[17:26:10] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] reload requested: ServerSwitch
+[17:26:10] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] cleanAndReload begin: sessionId=2, awaitingHandshake=true
+[17:26:10] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] VAO support: true
+[17:26:10] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Initialization with mod Wada
+[17:26:10] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Successfully initialized
+[17:26:10] [Client thread/INFO] Found file C:\Users\tveiv\.cristalix\updates\Minigames\server-resource-packs\8a024d62afc697f8182dc24d10b5ea2720c6df40 matching requested hash c26c40708aba36e77fdaeb0bf35ffc32988c6db9
+[17:26:10] [Client thread/INFO] Allocated new cache for server resource pack
+[17:26:10] [Client thread/INFO] Joining server VoidGame #2
+[17:26:10] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default, 8a024d62afc697f8182dc24d10b5ea2720c6df40
+[17:26:10] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[17:26:10] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[17:26:10] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[17:26:10] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[17:26:10] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[17:26:10] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[17:26:10] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[17:26:10] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[17:26:10] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[17:26:10] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[17:26:10] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[17:26:10] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[17:26:10] [Client thread/INFO] SoundSystem shutting down...
+[17:26:10] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[17:26:10] [Client thread/INFO] Starting up SoundSystem...
+[17:26:10] [Thread-30/INFO] Initializing LWJGL OpenAL
+[17:26:10] [Thread-30/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:26:10] [Thread-30/INFO] OpenAL audio device: any
+[17:26:10] [Thread-30/INFO] OpenAL initialized.
+[17:26:10] [Client thread/INFO] Sound engine reloaded
+[17:26:10] [Client thread/INFO] Start loading of mod VoidMod
+[17:26:10] [Client thread/INFO] Loading mod VoidMod v1.0+ffbf5ac by ZeksterP
+[17:26:10] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11-TEST-2 - VoidMod] VAO support: true
+[17:26:10] [ForkJoinPool.commonPool-worker-8/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[17:26:10] [ForkJoinPool.commonPool-worker-8/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[17:26:10] [ForkJoinPool.commonPool-worker-8/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[17:26:10] [ForkJoinPool.commonPool-worker-8/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[17:26:10] [ForkJoinPool.commonPool-worker-8/INFO] [OptiFine] Mipmap levels: 4
+[17:26:10] [ForkJoinPool.commonPool-worker-8/INFO] [OptiFine] Multi-texturing: false
+[17:26:10] [ForkJoinPool.commonPool-worker-8/INFO] [OptiFine] Multipass connected textures: false
+[17:26:10] [ForkJoinPool.commonPool-worker-8/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[17:26:10] [ForkJoinPool.commonPool-worker-8/ERROR] Using missing texture, unable to load minecraft:textures/items/wooden_sword.png
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/items/bad_omen, 18 -> 32
+[17:26:10] [ForkJoinPool.commonPool-worker-8/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/items/trial_omen, 18 -> 32
+[17:26:10] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11-TEST-2 - VoidMod] Initialization with mod VoidMod
+[17:26:10] [ForkJoinPool.commonPool-worker-8/INFO] load sprites for 13ms
+[17:26:10] [ForkJoinPool.commonPool-worker-8/INFO] Created: 1024x1024 textures-atlas in 29ms
+[17:26:11] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11-TEST-2 - VoidMod] Successfully initialized
+[17:26:11] [Client thread/INFO] Loaded mod VoidMod v1.0+ffbf5ac in 716 ms
+[17:26:11] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=2
+[17:26:11] [ForkJoinPool.commonPool-worker-8/INFO] [DEBUG] Atlas assembly for 40.231ms
+[17:26:11] [Client thread/INFO] [DEBUG] upload atlas for 1.776ms
+[17:26:11] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.003ms
+[17:26:11] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[17:26:11] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[17:26:11] [Client thread/INFO] Textures loaded for 687.917ms
+[17:26:25] [Client thread/INFO] [CHAT] [30] D ┃ mokashi » в плане того, каким уроном бьет игрока когда он не находит вторую бессоницу за 5 волн
+[17:26:57] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] жаль печаль я думал ты готка
+[17:27:27] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] причины на твои думки?
+[17:28:12] [Client thread/INFO] [CHAT] [30] MVP ┃ Mmiks » сек
+[17:28:18] [Client thread/INFO] [CHAT] [30] I ┃ Mrextrem » JR
+[17:28:18] [Client thread/INFO] [CHAT] [30] D ┃ mokashi » о
+[17:28:26] [Client thread/INFO] [CHAT] [30] D ┃ mokashi » бессоница бьет маг уроном
+[17:28:28] [Client thread/INFO] [CHAT] [21] D ┃ Ever3st528 » [Пробужденный ловец снов +8]
+[17:28:35] [Client thread/INFO] [CHAT] [30] D ┃ mokashi » ее можно пережить неукротимым бесстрашием
+[17:28:38] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] скин твой весь белый значит в жизни ты вся чорная, такая логика
+[17:28:40] [Client thread/INFO] [CHAT] [30] I ┃ Mrextrem » чё
+[17:28:42] [Client thread/INFO] [CHAT] [30] D ┃ mokashi » ну
+[17:28:48] [Client thread/INFO] [CHAT] [30] I ┃ Mrextrem » прикольно
+[17:28:51] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] прям вся?
+[17:29:40] [Client thread/INFO] [CHAT] [30] D ┃ mokashi » че
+[17:29:42] [Client thread/INFO] [CHAT] [30] D ┃ mokashi » а как я здох
+[17:29:50] [Client thread/INFO] [CHAT] [30] D ┃ mokashi » ((
+[17:29:52] [Client thread/INFO] [CHAT] [30] D ┃ mokashi » 16 волна
+[17:29:57] [Client thread/INFO] [CHAT] [5] V+ ┃ Statetoaster238 » Скелет иссушитель если стреляет с лука то никакого эффекта не наносит?
+[17:29:57] [Client thread/INFO] [CHAT] [25] H ┃ Belit » от маны умер(
+[17:30:05] [Client thread/INFO] [CHAT] [30] D ┃ mokashi » почему
+[17:30:07] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] вхвхвхв ну не вся, нигерши мне не нравятся, я про волосы и одежду
+[17:30:10] [Client thread/INFO] [CHAT] [30] H ┃ ______________DA » горение
+[17:30:18] [Client thread/INFO] [CHAT] [5] V+ ┃ Statetoaster238 » Какое горение?
+[17:30:29] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] мм, расист
+[17:30:30] [Client thread/INFO] [CHAT] [9] V ┃ s1lent2 » !А что делать с фантазией
+[17:30:36] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] это круто!
+[17:31:04] [Client thread/INFO] [CHAT] [28] V ┃ And12botik » Время перезарядки - контроль
+[17:31:07] [Client thread/INFO] [CHAT] [29] V ┃ JopaJopovich » 30
+[17:31:47] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] чорный юмор это классно, и вообще книга и краб - одно и то же без "к"
+[17:32:43] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] а вообще, ты и мой фанат это одно и то же
+[17:33:41] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] ноу я не фанат
+[17:33:50] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] любовник толька если
+[17:33:50] [Client thread/INFO] [CHAT] [3] Mr_Nikeron » как предметы заточить?
+[17:34:01] [Client thread/INFO] [CHAT] [9] jeffthekiller892 » в идентификаторе
+[17:34:04] [Client thread/INFO] [CHAT] [9] jeffthekiller892 » за звезды
+[17:34:07] [Client thread/INFO] [CHAT] [30] H ┃ ______________DA » у идентификатора в зачаровании
+[17:34:27] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] я с малышариками связей не имею
+[17:34:42] [Client thread/INFO] [CHAT] [3] Mr_Nikeron » спасибо
+[17:35:09] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] так я и не малышарик и не фанат
+[17:35:18] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] прям ща имеем связь с тобой
+[17:35:26] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] половую
+[17:35:28] [Client thread/INFO] [CHAT] [21] D ┃ Ever3st528 » сколько защиты даёт свинцовый слоник?
+[17:35:35] [Client thread/INFO] [CHAT] [26] _Den56_ » 10
+[17:35:41] [Client thread/INFO] [CHAT] [21] D ┃ Ever3st528 » спс
+[17:35:56] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ты одно из двух
+[17:36:01] [Client thread/INFO] [CHAT] [30] I ┃ Mrextrem » перебор по проклам с лвл апом
+[17:37:02] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] почему
+[17:37:50] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] думаю так
+[17:38:12] [Client thread/INFO] [CHAT] [6] V ┃ Tree_Konya102030 » 19 урона это 19 жизней у зомби?
+[17:38:12] [Client thread/INFO] [CHAT] [5] V+ ┃ Statetoaster238 » Какой базовый крит урона игрока?
+[17:38:19] [Client thread/INFO] [CHAT] [9] jeffthekiller892 » зомби выживет
+[17:38:22] [Client thread/INFO] [CHAT] [9] jeffthekiller892 » скелет умрёт
+[17:38:23] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] а ты так не думай, я сам выберу кем мне быть
+[17:38:24] [Client thread/INFO] [CHAT] [6] V ┃ Tree_Konya102030 » спс
+[17:38:27] [Client thread/INFO] [CHAT] [26] _Den56_ » 75крит
+[17:38:47] [Client thread/INFO] [CHAT] [4] SunLeax » что делают сказки о звёздах?
+[17:38:49] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] воу воу, хорошо
+[17:40:11] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] воооот так вот поняла да, я крутой я тебе все доказал, чувство собственной важности поднял, давай общаться мило теперь
+[17:40:35] [Client thread/INFO] [CHAT] [30] I ┃ Mrextrem » ..
+[17:41:23] [Client thread/INFO] [CHAT] [30] D ┃ mokashi » лан мне в сете победителя шотнули анлак
+[17:41:26] [Client thread/INFO] [CHAT] [30] D ┃ mokashi » меня
+[17:41:29] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] а для чего, я не готка и не альтушка
+[17:42:17] [Client thread/INFO] [CHAT] [30] I ┃ Mrextrem » ахаха
+[17:42:26] [Client thread/INFO] [CHAT] [5] V+ ┃ Statetoaster238 » Чё там за ответ был на горящего крипера?
+[17:42:33] [Client thread/INFO] [CHAT] [30] D ┃ mokashi » обычный взрыв
+[17:42:47] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] на это пофиг, главное чтобы ты была пышкой 130кг 130 см ростом
+[17:42:59] [Client thread/INFO] [CHAT] [30] MVP ┃ Mmiks » jq
+[17:43:13] [Client thread/INFO] [CHAT] [8] Nema_Gyhron » Блоки загорятся
+[17:43:17] [Client thread/INFO] [CHAT] [30] D ┃ mokashi » обычный взрыв
+[17:43:26] [Client thread/ERROR] Error on png decode
+java.io.EOFException
+	at #bsYhB.sa(Unknown Source:79)
+	at #GkgAM.sb(SourceFile:93)
+	at #VDFNo.sa(SourceFile:75)
+	at #dQqXO.a(SourceFile)
+	at #nAplK.sa(SourceFile:63)
+	at #HqmiC.a(SourceFile)
+	at #nnQRc.sa(SourceFile:243)
+	at #aNAXT.sa(SourceFile:121)
+	at #vwpHV.a(SourceFile:271)
+	at #vwpHV.a(SourceFile)
+	at #DbYtd.sa(SourceFile:169)
+	at #xuJay.a(SourceFile)
+	at #ulhmT.sb(SourceFile:116)
+	at #vYIsP.a(SourceFile)
+	at #wzsmg.sa(SourceFile:51)
+	at #zKIMx.a(SourceFile)
+	at #oQhBa.sa(SourceFile:204)
+	at #srNDu.sa(SourceFile:123)
+	at #srNDu.sa(SourceFile:136)
+	at #wmMBP.sa(SourceFile:268)
+	at #JrUAU.sb(SourceFile:376)
+	at #Czpok.sa(SourceFile:1204)
+	at #ZRpYP.sb(SourceFile:1076)
+	at #DazZV.sa(SourceFile:3489)
+	at #vyeSD.sa(SourceFile:1509)
+	at #lVFyp.st(SourceFile:1640)
+	at #cYnba.sk(SourceFile:487)
+	at net.minecraft.client.main.GameMain.a(SourceFile:220)
+	at net.minecraft.client.main.GameMain.a(SourceFile:156)
+	at #kBJWf.a(Unknown Source)
+	at #kBJWf.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+[17:43:45] [Client thread/INFO] [CHAT] [30] P+ ┃ APK_Kovbou » умираю
+[17:43:45] [Client thread/INFO] [CHAT] [22] Ripperch » кто пойдёт пати ?
+[17:43:50] [Client thread/INFO] [CHAT] [30] P+ ┃ APK_Kovbou » на улице жара
+[17:43:52] [Client thread/INFO] [CHAT] [30] P+ ┃ APK_Kovbou » 42 градуса
+[17:44:04] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] стремлюсь к ткамим охватам
+[17:44:09] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] таким
+[17:44:48] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] ну вот видишь уже есть причина для общения
+[17:44:55] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] а ты говорила
+[17:45:20] [Client thread/INFO] [CHAT] [4] Mr_Nikeron » а где слоты фантазий?
+[17:45:57] [Client thread/INFO] [CHAT] [4] Mr_Nikeron » я шкатулку фантазий открыл и куда мне теперь фантазию положить?
+[17:46:05] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] не, ты слишком долго читаешь, а я не люблю ждатть
+[17:46:09] [Client thread/INFO] [CHAT] [8] Deamaker » как забиндить заклинания?
+[17:46:29] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] и чо
+[17:46:35] [Client thread/INFO] [CHAT] [8] wolf_03211 » для чего звезда бронзовая
+[17:46:36] [Client thread/INFO] [CHAT] [4] Mr_Nikeron » в инвентаре заклинания
+[17:46:45] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] и то
+[17:46:56] [Client thread/INFO] [CHAT] [30] I ┃ Mrextrem » ..
+[17:46:59] [Client thread/INFO] [CHAT] [30] MVP ┃ Mmiks » какие
+[17:47:02] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] подождешь, ты же вежливая и тактичная девушка
+[17:47:06] [Client thread/INFO] [CHAT] [30] MVP ┃ Mmiks » бонусы перве 3 в магазе
+[17:47:24] [Client thread/INFO] [CHAT] [30] I ┃ Mrextrem » диск - идол - хз
+[17:47:26] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] нет, с чего?
+[17:47:31] [Client thread/INFO] [CHAT] [30] I ┃ Mrextrem » 3) победитель
+[17:47:35] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] я быдло деревенское
+[17:47:53] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] тогда тем более подождешь
+[17:47:55] [Client thread/INFO] [CHAT] [28] I ┃ TheFoolLotm » d
+[17:48:03] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] чтоб еще одну расисткую шутку увидеть
+[17:48:04] [Client thread/INFO] [CHAT] [5] V+ ┃ Statetoaster238 » Если на слизня бирку положить, то другие слаймы тоже будут переименованными?
+[17:48:13] [Client thread/INFO] [CHAT] [30] H ┃ ______________DA » ага
+[17:48:16] [Client thread/INFO] [CHAT] [26] MVP ┃ compot04111 » да
+[17:48:17] [Client thread/INFO] [CHAT] [28] I ┃ TheFoolLotm » Челендж гоу, кто сможет собрать 20 зеркал катастроф
+[17:48:19] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] не, чета не хочу
+[17:48:37] [Client thread/INFO] [CHAT] [30] H ┃ ______________DA » билд через черные карты и дверь во тьму
+[17:48:41] [Client thread/INFO] [CHAT] [30] H ┃ ______________DA » типа того?
+[17:48:45] [Client thread/INFO] [CHAT] [28] I ┃ TheFoolLotm » !da
+[17:48:46] [Client thread/INFO] [CHAT] [26] MVP ┃ compot04111 » и х40 лутать дебафов?
+[17:48:55] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] а чо ты по жизни хочешь? дрочить и кушать пиво?
+[17:48:59] [Client thread/INFO] [CHAT] [28] I ┃ TheFoolLotm » ну я лутал 15 проклятий уровня)
+[17:49:07] [Client thread/INFO] [CHAT] [26] MVP ┃ compot04111 » я х10 ток
+[17:49:26] [Client thread/INFO] [CHAT] [4] SunLeax » !я открыл шкатулку заклинания куда мне заклинания ставить?
+[17:49:33] [Client thread/INFO] [CHAT] [26] MVP ┃ compot04111 » о идеал шлем упал
+[17:49:35] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] девочки не дрочат ващето
+[17:49:38] [Client thread/INFO] [CHAT] [26] MVP ┃ compot04111 » +изумрудики
+[17:49:45] [Client thread/INFO] [CHAT] [28] I ┃ TheFoolLotm » по идее если не будет спаргоса и проклятий уровня это имба, чем минус
+[17:49:54] [Client thread/INFO] [CHAT] [6] V+ ┃ Statetoaster238 » Сколько всего зелёных бонусов в аккреционном диске?
+[17:49:58] [Client thread/INFO] [CHAT] [28] I ┃ TheFoolLotm » 4
+[17:50:00] [Client thread/INFO] [CHAT] [4] SunLeax » !я открыл шкатулку заклинания куда мне заклинания ставить? скажите пж
+[17:50:01] [Client thread/INFO] [CHAT] [26] MVP ┃ compot04111 » а приманка?
+[17:50:04] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] да ну
+[17:50:06] [Client thread/INFO] [CHAT] [26] MVP ┃ compot04111 » тыща мобов будет
+[17:50:10] [Client thread/INFO] [CHAT] [28] V ┃ And12botik » У кого есть топ карточка для поиска созвездий?
+[17:50:11] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] а историю браузера покажешь?
+[17:50:14] [Client thread/INFO] [CHAT] [30] H ┃ ______________DA » слева при запуске
+[17:50:33] [Client thread/INFO] [CHAT] [28] I ┃ TheFoolLotm » ну для приманки у меня есть мечь который под башней яркой луны убивает всех за 1 способку
+[17:51:01] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] да легко
+[17:51:02] [Client thread/INFO] [CHAT] [30] I ┃ Mrextrem » -ФПС
+[17:51:38] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] давай тг свой тогда, посмотрим
+[17:52:06] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] не, не дам
+[17:52:06] [Client thread/INFO] [CHAT] [28] I ┃ TheFoolLotm » Помочь кому то пройти какие то уровни? кроме 25
+[17:52:25] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] хах вот как мы переобуваемся быстро да
+[17:52:30] [Client thread/INFO] [CHAT] [30] I ┃ Mrextrem » +
+[17:53:17] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] да не ,просто не дам, чтобы на меня не дрочил
+[17:53:44] [Client thread/INFO] [CHAT] [28] I ┃ TheFoolLotm » ura ping 16809
+[17:53:50] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] фига у тебя самомнение, с чего ты решила что я именно на тебя резко начну дрочить
+[17:54:14] [Client thread/INFO] [CHAT] [26] _Den56_ » А теперь, что немногословен нельзя в магазине продать?
+[17:54:23] [Client thread/INFO] [CHAT] [28] I ┃ TheFoolLotm » можно
+[17:54:42] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ничего такого, не я первая про дрочить начала, поэтому вот так
+[17:54:59] [Client thread/INFO] [CHAT] [26] _Den56_ » тогда видимо мне мешает проклятие мимика
+[17:56:00] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] не давать тг потому что чел с кристаликса начнет на тебя дрочить(он никогда не говорил что вообще будет это делать)
+[17:56:10] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] ты сама себя то слышишь
+[17:57:53] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] я то себя слышу, ты первый начал шутку про дрочку, тем временем я ее подхватила
+[17:58:09] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] у меня нет никакого самомнения или бед с башкой
+[17:58:29] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] а я то другое подумал, тогда прошу прощения
+[17:58:34] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] my bad
+[17:58:45] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] тогда свяжемся в максе, чо дум
+[17:59:38] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] MAX — российская цифровая платформа для общения и решения повседневных задач.
+[18:00:15] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] там будем общаться и дрочить, идеальное место. там сразу запись ведется
+[18:00:40] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] я не буду дрочить! девочки не дрочат
+[18:01:12] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] я никому не расскажу, не волнуйся, это будет наш секрет
+[18:01:23] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] тем более ты не девочка, ты уже девушка
+[18:02:19] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] а я всем расскажу и покажу где ты дрюкал!
+[18:02:45] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] о неееет только не это...
+[18:02:59] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] значит ты согласна?
+[18:03:49] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] дрочить в MAX - НЕТ!!
+[18:04:58] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] а что такого??? ну да, придется поделиться нюдсами с ФБР, но я думаю тебе не жалко!
+[18:05:32] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] а не жалко, потому что ты считаешь меня шлюхой, да?
+[18:05:39] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] я поняла, досвидос
+[18:06:08] [Client thread/INFO] [CHAT] [22] Ripperch » Кто будет в пати проходить?
+[18:06:38] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] нееееееет, я так не считаю, но просто а где еще? макс самый безопасный, а тг ты отказала мне...
+[18:08:34] [Client thread/INFO] [CHAT] [30] I ┃ Mrextrem » ну да ну да
+[18:08:48] [Client thread/INFO] [CHAT] [1] KOTYA_Pelmen » inet axn
+[18:09:10] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] и шо ты игноришь, не обижайся
+[18:09:58] [Network thread/ERROR] 95.181.159.3:25565: Internal Exception: java.net.SocketException: Connection reset
+[18:09:58] [Client thread/INFO] Unloading mod VoidMod/4d4c3c31-76ef-7cc6-56a0-acb4a9679d72
+[18:09:58] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default
+[18:09:58] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[18:09:58] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[18:09:58] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[18:09:58] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[18:09:58] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[18:09:58] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[18:09:58] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[18:09:58] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[18:09:58] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[18:09:58] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[18:09:58] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[18:09:58] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[18:09:58] [Client thread/INFO] SoundSystem shutting down...
+[18:09:58] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[18:09:58] [Client thread/INFO] Starting up SoundSystem...
+[18:09:58] [Thread-33/INFO] Initializing LWJGL OpenAL
+[18:09:58] [Thread-33/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:09:58] [Thread-33/INFO] OpenAL audio device: any
+[18:09:58] [Thread-33/INFO] OpenAL initialized.
+[18:09:58] [Client thread/INFO] Sound engine reloaded
+[18:09:59] [ForkJoinPool.commonPool-worker-3/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[18:09:59] [ForkJoinPool.commonPool-worker-3/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[18:09:59] [ForkJoinPool.commonPool-worker-3/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[18:09:59] [ForkJoinPool.commonPool-worker-3/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[18:09:59] [ForkJoinPool.commonPool-worker-3/WARN] Unable to resolve texture due to upward reference: #cross in minecraft:models/block/chain.json
+[18:09:59] [ForkJoinPool.commonPool-worker-3/WARN] Unable to resolve texture due to upward reference: #cross in minecraft:models/block/chain.json
+[18:09:59] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] Mipmap levels: 4
+[18:09:59] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] Multi-texturing: false
+[18:09:59] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] Multipass connected textures: false
+[18:09:59] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[18:09:59] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[18:09:59] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[18:09:59] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[18:09:59] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[18:09:59] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[18:09:59] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[18:09:59] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[18:09:59] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[18:09:59] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[18:09:59] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[18:09:59] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[18:09:59] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[18:09:59] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[18:09:59] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[18:09:59] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[18:09:59] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[18:09:59] [ForkJoinPool.commonPool-worker-3/INFO] load sprites for 25ms
+[18:09:59] [ForkJoinPool.commonPool-worker-3/INFO] Created: 1024x1024 textures-atlas in 37ms
+[18:09:59] [ForkJoinPool.commonPool-worker-3/INFO] [DEBUG] Atlas assembly for 2.325ms
+[18:09:59] [Client thread/INFO] [DEBUG] upload atlas for 1.421ms
+[18:09:59] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.004ms
+[18:09:59] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[18:09:59] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[18:09:59] [Client thread/INFO] Textures loaded for 451.456ms
+[18:10:03] [Network thread/INFO] Protocol upgrade mask: 157
+[18:10:03] [Network thread/INFO] Upgrading protocol
+[18:10:03] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] reload requested: ServerConnect
+[18:10:03] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] cleanAndReload begin: sessionId=3, awaitingHandshake=true
+[18:10:03] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] VAO support: true
+[18:10:03] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Initialization with mod Wada
+[18:10:03] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Successfully initialized
+[18:10:03] [Client thread/INFO] Joining server Хаб #12
+[18:10:03] [Client thread/INFO] Loaded mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f v3.8.31+9da32142 in 5 ms
+[18:10:03] [Client thread/INFO] Loaded mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3 v1.4.5 in 8 ms
+[18:10:04] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=3
+[18:10:04] [Client thread/WARN] Unknown bedrock format: void_fist.png.mcmeta
+[18:10:21] [ForkJoinPool.commonPool-worker-3/ERROR] 95.129.234.97:25565: Internal Exception: java.net.ConnectException: Connection timed out: connect
+[18:11:19] [Client thread/INFO] [CHAT] 㥏 Некому отвечать...
+[18:11:49] [Client thread/INFO] [CHAT] 㱻 У тебя выключены личные сообщения, напиши /msgt чтобы включить
+[18:11:56] [Client thread/INFO] [CHAT] 㨳 Личные сообщения выключены 㣳‍♀
+[18:11:59] [Client thread/INFO] [CHAT] 㨶 Личные сообщения включены 㣳‍♀
+[18:12:08] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] 1231
+[18:12:15] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] атветь пожалста..
+[18:12:20] [Client thread/INFO] [CHAT] Frol67 Хаб #8 » wdwadsdwat
+[18:12:37] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ты сам соо выключил
+[18:12:42] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] лох
+[18:13:22] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] кавооооооо, баг кристалиха. ты же не обиделась на меня?
+[18:13:55] [Client thread/INFO] [CHAT] schwepes Хаб #4 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает все сюда!
+[18:14:24] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] бред, обижаться на левого челика
+[18:14:41] [Client thread/INFO] [CHAT] folajd Хаб #3 » скин
+[18:15:03] [Client thread/INFO] [CHAT] 㥏 У этого игрока выключены личные сообщения
+[18:15:10] [Client thread/INFO] [CHAT] 䀹 Команда не найдена\n/msg|\n䀪 /msg <Игроки> <Сообщение>
+[18:15:13] [Client thread/INFO] [CHAT] 㨳 Личные сообщения выключены 㣳‍♀
+[18:15:15] [Client thread/INFO] [CHAT] 㨶 Личные сообщения включены 㣳‍♀
+[18:15:18] [Client thread/INFO] [CHAT] 㥏 У этого игрока выключены личные сообщения
+[18:15:38] [Client thread/INFO] Unloading mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f
+[18:15:38] [Client thread/INFO] Unloading mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3
+[18:15:39] [Network thread/INFO] Protocol upgrade mask: 157
+[18:15:39] [Network thread/INFO] Upgrading protocol
+[18:15:39] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] reload requested: ServerConnect
+[18:15:39] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] cleanAndReload begin: sessionId=4, awaitingHandshake=true
+[18:15:39] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] VAO support: true
+[18:15:39] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Initialization with mod Wada
+[18:15:39] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Successfully initialized
+[18:15:39] [Client thread/INFO] Joining server Хаб #2
+[18:15:40] [Client thread/INFO] Loaded mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3 v1.4.5 in 10 ms
+[18:15:40] [Client thread/INFO] Loaded mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f v3.8.31+9da32142 in 4 ms
+[18:15:40] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=4
+[18:15:42] [Client thread/INFO] [CHAT] 㥏 Некому отвечать...
+[18:15:54] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] ты разбиваешь мне сердечко. почему я левый, если мы уже с тобой чуть в максе не дрочили?
+[18:16:32] [Client thread/INFO] [CHAT] 䀹 Команда не найдена\n/m|\n䀪 /msg <Игроки> <Сообщение>
+[18:16:36] [Client thread/INFO] [CHAT] 䀹 Команда не найдена\n/msg|\n䀪 /msg <Игроки> <Сообщение>
+[18:16:38] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ну правый, какая разница, и не было такого!
+[18:17:00] [Client thread/INFO] [CHAT] schwepes Хаб #12 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает все сюда
+[18:17:08] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] была, я твою писю попу видел! мне понравилось давай повторим!!
+[18:17:36] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ой дурак тупой просто
+[18:17:58] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] эээээээээ не обзывайся.. так когда в тг пойдем та
+[18:18:16] [Client thread/INFO] [CHAT] and111 Хаб #8 » прям тут
+[18:19:29] [Client thread/INFO] [CHAT] and111 Хаб #8 » секс
+[18:19:36] [Client thread/INFO] [CHAT] I ┃ maksa223YT Хаб #7 » фу, покажи
+[18:19:50] [Client thread/INFO] [CHAT] 䀹 Команда не найдена\n/msg|\n䀪 /msg <Игроки> <Сообщение>
+[18:20:26] [Client thread/INFO] Unloading mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f
+[18:20:26] [Client thread/INFO] Unloading mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3
+[18:20:27] [Network thread/INFO] Protocol upgrade mask: 157
+[18:20:27] [Network thread/INFO] Upgrading protocol
+[18:20:28] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] reload requested: ServerConnect
+[18:20:28] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] cleanAndReload begin: sessionId=5, awaitingHandshake=true
+[18:20:28] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] VAO support: true
+[18:20:28] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Initialization with mod Wada
+[18:20:28] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Successfully initialized
+[18:20:28] [Client thread/INFO] Joining server Хаб #2
+[18:20:28] [Client thread/INFO] Loaded mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3 v1.4.5 in 10 ms
+[18:20:28] [Client thread/INFO] Loaded mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f v3.8.31+9da32142 in 4 ms
+[18:20:29] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=5
+[18:20:30] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] зачем
+[18:21:06] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] всмысли зачем, шобы связь была между нами более глубокая и ясная, и это знаешь как подойти к девушке номерок на улице попросить.
+[18:22:08] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] честно, я бы номерок не дала
+[18:22:27] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] а у тебя фотки там есть хотя бы? а то я с некрасивыми не общаюсь
+[18:22:46] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] там моя пися есть на аватарке
+[18:22:49] [Client thread/INFO] [CHAT] schwepes Хаб #15 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает все сюда!
+[18:22:49] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] пойдет?
+[18:23:11] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] тупой просто, вот иди и смотри на писю
+[18:23:18] [Client thread/INFO] [CHAT] G ┃ Morimaite Хаб #15 » Ахахах
+[18:23:28] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ой, я прочитала что моя
+[18:23:36] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ну ладно, сути не меняет
+[18:23:39] [Client thread/INFO] [CHAT] schwepes Хаб #4 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает все сюда
+[18:24:09] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] ххвахвахвахвахавх, да ладно нет там писи
+[18:24:28] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] ну дай телеграмчик проста, я хочу тебе там написать
+[18:24:41] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] это как эверест покорить, так же и сердечко снежной королевы
+[18:26:28] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] а сколько тебе лет?
+[18:26:56] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] мне 19, а что
+[18:27:06] [Client thread/INFO] [CHAT] schwepes Хаб #13 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает все сюда!
+[18:27:28] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] я же сказала, что ты мелочь пузатая
+[18:27:54] [Client thread/INFO] [CHAT] SigmaDark Хаб #15 » как
+[18:28:00] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] неправда, я уже взрослый и у меня большая пися
+[18:29:07] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] 
+[18:29:58] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] эта мое лицо когда ты не хочешь давать мне телеграм 
+[18:31:08] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] а ета мое 
+[18:31:59] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] мне кажется это лицо похоже на ахегао
+[18:33:04] [Client thread/INFO] [CHAT] schwepes Хаб #5 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает все сюда
+[18:33:19] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] нет, тебе кажется, эта дрочка затмила весь твой разум и теперь во всем ты видишь пошлость, грех!
+[18:34:48] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] не могла бы ты помочь мне раскаяться, моя монашка? я хочу искупить все грехи
+[18:35:28] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] извини, у меня другая специальность
+[18:36:12] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] мне нужна просто твоя поддержка! а какая специальность
+[18:37:04] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] поддержка чего?
+[18:38:22] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] поддержка моего ментального состояния, чтобы я искупил все грехи
+[18:38:28] [Client thread/INFO] [CHAT] schwepes Хаб #13 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает все сюда!
+[18:38:43] [Client thread/INFO] [CHAT] bobozrun Хаб #2 » да нууу нафиг
+[18:38:50] [Client thread/INFO] [CHAT] Mr_Alban Хаб #6 » аид уже не снимает ролики давно
+[18:38:56] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ты принял свои грехи?
+[18:38:56] [Client thread/INFO] [CHAT] Mr_Alban Хаб #6 » не ври чел
+[18:39:22] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] я давно принял свою похоть.
+[18:40:28] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] это плохо оченьэ
+[18:41:12] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] почему плохо? как можно искупить грех, если ты не принял его, если ты не посмотрел в глаза правде?
+[18:43:31] [Client thread/INFO] Unloading mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f
+[18:43:31] [Client thread/INFO] Unloading mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3
+[18:43:33] [Network thread/INFO] Protocol upgrade mask: 157
+[18:43:33] [Network thread/INFO] Upgrading protocol
+[18:43:33] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] reload requested: ServerConnect
+[18:43:33] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] cleanAndReload begin: sessionId=6, awaitingHandshake=true
+[18:43:33] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] VAO support: true
+[18:43:33] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Initialization with mod Wada
+[18:43:33] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Successfully initialized
+[18:43:33] [Client thread/INFO] Joining server Хаб #7
+[18:43:34] [Client thread/INFO] Loaded mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f v3.8.31+9da32142 in 6 ms
+[18:43:34] [Client thread/INFO] Loaded mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3 v1.4.5 in 7 ms
+[18:43:34] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=6
+[18:44:49] [Client thread/INFO] [CHAT] qeaqwd Хаб #18 » t
+[18:44:57] [Client thread/INFO] [CHAT] 㨳 Личные сообщения выключены 㣳‍♀
+[18:45:00] [Client thread/INFO] [CHAT] 㨶 Личные сообщения включены 㣳‍♀
+[18:45:02] [Client thread/INFO] Unloading mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f
+[18:45:02] [Client thread/INFO] Unloading mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3
+[18:45:05] [Network thread/INFO] Protocol upgrade mask: 157
+[18:45:05] [Network thread/INFO] Upgrading protocol
+[18:45:05] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] reload requested: ServerConnect
+[18:45:05] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] cleanAndReload begin: sessionId=7, awaitingHandshake=true
+[18:45:05] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] VAO support: true
+[18:45:05] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Initialization with mod Wada
+[18:45:05] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Successfully initialized
+[18:45:05] [Client thread/INFO] Joining server Хаб #9
+[18:45:05] [Client thread/INFO] Loaded mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f v3.8.31+9da32142 in 5 ms
+[18:45:05] [Client thread/INFO] Loaded mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3 v1.4.5 in 9 ms
+[18:45:06] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=7
+[18:45:15] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] йоу а ты тут?..
+[18:45:29] [Client thread/INFO] [CHAT] schwepes Хаб #10 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает все сюда
+[18:45:50] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] да
+[18:46:06] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ты не должен был изначально принимать его
+[18:46:24] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] теперь ничего не ипсравить, похоть поглотила тебя
+[18:47:10] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] тогда давай согрешим вместе
+[18:47:53] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ты дурак
+[18:48:11] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] да. ты тоже дурочка
+[18:49:22] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] а я нет
+[18:49:45] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] и вообще, ты нее имеешь права меня оскорблять
+[18:49:59] [Client thread/INFO] [CHAT] P ┃ Delasfor Хаб #10 » 123
+[18:50:01] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] а я и не оскорблял
+[18:50:07] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] для меня ты милая и неуклюжая
+[18:50:46] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ахаххахаах
+[18:50:55] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] а других слов не нашел?
+[18:51:21] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] я говорю то что приходит первым в голову
+[18:51:28] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] я даже не искал :)
+[18:51:59] [Client thread/INFO] [CHAT] RORut3489 Хаб #8 » T
+[18:52:03] [Client thread/INFO] [CHAT] 㨏 ЛС [jzvet » Я] привет
+[18:52:09] [Client thread/INFO] [CHAT] schwepes Хаб #6 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает все сюда!
+[18:52:20] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] неуклюжая будто утка
+[18:52:31] [Client thread/INFO] [CHAT] 㨏 ЛС [jzvet » Я] у нас есть дс сервер интересует?
+[18:53:03] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] уточки классные ващета!
+[18:53:13] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] и смайлики тут тоже уточки между прочем
+[18:53:17] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] на кристе
+[18:53:20] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » jzvet] привет
+[18:53:24] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » jzvet] что за сервер? кто там сидит?
+[18:53:47] [Client thread/INFO] [CHAT] 㨏 ЛС [jzvet » Я] сервер по майну в основном, но мы во многое играем
+[18:54:24] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] утютю
+[18:54:34] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] а ты, я смотрю, любитель уток
+[18:55:02] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] я их люблю не меньше чем высоких девушек с большой попой
+[18:55:20] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » jzvet] в дедлок катаете?
+[18:55:28] [Client thread/INFO] [CHAT] 㨏 ЛС [jzvet » Я] не
+[18:55:32] [Client thread/INFO] [CHAT] 㨏 ЛС [jzvet » Я] чаще в кастомку
+[18:55:33] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » jzvet] тада не нада
+[18:56:33] [Client thread/INFO] [CHAT] \n  MEDIA ┃ ALMA3uk7 запустил стрим!\n  Платформа: Twitch\n  Напишите /media для проcмотра активных трансляций\n 
+[18:56:48] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] понятно
+[18:56:53] [Client thread/INFO] [CHAT] MiracleWW Хаб #18 » df
+[18:57:32] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] можна твой номерок наконец йомайо
+[18:57:36] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] пожалуйста!
+[18:58:26] [Client thread/INFO] [CHAT] SN_SELEKTA Хаб #12 » 123с
+[18:58:31] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] какой нетерпеливый
+[18:58:34] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] потерпи
+[18:58:37] [Client thread/INFO] [CHAT] schwepes Хаб #3 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает все сюда
+[18:58:51] [Client thread/INFO] [CHAT] I ┃ vano_ut Хаб #6 » как попасть в определенный хаб?
+[18:58:51] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] я просто боюсь тебя потерять!
+[18:58:57] [Client thread/INFO] [CHAT] Sr.M ┃ bodydouble Хаб #8 » через навигатор
+[18:59:09] [Client thread/INFO] [CHAT] V ┃ fupasmak Хаб #8 » боди дабл что между нами
+[18:59:10] [Client thread/INFO] [CHAT] I ┃ vano_ut Хаб #12 » спс
+[18:59:14] [Client thread/INFO] [CHAT] Sr.M ┃ bodydouble Хаб #8 » что
+[18:59:21] [Client thread/INFO] [CHAT] V ┃ fupasmak Хаб #8 » малышка не стесняйся
+[18:59:27] [Client thread/INFO] [CHAT] Sr.M ┃ bodydouble Хаб #8 » стесняюсь
+[18:59:50] [Client thread/INFO] [CHAT] schwepes Хаб #13 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает!
+[19:00:00] [Client thread/INFO] [CHAT] Chelovek90988 Хаб #9 » ага
+[19:00:07] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] приятно 
+[19:00:16] [Client thread/INFO] [CHAT] P+ ┃ Pikachucha Хаб #7 » п
+[19:00:20] [Client thread/INFO] [CHAT] P+ ┃ Pikachucha Хаб #7 » ура мут прошел
+[19:01:06] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] понимаешь, нам сейчас вечером хорошо, но пройдет ночь.. и вдруг мы забудем друг друга..
+[19:02:17] [Client thread/INFO] [CHAT] SN_SELEKTA Хаб #12 » что будет сли найду 10 питов?
+[19:02:21] [Client thread/INFO] [CHAT] schwepes Хаб #6 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает
+[19:02:32] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ну и ничего, найдешь другой объект соблазнения
+[19:03:47] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] я конечно то еще дерьмо, но пока что для меня девушки не просто мешки для ебли.
+[19:04:19] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] я вкладываю душу, знаешь ли. и не хочу, чтобы его отрывали
+[19:06:43] [Client thread/INFO] Unloading mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f
+[19:06:43] [Client thread/INFO] Unloading mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3
+[19:06:44] [Network thread/INFO] Protocol upgrade mask: 157
+[19:06:44] [Network thread/INFO] Upgrading protocol
+[19:06:44] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] reload requested: ServerConnect
+[19:06:44] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] cleanAndReload begin: sessionId=8, awaitingHandshake=true
+[19:06:44] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] VAO support: true
+[19:06:44] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Initialization with mod Wada
+[19:06:44] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Successfully initialized
+[19:06:44] [Client thread/INFO] Joining server Хаб #3
+[19:06:45] [Client thread/INFO] Loaded mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3 v1.4.5 in 21 ms
+[19:06:45] [Client thread/INFO] Loaded mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f v3.8.31+9da32142 in 4 ms
+[19:06:46] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=8
+[19:06:48] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ну это пока что, так ведь?
+[19:06:59] [Client thread/INFO] [CHAT] schwepes Хаб #18 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает!
+[19:08:36] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] а вдруг я сойду с ума? жизнь интересная штука. поэтому и говорю пока что. хотя если я стану моральным уродом, это уже буду не я
+[19:10:10] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] мне так смешно с этой философии
+[19:10:21] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] но это не в обиду тебе, если че
+[19:10:30] [Client thread/INFO] [CHAT] NFCZ Хаб #18 » ищу тима по дс
+[19:11:16] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] мне уже стало обидно. и вообще если бы ты не хотела, чтобы тебя соблазняли, ты бы со мной не общалась...
+[19:13:42] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] что блять, любой девушке приятно внимание и я тебе не дала даже повод для соблазения
+[19:13:59] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] так что не пизди мне тут
+[19:15:18] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] йоу йоу полегче, я понял, тебя это триггерит, но я тебя не называю шлюхой/легкодоступной, да и мне такая девушка не нужна.
+[19:15:33] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] и да я тебя не соблазнял бл, шутки же все
+[19:16:22] [Client thread/INFO] [CHAT] schwepes Хаб #7 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает
+[19:18:30] [Client thread/INFO] Unloading mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f
+[19:18:30] [Client thread/INFO] Unloading mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3
+[19:18:31] [Network thread/INFO] Protocol upgrade mask: 157
+[19:18:31] [Network thread/INFO] Upgrading protocol
+[19:18:31] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] reload requested: ServerConnect
+[19:18:31] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] cleanAndReload begin: sessionId=9, awaitingHandshake=true
+[19:18:31] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] VAO support: true
+[19:18:31] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Initialization with mod Wada
+[19:18:31] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Successfully initialized
+[19:18:31] [Client thread/INFO] Joining server Хаб #3
+[19:18:32] [Client thread/INFO] Loaded mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3 v1.4.5 in 10 ms
+[19:18:32] [Client thread/INFO] Loaded mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f v3.8.31+9da32142 in 5 ms
+[19:18:33] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=9
+[19:18:36] [Client thread/INFO] [CHAT] schwepes Хаб #8 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает!
+[19:18:47] [Client thread/INFO] [CHAT] lilmilk69 Хаб #15 » t
+[19:18:55] [Client thread/INFO] [CHAT] 4AIN5AW Хаб #7 » y\е
+[19:19:46] [Client thread/INFO] [CHAT] 㨳 Личные сообщения выключены 㣳‍♀
+[19:19:47] [Client thread/INFO] [CHAT] 㨶 Личные сообщения включены 㣳‍♀
+[19:19:49] [Client thread/INFO] Unloading mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f
+[19:19:49] [Client thread/INFO] Unloading mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3
+[19:19:50] [Network thread/INFO] Protocol upgrade mask: 157
+[19:19:50] [Network thread/INFO] Upgrading protocol
+[19:19:50] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] reload requested: ServerConnect
+[19:19:50] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] cleanAndReload begin: sessionId=10, awaitingHandshake=true
+[19:19:50] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] VAO support: true
+[19:19:50] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Initialization with mod Wada
+[19:19:50] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Successfully initialized
+[19:19:50] [Client thread/INFO] Joining server Хаб #18
+[19:19:51] [Client thread/INFO] Loaded mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f v3.8.31+9da32142 in 6 ms
+[19:19:51] [Client thread/INFO] Loaded mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3 v1.4.5 in 9 ms
+[19:19:52] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=10
+[19:20:13] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] йоу, все норм?
+[19:21:24] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] да, отходила
+[19:21:40] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] я забыла, что хотела сказать
+[19:21:46] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ладно, пофикЭ
+[19:22:12] [Client thread/INFO] [CHAT] P ┃ Sk1iPeR Хаб #18 » ав
+[19:22:19] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] все ясна дрочила!!
+[19:23:52] [Client thread/INFO] [CHAT] \n   Сейчас трансляции ведут:\n   MEDIA ┃ ALMA3uk7\n   Напишите /media для проcмотра активных трансляций\n 
+[19:24:08] [Client thread/INFO] [CHAT] schwepes Хаб #18 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает
+[19:24:33] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] нет! это ты дрочишь, поэтому так долго отвечаешь!
+[19:24:44] [Client thread/INFO] [CHAT] schwepes Хаб #6 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает!
+[19:25:06] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] неть, я стараюсь ответить как можна быстрее! и пока что я не дрочил, я тебя уважаю и ценю.
+[19:25:13] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] не перевади стрелкииии
+[19:26:49] [Client Scheduler/ERROR] Error on load last awards
+java.util.concurrent.CompletionException: #izMbY: Сервер недоступен
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(Unknown Source)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(Unknown Source)
+	at #wcvam.sa(SourceFile:423)
+	at #MysEV.a(Unknown Source)
+	at #MysEV.run(Unknown Source)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: #izMbY: Сервер недоступен
+[19:27:30] [Network thread/INFO] Protocol upgrade mask: 157
+[19:27:30] [Network thread/INFO] Upgrading protocol
+[19:27:30] [Client thread/INFO] Invalidating server data
+[19:27:30] [Client thread/INFO] Unloading mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f
+[19:27:30] [Client thread/INFO] Unloading mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3
+[19:27:30] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] reload requested: ServerSwitch
+[19:27:30] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] cleanAndReload begin: sessionId=11, awaitingHandshake=true
+[19:27:30] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] VAO support: true
+[19:27:30] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Initialization with mod Wada
+[19:27:30] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Successfully initialized
+[19:27:30] [Client thread/INFO] Start loading of mod ParkourMap
+[19:27:30] [Client thread/INFO] Loading classes of ParkourMap
+[19:27:30] [Client thread/INFO] Joining server Event Parkour #1
+[19:27:30] [ForkJoinPool.commonPool-worker-2/INFO] ParkourMap-v1.0.0+7733d4b: class verification completed in 46ms
+[19:27:30] [ForkJoinPool.commonPool-worker-2/INFO] ParkourMap-v1.0.0+7733d4b: defineClasses completed in 0ms
+[19:27:30] [ForkJoinPool.commonPool-worker-2/INFO] Loaded classes in mod ParkourMap in 50 ms
+[19:27:30] [Client thread/INFO] Loading mod ParkourMap v1.0.0+7733d4b by Zenkaliks, iLisov
+[19:27:30] [vc-microphone/INFO] Use OpenAL Soft on Микрофон (MCHOSE V9 PRO) as microphone
+[19:27:30] [Client thread/INFO] [STDOUT]: [Enginex v5.14.3 - ParkourMap] VAO support: true
+[19:27:30] [Client thread/INFO] [STDOUT]: [Enginex v5.14.3 - ParkourMap] Initialization with mod ParkourMap
+[19:27:30] [Client thread/INFO] [STDOUT]: I/O error while reading settings from parkour-settings.json.
+[19:27:30] [Client thread/INFO] [STDERR]: java.nio.file.NoSuchFileException: C:\Users\tveiv\.cristalix\updates\Minigames\mods\dd7eb153f97b16b4b608d80c3ea67bf42fc2f53ac697e933eb76d9b0c67618b6
+[19:27:30] [Client thread/INFO] [STDERR]: 	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(Unknown Source)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at java.base/sun.nio.fs.WindowsFileSystemProvider.newInputStream(Unknown Source)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at java.base/java.nio.file.Files.newInputStream(Unknown Source)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at #CjvpI.sa(SourceFile:54)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at #OGwcd.a(SourceFile)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at !#FjTwq.sa(SourceFile:66)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at #OGwcd.a(SourceFile)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at ParkourMap-v1.0.0+7733d4b//gg.cristalix.parkour.mod.ParkourMod.loadSettings(SourceFile:83)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at ParkourMap-v1.0.0+7733d4b//gg.cristalix.parkour.mod.ParkourMod.onLoad(SourceFile:39)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at ParkourMap-v1.0.0+7733d4b//gg.cristalix.enginex.JavaMod.load(SourceFile:27)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at #NZHLF.sa(SourceFile:140)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at #ctazM.load(SourceFile)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at #jeQeu.sa(Unknown Source:300)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at #BRrNG.a(Unknown Source)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at #BRrNG.run(Unknown Source)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at #wFFZg.sa(SourceFile:45)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at #mPGeI.b(SourceFile:52)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at #QQxhM.sk(SourceFile:1466)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at #lVFyp.st(SourceFile:1632)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at #cYnba.sk(SourceFile:487)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at net.minecraft.client.main.GameMain.a(SourceFile:220)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at net.minecraft.client.main.GameMain.a(SourceFile:156)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at #kBJWf.a(Unknown Source)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at #kBJWf.run(Unknown Source)
+[19:27:30] [Client thread/INFO] [STDERR]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[19:27:30] [Client thread/INFO] Loaded mod ParkourMap v1.0.0+7733d4b in 232 ms
+[19:27:30] [Thread-51/INFO] [STDOUT]: [Enginex v5.14.3 - ParkourMap] Successfully initialized
+[19:27:31] [ForkJoinPool.commonPool-worker-4/INFO] Found file C:\Users\tveiv\.cristalix\updates\Minigames\server-resource-packs\e4c14367eff4775e95ae044103a01977eedc8330 matching requested hash 6213f67b83a3aaddc1d47491d4d21bc8f8776473
+[19:27:31] [ForkJoinPool.commonPool-worker-4/INFO] Allocated new cache for server resource pack
+[19:27:31] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default, e4c14367eff4775e95ae044103a01977eedc8330
+[19:27:31] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[19:27:31] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[19:27:31] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[19:27:31] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[19:27:31] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[19:27:31] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[19:27:31] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[19:27:31] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[19:27:31] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[19:27:31] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[19:27:31] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[19:27:31] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[19:27:31] [Client thread/INFO] SoundSystem shutting down...
+[19:27:31] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[19:27:31] [Client thread/INFO] Starting up SoundSystem...
+[19:27:31] [Thread-52/INFO] Initializing LWJGL OpenAL
+[19:27:31] [Thread-52/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:27:31] [Thread-52/INFO] OpenAL audio device: any
+[19:27:31] [Thread-52/INFO] OpenAL initialized.
+[19:27:31] [Client thread/INFO] Sound engine reloaded
+[19:27:31] [Client thread/INFO] Start loading of mod Eventica
+[19:27:31] [Client thread/INFO] Loading classes of Eventica
+[19:27:31] [ForkJoinPool.commonPool-worker-2/INFO] Eventica-v2.2.2+edcf6a8: class verification completed in 20ms
+[19:27:31] [ForkJoinPool.commonPool-worker-2/INFO] Eventica-v2.2.2+edcf6a8: defineClasses completed in 0ms
+[19:27:31] [ForkJoinPool.commonPool-worker-2/INFO] Loaded classes in mod Eventica in 22 ms
+[19:27:31] [Client thread/INFO] Loading mod Eventica v2.2.2+edcf6a8 by Zenkaliks, iLisov, RoToN
+[19:27:31] [Client thread/INFO] [STDOUT]: [Enginex v5.13.4 - Eventica] VAO support: true
+[19:27:31] [Client thread/INFO] [STDOUT]: [Enginex v5.13.4 - Eventica] Initialization with mod Eventica
+[19:27:31] [Client thread/INFO] Loaded mod Eventica v2.2.2+edcf6a8 in 218 ms
+[19:27:31] [Thread-54/INFO] [STDOUT]: I/O error while reading settings from events-settings.json.
+[19:27:31] [Thread-54/INFO] [STDERR]: java.nio.file.NoSuchFileException: C:\Users\tveiv\.cristalix\updates\Minigames\mods\5677c8bff28e2d15cff1f670a9ac14cb8def59ea2304a301eefc8f85c6bbf5c9
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at java.base/java.nio.file.Files.newByteChannel(Unknown Source)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(Unknown Source)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at java.base/sun.nio.fs.WindowsFileSystemProvider.newInputStream(Unknown Source)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at java.base/java.nio.file.Files.newInputStream(Unknown Source)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at #CjvpI.sa(SourceFile:54)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at #OGwcd.a(SourceFile)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at !#FjTwq.sa(SourceFile:66)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at #OGwcd.a(SourceFile)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at Eventica-v2.2.2+edcf6a8//gg.cristalix.event.eventica.module.EventicaModuleManager.loadSettings(SourceFile:102)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at Eventica-v2.2.2+edcf6a8//gg.cristalix.event.eventica.module.EventicaModuleManager.<init>(SourceFile:34)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at Eventica-v2.2.2+edcf6a8//gg.cristalix.event.eventica.Eventica.asyncOnLoad(SourceFile:33)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at Eventica-v2.2.2+edcf6a8//gg.cristalix.enginex.JavaMod.lambda$load$0(SourceFile:31)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at Eventica-v2.2.2+edcf6a8//gg.cristalix.enginex.JavaMod.injectedLambda$lambda$load$0$0(SourceFile)
+[19:27:31] [Thread-54/INFO] [STDERR]: 	at java.base/java.lang.Thread.run(Unknown Source)
+[19:27:31] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=11
+[19:27:31] [ForkJoinPool.commonPool-worker-3/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[19:27:31] [ForkJoinPool.commonPool-worker-3/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[19:27:31] [ForkJoinPool.commonPool-worker-3/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[19:27:31] [Thread-54/INFO] [STDOUT]: [Enginex v5.13.4 - Eventica] Successfully initialized
+[19:27:31] [ForkJoinPool.commonPool-worker-3/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/hat/update/vs_headset_e#inventory' for item: 'minecraft:mcpatcher/cit/hat/update/vs_headset_e'
+[19:27:31] [ForkJoinPool.commonPool-worker-3/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/hat/update/vs_mining_hat_e#inventory' for item: 'minecraft:mcpatcher/cit/hat/update/vs_mining_hat_e'
+[19:27:31] [ForkJoinPool.commonPool-worker-3/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[19:27:31] [ForkJoinPool.commonPool-worker-3/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/murder/bank#inventory' for item: 'minecraft:mcpatcher/cit/murder/bank'
+[19:27:32] [ForkJoinPool.commonPool-worker-3/WARN] In parent chain: minecraft:mcpatcher/cit/swords/update - 04.08.2024/engulfing_lightning/stone#inventory -> minecraft:mcpatcher/cit/swords/update - 04.08.2024/engulfing_lightning/demon_sword_diamond; unable to load model: 'minecraft:mcpatcher/cit/swords/update - 04.08.2024/engulfing_lightning/demon_sword_diamond'
+[19:27:32] [ForkJoinPool.commonPool-worker-3/WARN] In parent chain: minecraft:mcpatcher/cit/swords/update - 04.08.2024/beacon_of_the_reed_sea/frozen#inventory -> minecraft:mcpatcher/cit/swords/update - 04.08.2024/beacon_of_the_reed_sea/demon_sword_diamond; unable to load model: 'minecraft:mcpatcher/cit/swords/update - 04.08.2024/beacon_of_the_reed_sea/demon_sword_diamond'
+[19:27:32] [ForkJoinPool.commonPool-worker-3/WARN] Unable to resolve texture due to upward reference: #cross in minecraft:models/block/chain.json
+[19:27:32] [ForkJoinPool.commonPool-worker-3/WARN] Unable to resolve texture due to upward reference: #cross in minecraft:models/block/chain.json
+[19:27:32] [ForkJoinPool.commonPool-worker-3/WARN] Unable to resolve texture due to upward reference: #torch in minecraft:models/block/torch.json
+[19:27:32] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] Mipmap levels: 4
+[19:27:32] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] Multi-texturing: false
+[19:27:32] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] Multipass connected textures: false
+[19:27:32] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/trident_3d/stone_triden_3d.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/swords/shraube/frozen.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/bp_sai/wood_sai.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/bp_khapesh/stone_khapesh.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/bp_khapesh/gold_khapesh.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/hat/galaxy_hat_texure.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/bows/infirmity bow/$rawimag.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/dagger_diamond.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/b3.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/b1.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/b2.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/a2.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/a3.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/a1.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/j3.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/j1.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/j2.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/h1.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/h2.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/h3.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/f3.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/f1.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/f2.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/abyssal_bow_texture_0.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/bows/bone bow/$rawimag.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/bows/saphire bow/$rawimag.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/bows/steampunk/eff_02_silver, 41 -> 48
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/bp_sai/iron_sai.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/sea_dagger.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/broadsword/bronze_broadsword.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/3.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/1.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/2.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/trident_3d/wood_triden_3d.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/bp_sai/stone_sai.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/bows/steampunk_v2/002, 103 -> 112
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/trident_3d/gold_triden_3d.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/trident_3d/frost_triden_3d.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/bp_khapesh/frost_khapesh.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/bows/cosmo/lighting_small, 40 -> 48
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/bows/steampunk_v2/eff_1, 50 -> 64
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/bows/steampunk_v2/eff_2, 41 -> 48
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/bp_sai/gold_sai.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/bp_khapesh/diamond_khapesh.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/trident_3d/iron_triden_3d.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:textures/eff_01.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/bows/steampunk_v2/eff_4_pickaxe, 103 -> 112
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/bp_khapesh/wood_khapesh.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/bows/steampunk/eff_01, 50 -> 64
+[19:27:32] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/bows/steampunk/eff_02, 41 -> 48
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/bp_sai/diamond_sai.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/battleaxe/bronze_battleaxe.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/bp_khapesh/iron_khapesh.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/ERROR] Using missing texture, unable to load minecraft:mcpatcher/cit/weapons/csc/bp_sai/frost_sai.png
+[19:27:32] [ForkJoinPool.commonPool-worker-3/INFO] load sprites for 149ms
+[19:27:32] [ForkJoinPool.commonPool-worker-3/INFO] Created: 4096x4096 textures-atlas in 197ms
+[19:27:32] [ForkJoinPool.commonPool-worker-3/INFO] [DEBUG] Atlas assembly for 20.849ms
+[19:27:32] [Client thread/INFO] [DEBUG] upload atlas for 15.868ms
+[19:27:32] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.004ms
+[19:27:32] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[19:27:32] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[19:27:32] [Client thread/INFO] Textures loaded for 1288.043ms
+[19:27:33] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ого
+[19:27:46] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] я не переводила! сказала как есть
+[19:27:50] [Client thread/INFO] [CHAT] Panch_Men ОЯШ » Да мне в целом интересно, не только для эншента
+[19:27:53] [Client thread/INFO] [CHAT] P+ ┃ Finimil Тянка » а варп на креате на ансиент сити есть?
+[19:27:59] [Network thread/INFO] Protocol upgrade mask: 157
+[19:27:59] [Network thread/INFO] Upgrading protocol
+[19:27:59] [Client thread/INFO] Invalidating server data
+[19:27:59] [Client thread/INFO] Unloading mod Eventica/f136f0b5-d9b8-b3b9-8fba-ceace7375c23
+[19:27:59] [Client thread/INFO] [STDOUT]: Settings successfully saved to events-settings.json.
+[19:27:59] [Client thread/INFO] Unloading mod ParkourMap/f6e7bbf7-829e-f5cb-f9b5-20efaa2712ed
+[19:27:59] [Client thread/INFO] [STDOUT]: Settings successfully saved to parkour-settings.json.
+[19:27:59] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] reload requested: ServerSwitch
+[19:27:59] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] cleanAndReload begin: sessionId=12, awaitingHandshake=true
+[19:27:59] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] VAO support: true
+[19:27:59] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Initialization with mod Wada
+[19:27:59] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Successfully initialized
+[19:27:59] [Client thread/INFO] Joining server Хаб #6
+[19:27:59] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default
+[19:27:59] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[19:27:59] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[19:27:59] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[19:27:59] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[19:27:59] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[19:27:59] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[19:27:59] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[19:27:59] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[19:27:59] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[19:27:59] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[19:27:59] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[19:27:59] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[19:27:59] [Client thread/INFO] SoundSystem shutting down...
+[19:27:59] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[19:27:59] [Client thread/INFO] Starting up SoundSystem...
+[19:27:59] [Thread-55/INFO] Initializing LWJGL OpenAL
+[19:27:59] [Thread-55/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:27:59] [Thread-55/INFO] OpenAL audio device: any
+[19:27:59] [Thread-55/INFO] OpenAL initialized.
+[19:27:59] [Client thread/INFO] Sound engine reloaded
+[19:27:59] [ForkJoinPool.commonPool-worker-6/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[19:27:59] [ForkJoinPool.commonPool-worker-6/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[19:27:59] [ForkJoinPool.commonPool-worker-6/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[19:28:00] [ForkJoinPool.commonPool-worker-6/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[19:28:00] [ForkJoinPool.commonPool-worker-6/INFO] [OptiFine] Mipmap levels: 4
+[19:28:00] [ForkJoinPool.commonPool-worker-6/INFO] [OptiFine] Multi-texturing: false
+[19:28:00] [ForkJoinPool.commonPool-worker-6/INFO] [OptiFine] Multipass connected textures: false
+[19:28:00] [ForkJoinPool.commonPool-worker-6/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[19:28:00] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[19:28:00] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[19:28:00] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[19:28:00] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[19:28:00] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[19:28:00] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[19:28:00] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[19:28:00] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[19:28:00] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[19:28:00] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[19:28:00] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[19:28:00] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[19:28:00] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[19:28:00] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[19:28:00] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[19:28:00] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[19:28:00] [ForkJoinPool.commonPool-worker-6/INFO] load sprites for 2ms
+[19:28:00] [ForkJoinPool.commonPool-worker-6/INFO] Created: 1024x1024 textures-atlas in 12ms
+[19:28:00] [ForkJoinPool.commonPool-worker-6/INFO] [DEBUG] Atlas assembly for 1.765ms
+[19:28:00] [Client thread/INFO] [DEBUG] upload atlas for 1.148ms
+[19:28:00] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.003ms
+[19:28:00] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[19:28:00] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[19:28:00] [Client thread/INFO] Textures loaded for 325.660ms
+[19:28:01] [Client thread/INFO] Loaded mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f v3.8.31+9da32142 in 3 ms
+[19:28:01] [Client thread/INFO] Loaded mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3 v1.4.5 in 8 ms
+[19:28:01] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=12
+[19:28:27] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] как тебя зовут кстати
+[19:28:51] [Client thread/INFO] [CHAT] Killlman228 Хаб #9 » Заходите на ЗомбиМод тут АИД ютубер популярный играет ролик на ютуб снимает!
+[19:29:03] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] настя
+[19:29:19] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] а почему никс викуся ВХХВАЫХЫВХВАЫХХ
+[19:29:19] [Client thread/INFO] [CHAT] H ┃ Deadshot_ Хаб #3 » зачем обманываешь?
+[19:29:26] [Client thread/INFO] [CHAT] \nMEDIA ┃ ALMA3uk7 проводит ивент: BowSpleef!\nНажми, чтобы переместиться!\n 
+[19:30:22] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] а чтобы каждый спаршивал как меня зовут
+[19:30:37] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] хорошо викуся
+[19:30:56] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] а можно все таки твой номерок, я проста уходить буду скора...
+[19:32:55] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] ладно 
+[19:32:59] [Client thread/INFO] [CHAT] Tim_Stegin Хаб #10 » уу
+[19:33:11] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] @vivi_fvbt тг
+[19:34:16] [Client thread/INFO] [CHAT] 㨏 ЛС [Я » MVP+ ┃ Vikyshaa] всо давай хорошева вечера
+[19:34:41] [Client thread/INFO] [CHAT] 㨏 ЛС [MVP+ ┃ Vikyshaa » Я] давай давай
+[19:34:47] [Client thread/INFO] Unloading mod Visual Driver/c16cb747-7337-4d54-2458-5425d848ed0f
+[19:34:47] [Client thread/INFO] Unloading mod HubMod/b88cde3b-c9d7-16d7-3966-70104346c3c3
+[19:34:47] [Client thread/INFO] Stopping!
+[19:34:47] [Client thread/INFO] Unloading mod Wada/526e565c-1eb8-8b0a-f97a-fb09cb88af9f
+[19:34:47] [Client thread/INFO] Unloading mod Socials/e95f9be0-8945-1c87-e1fc-4a610a9c4a1c
+[19:34:47] [Client thread/INFO] Unloading mod Gama/bc112d2a-609a-1115-d00c-2f56aec2c66e

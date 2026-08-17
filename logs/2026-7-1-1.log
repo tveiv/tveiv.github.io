@@ -1,0 +1,486 @@
+[14:33:44] [ForkJoinPool.commonPool-worker-4/INFO] IntegerCache population took 59ms
+[14:33:44] [Client thread/INFO] Setting user: Tveiv
+[14:33:45] [Client thread/INFO] Client Commit: 2be59f554
+[14:33:45] [Client thread/INFO] LWJGL Version: 3.4.2-snapshot
+[14:33:45] [ForkJoinPool.commonPool-worker-2/INFO] Bootstrapping took 1442ms
+[14:33:45] [Client thread/INFO] [STDOUT]: [LWJGL] Setting up window
+[14:33:45] [Client thread/INFO] [STDOUT]: [LWJGL] Creating window
+[14:33:45] [Client thread/INFO] [STDOUT]: [LWJGL] Done creating window
+[14:33:46] [Client thread/INFO] Number of textures in a framebuffer: 2
+[14:33:46] [Client thread/WARN] Skipping bad option: lastServer:
+[14:33:46] [Client thread/INFO] Model view matrix stack size: 64
+[14:33:46] [Client thread/INFO] Projection matrix stack size: 8
+[14:33:46] [Client thread/INFO] Texture matrix stack size: 20
+[14:33:46] [Client thread/INFO] [OptiFine] OS: Windows 10 (amd64) version 10.0
+[14:33:46] [Client thread/INFO] [OptiFine] VM: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation / 1.8.0_442-b06
+[14:33:47] [Client thread/ERROR] {"id":"a9c62d56-be02-44f9-8023-324c1e6309a2","apiGiveable":false,"categoryId":"aura","contributor":"Dionis","name":"Демонический маскарад","rarity":"AWARD","createdTime":1782507600000,"source":"url","sourceFormat":"bedrock","availableInGui":false,"isLimited":true,"type":"FULL","price":249,"locationRotation":0.065,"supportOptions":{},"conflictGroups":["aura"],"hash256":"69ea7acd58f0508936f856ca9d16689aa84d4e68bce267d635b5df936458613e","sourcePath":"https://webdata.c7x.dev/client/p13n/69ea7acd58f0508936f856ca9d16689aa84d4e68bce267d635b5df936458613e.model"}
+#bEDgt: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at path $.locationRotation
+	at #wlIYw.sa(SourceFile:395)
+	at #zyZee.a(SourceFile)
+	at #SiLri.sa(Unknown Source:212)
+	at #NZHLF.a(SourceFile)
+	at #EKmoA.sa(SourceFile:431)
+	at #aUukC.a(SourceFile)
+	at #wlIYw.sa(SourceFile:391)
+	at #zyZee.a(SourceFile)
+	at #hlvdO.sa(SourceFile:1214)
+	at #Iwixj.sa(Unknown Source:1319)
+	at #dXYkJ.sa(Unknown Source:1261)
+	at #pbbDQ.sa(SourceFile:107)
+	at #TYNkf.sa(Unknown Source:44)
+	at #REyfp.sa(SourceFile:27)
+	at #THsUv.sa(SourceFile:76)
+	at #UKLzM.sa(SourceFile:19)
+	at #UvvxZ.sa(Unknown Source:182)
+	at !#iUQJu.sa(SourceFile:82)
+	at #WmDrd.sa(SourceFile:48)
+	at #vrRoR.sb(SourceFile:35)
+	at #vXcAs.sa(SourceFile:58)
+	at #KMGSE.b(SourceFile)
+	at #pvrmz.<init>(SourceFile:184)
+	at #fiqpk.<init>(SourceFile:164)
+	at #cegXK.<init>(SourceFile:28)
+	at #zAVBO.sf(SourceFile:5745)
+	at #CdcMy.sD(SourceFile:557)
+	at #cYnba.sk(SourceFile:476)
+	at net.minecraft.client.main.GameMain.a(SourceFile:220)
+	at net.minecraft.client.main.GameMain.a(SourceFile:156)
+	at #kBJWf.a(Unknown Source)
+	at #kBJWf.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at path $.locationRotation
+	at #NxHQP.a(SourceFile:165)
+	at #bTsHv.sb(Unknown Source:89)
+	at #NxHQP.a(SourceFile)
+	at #wlIYw.sa(SourceFile:384)
+	... 32 more
+[14:33:48] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default
+[14:33:48] [Client thread/WARN] Unknown language en_us
+[14:33:48] [Client thread/WARN] Unknown language ru_ru
+[14:33:48] [Client thread/INFO] Current language: ru_ru
+[14:33:49] [Client thread/INFO] Refreshing resources for the first time
+[14:33:49] [Client thread/INFO] Starting up SoundSystem...
+[14:33:49] [Thread-18/INFO] Initializing LWJGL OpenAL
+[14:33:49] [Thread-18/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:33:49] [Thread-18/INFO] OpenAL audio device: any
+[14:33:49] [Thread-18/INFO] OpenAL initialized.
+[14:33:49] [Client thread/INFO] Sound engine started
+[14:33:49] [Client thread/INFO] SoundSystem loading took 63ms
+[14:33:49] [Client thread/INFO] Items registration took 5ms
+[14:33:49] [Client thread/INFO] Total 29242 blocks.
+[14:33:49] [Client thread/INFO] Custom blocks registration took 243ms
+[14:33:49] [Client thread/INFO] Search tree population took 127ms
+[14:33:49] [Client thread/INFO] Using standard Java compressor.
+[14:33:49] [Client thread/INFO] Using standard Java cipher.
+[14:33:49] [Client thread/INFO] [Shaders] Load shaders configuration.
+[14:33:49] [Client thread/INFO] [Shaders] Save shaders configuration.
+[14:33:49] [Client thread/INFO] [Shaders] No shaderpack loaded.
+[14:33:49] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default
+[14:33:49] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[14:33:49] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[14:33:49] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[14:33:49] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[14:33:49] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[14:33:49] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[14:33:49] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[14:33:49] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[14:33:49] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[14:33:49] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[14:33:49] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[14:33:49] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[14:33:49] [Client thread/INFO] SoundSystem shutting down...
+[14:33:49] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[14:33:49] [Client thread/INFO] Starting up SoundSystem...
+[14:33:49] [Thread-20/INFO] Initializing LWJGL OpenAL
+[14:33:49] [Thread-20/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:33:49] [Thread-20/INFO] OpenAL audio device: any
+[14:33:49] [Thread-20/INFO] OpenAL initialized.
+[14:33:49] [Client thread/INFO] Sound engine reloaded
+[14:33:49] [Client thread/INFO] Starting Watchdog monitor, timeout is: 90000ms/90s
+[14:33:49] [Client thread/INFO] Watchdog init took 2ms
+[14:33:49] [Client thread/INFO] Start loading of mod Socials
+[14:33:50] [Client thread/INFO] Loading classes of Socials
+[14:33:50] [Client thread/INFO] Start loading of mod Wada
+[14:33:50] [Client thread/INFO] Loading classes of Wada
+[14:33:50] [Client thread/INFO] Start loading of mod Gama
+[14:33:50] [Client thread/INFO] Loading classes of Gama
+[14:33:50] [Client thread/INFO] Has Unsafe: true
+[14:33:50] [Client thread/INFO] Direct buffers preferred: false
+[14:33:50] [Client thread/INFO] Byte order: LITTLE_ENDIAN
+[14:33:50] [Client thread/INFO] Timer resolution: 1000000000
+[14:33:50] [ForkJoinPool.commonPool-worker-5/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[14:33:50] [ForkJoinPool.commonPool-worker-5/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[14:33:50] [ForkJoinPool.commonPool-worker-5/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[14:33:50] [Client thread/INFO] Client loaded for (5.983s/6.773s)
+[14:33:50] [ForkJoinPool.commonPool-worker-4/INFO] Socials-v2.2.2+04923ea: class verification completed in 279ms
+[14:33:50] [ForkJoinPool.commonPool-worker-4/INFO] Socials-v2.2.2+04923ea: defineClasses completed in 1ms
+[14:33:50] [ForkJoinPool.commonPool-worker-4/INFO] Loaded classes in mod Socials in 282 ms
+[14:33:50] [ForkJoinPool.commonPool-worker-7/INFO] Gama-v1.5.2+986e683: class verification completed in 234ms
+[14:33:50] [ForkJoinPool.commonPool-worker-7/INFO] Gama-v1.5.2+986e683: defineClasses completed in 0ms
+[14:33:50] [ForkJoinPool.commonPool-worker-7/INFO] Loaded classes in mod Gama in 237 ms
+[14:33:50] [ForkJoinPool.commonPool-worker-8/INFO] Wada-v4.12.0+e1b645e2: class verification completed in 365ms
+[14:33:50] [ForkJoinPool.commonPool-worker-8/INFO] Wada-v4.12.0+e1b645e2: defineClasses completed in 1ms
+[14:33:50] [ForkJoinPool.commonPool-worker-8/INFO] Loaded classes in mod Wada in 369 ms
+[14:33:50] [Client thread/INFO] Loading mod Socials v2.2.2+04923ea by Cristalix Team
+[14:33:50] [ForkJoinPool.commonPool-worker-5/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[14:33:50] [ForkJoinPool.commonPool-worker-5/WARN] Unable to resolve texture due to upward reference: #cross in minecraft:models/block/chain.json
+[14:33:50] [ForkJoinPool.commonPool-worker-5/WARN] Unable to resolve texture due to upward reference: #cross in minecraft:models/block/chain.json
+[14:33:50] [ForkJoinPool.commonPool-worker-5/INFO] [OptiFine] Mipmap levels: 4
+[14:33:50] [Client thread/INFO] Loaded mod Socials v2.2.2+04923ea in 440 ms
+[14:33:50] [Client thread/INFO] Loading mod Gama v1.5.2+986e683 by Cristalix Team
+[14:33:50] [Client thread/INFO] [STDOUT]: [Enginex v5.14.3 - Gama] VAO support: true
+[14:33:51] [Thread-23/INFO] [STDOUT]: Settings successfully saved to social-settings.json.
+[14:33:51] [ForkJoinPool.commonPool-worker-5/INFO] [OptiFine] Multi-texturing: false
+[14:33:51] [ForkJoinPool.commonPool-worker-5/INFO] [OptiFine] Multipass connected textures: false
+[14:33:51] [ForkJoinPool.commonPool-worker-5/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:mcpatcher/ctm/default/empty, 1 -> 16
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[14:33:51] [ForkJoinPool.commonPool-worker-5/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[14:33:51] [Client thread/INFO] [STDOUT]: [Enginex v5.14.3 - Gama] Initialization with mod Gama
+[14:33:51] [ForkJoinPool.commonPool-worker-5/INFO] load sprites for 78ms
+[14:33:51] [ForkJoinPool.commonPool-worker-5/INFO] Created: 1024x1024 textures-atlas in 166ms
+[14:33:51] [Client thread/INFO] Loaded mod Gama v1.5.2+986e683 in 938 ms
+[14:33:51] [Client thread/INFO] Loading mod Wada v4.12.0+e1b645e2 by Cristalix Team
+[14:33:51] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] VAO support: true
+[14:33:52] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Initialization with mod Wada
+[14:33:52] [Client thread/INFO] Loaded mod Wada v4.12.0+e1b645e2 in 162 ms
+[14:33:52] [Thread-24/INFO] [STDOUT]: [Enginex v5.14.3 - Gama] Successfully initialized
+[14:33:52] [ForkJoinPool.commonPool-worker-5/INFO] [DEBUG] Atlas assembly for 7.290ms
+[14:33:52] [Client thread/INFO] [DEBUG] upload atlas for 1.417ms
+[14:33:52] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.161ms
+[14:33:52] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[14:33:52] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[14:33:52] [Client thread/INFO] Textures loaded for 1878.002ms
+[14:33:53] [Thread-25/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Successfully initialized
+[14:34:18] [Network thread/INFO] Protocol upgrade mask: 157
+[14:34:18] [Network thread/INFO] Upgrading protocol
+[14:34:18] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] reload requested: ServerConnect
+[14:34:18] [Client thread/INFO] Joining server Хаб #4
+[14:34:18] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] cleanAndReload begin: sessionId=1, awaitingHandshake=true
+[14:34:18] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] VAO support: true
+[14:34:18] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Initialization with mod Wada
+[14:34:18] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Successfully initialized
+[14:34:21] [Client thread/INFO] Start loading of mod Visual Driver
+[14:34:21] [Client thread/INFO] Loading classes of Visual Driver
+[14:34:21] [ForkJoinPool.commonPool-worker-7/INFO] Visual Driver-v3.8.31+9da32142: class verification completed in 16ms
+[14:34:21] [ForkJoinPool.commonPool-worker-7/INFO] Visual Driver-v3.8.31+9da32142: defineClasses completed in 0ms
+[14:34:21] [ForkJoinPool.commonPool-worker-7/INFO] Loaded classes in mod Visual Driver in 18 ms
+[14:34:21] [Client thread/INFO] Loading mod Visual Driver v3.8.31+9da32142 by Cristalix Team
+[14:34:21] [Client thread/INFO] Loaded mod Visual Driver v3.8.31+9da32142 in 58 ms
+[14:34:21] [Client thread/INFO] Start loading of mod HubMod
+[14:34:21] [Client thread/INFO] Loading classes of HubMod
+[14:34:21] [ForkJoinPool.commonPool-worker-7/INFO] HubMod-v1.4.5: class verification completed in 3ms
+[14:34:21] [ForkJoinPool.commonPool-worker-7/INFO] HubMod-v1.4.5: defineClasses completed in 0ms
+[14:34:21] [ForkJoinPool.commonPool-worker-7/INFO] Loaded classes in mod HubMod in 5 ms
+[14:34:21] [Client thread/INFO] Loading mod HubMod v1.4.5 by Cristalix Team
+[14:34:21] [Client thread/INFO] Loaded mod HubMod v1.4.5 in 54 ms
+[14:34:23] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=1
+[14:34:23] [Client thread/INFO] [CHAT] V ┃ turbosvin10 Хаб #13 » ёмаё а где весь онлайн?
+[14:35:09] [Network thread/INFO] Protocol upgrade mask: 157
+[14:35:09] [Network thread/INFO] Upgrading protocol
+[14:35:09] [Client thread/INFO] Invalidating server data
+[14:35:09] [Client thread/INFO] Unloading mod Visual Driver/f44aceb9-df3e-70a8-e800-8a3e6ec2f48c
+[14:35:09] [Client thread/INFO] Unloading mod HubMod/9fd587f0-1452-dcd4-c864-a1c98791dec7
+[14:35:09] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] reload requested: ServerSwitch
+[14:35:09] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] cleanAndReload begin: sessionId=2, awaitingHandshake=true
+[14:35:09] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] VAO support: true
+[14:35:09] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Initialization with mod Wada
+[14:35:09] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] Successfully initialized
+[14:35:09] [Client thread/INFO] Found file C:\Users\tveiv\.cristalix\updates\Minigames\server-resource-packs\8a024d62afc697f8182dc24d10b5ea2720c6df40 matching requested hash c26c40708aba36e77fdaeb0bf35ffc32988c6db9
+[14:35:09] [Client thread/INFO] Allocated new cache for server resource pack
+[14:35:09] [Client thread/INFO] Joining server VoidGame #3
+[14:35:09] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default, 8a024d62afc697f8182dc24d10b5ea2720c6df40
+[14:35:09] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[14:35:09] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[14:35:09] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[14:35:09] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[14:35:09] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[14:35:09] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[14:35:09] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[14:35:09] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[14:35:09] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[14:35:09] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[14:35:09] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[14:35:09] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[14:35:09] [Client thread/INFO] SoundSystem shutting down...
+[14:35:09] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[14:35:09] [Client thread/INFO] Starting up SoundSystem...
+[14:35:09] [Thread-29/INFO] Initializing LWJGL OpenAL
+[14:35:09] [Thread-29/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:35:09] [Thread-29/INFO] OpenAL audio device: any
+[14:35:09] [Thread-29/INFO] OpenAL initialized.
+[14:35:09] [Client thread/INFO] Sound engine reloaded
+[14:35:10] [ForkJoinPool.commonPool-worker-6/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[14:35:10] [ForkJoinPool.commonPool-worker-6/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[14:35:10] [ForkJoinPool.commonPool-worker-6/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[14:35:10] [ForkJoinPool.commonPool-worker-6/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[14:35:10] [ForkJoinPool.commonPool-worker-6/INFO] [OptiFine] Mipmap levels: 4
+[14:35:10] [ForkJoinPool.commonPool-worker-6/INFO] [OptiFine] Multi-texturing: false
+[14:35:10] [ForkJoinPool.commonPool-worker-6/INFO] [OptiFine] Multipass connected textures: false
+[14:35:10] [ForkJoinPool.commonPool-worker-6/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[14:35:10] [ForkJoinPool.commonPool-worker-6/ERROR] Using missing texture, unable to load minecraft:textures/items/wooden_sword.png
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/items/bad_omen, 18 -> 32
+[14:35:10] [ForkJoinPool.commonPool-worker-6/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/items/trial_omen, 18 -> 32
+[14:35:10] [ForkJoinPool.commonPool-worker-6/INFO] load sprites for 14ms
+[14:35:10] [ForkJoinPool.commonPool-worker-6/INFO] Created: 1024x1024 textures-atlas in 38ms
+[14:35:10] [ForkJoinPool.commonPool-worker-6/INFO] [DEBUG] Atlas assembly for 6.123ms
+[14:35:10] [Client thread/INFO] [DEBUG] upload atlas for 1.821ms
+[14:35:10] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.050ms
+[14:35:10] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[14:35:10] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[14:35:10] [Client thread/INFO] Textures loaded for 671.197ms
+[14:35:10] [Client thread/INFO] Start loading of mod VoidMod
+[14:35:10] [Client thread/INFO] Loading mod VoidMod v1.0+ffbf5ac by ZeksterP
+[14:35:10] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11-TEST-2 - VoidMod] VAO support: true
+[14:35:11] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11-TEST-2 - VoidMod] Initialization with mod VoidMod
+[14:35:11] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11-TEST-2 - VoidMod] Successfully initialized
+[14:35:11] [Client thread/INFO] Loaded mod VoidMod v1.0+ffbf5ac in 582 ms
+[14:35:11] [Client thread/INFO] [STDOUT]: [Enginex v5.14.0 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=2
+[14:35:14] [Client thread/INFO] [CHAT] [10] D ┃ PlayEnotik » да
+[14:35:30] [Client thread/INFO] [CHAT] [9] skqv1zymeoww » жда чо за хуйня
+[14:36:17] [Client thread/INFO] [CHAT] [9] skqv1zymeoww » пиздатебе
+[14:36:40] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » идет кто волны?
+[14:36:59] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » помогите волны пж
+[14:37:12] [Client thread/INFO] [CHAT] [11] V ┃ BlackHole888 » бустаните анскилов
+[14:37:13] [Client thread/INFO] [CHAT] [26] E ┃ Dapkyc_228 » снова ты
+[14:38:49] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » дал пачку те
+[14:39:41] [Client thread/INFO] [CHAT] [28] KyRtKa22 » 28
+[14:39:46] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » не варик тогда
+[14:39:59] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » у нас 11-12
+[14:41:11] [Client thread/INFO] [CHAT] [28] KyRtKa22 » лан тогда
+[14:41:15] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » помогите волны пж
+[14:41:41] [Client thread/INFO] [CHAT] [28] KyRtKa22 » кто на 25 пойдет??
+[14:42:24] [Client thread/INFO] [CHAT] [27] _nay4ok_ » ya
+[14:42:31] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » помогите волны пж
+[14:44:38] [Client thread/INFO] [CHAT] [30] GOD ┃ niwiy » как немногословен ты продал
+[14:44:42] [Client thread/INFO] [CHAT] [30] GOD ┃ niwiy » я в муте теперь
+[14:44:53] [Client thread/INFO] [CHAT] [28] KyRtKa22 » у торговца
+[14:44:59] [Client thread/INFO] [CHAT] [28] KyRtKa22 » в белом
+[14:45:05] [Client thread/INFO] [CHAT] [30] GOD ┃ niwiy » нету там этого баффа
+[14:45:17] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » помогите волны пж у нас 11-12 лвл
+[14:45:48] [Client thread/INFO] [CHAT] [11] V ┃ BlackHole888 » кто до 21 лвла может помочь волны?
+[14:45:56] [Client thread/INFO] [CHAT] [14] tnt4 » с какой локацией помощь нужна?
+[14:46:00] [Client thread/INFO] [CHAT] [11] V ┃ BlackHole888 » 3
+[14:46:30] [Client thread/INFO] [CHAT] [14] tnt4 » Ну можем попробывать но я сам её еще ни разу ни проходил
+[14:46:37] [Client thread/INFO] [CHAT] [10] mink010107 » !кто в пати 0-20 лвл
+[14:46:45] [Client thread/INFO] [CHAT] [11] V ┃ BlackHole888 » мы
+[14:46:49] [Client thread/INFO] [CHAT] [10] mink010107 » !мы?
+[14:46:51] [Client thread/INFO] [CHAT] [30] V ┃ And12botik » Пацаны
+[14:46:53] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » da
+[14:47:04] [Client thread/INFO] [CHAT] [10] mink010107 » ебать вас
+[14:47:09] [Client thread/INFO] [CHAT] [30] V ┃ And12botik » вам тоже звонят раз в 3 месяца и просят обманывать Россию?
+[14:47:20] [Client thread/INFO] [CHAT] [30] V ┃ And12botik » Вот такой прикол у меня
+[14:47:22] [Client thread/INFO] [CHAT] [10] mink010107 » чо вас мгошо так
+[14:47:31] [Client thread/INFO] [CHAT] [11] V ┃ BlackHole888 » конечно нет
+[14:48:40] [Client thread/INFO] [CHAT] [30] V ┃ And12botik » Меня уже заколебали, еще и спрашивают: А почему вы не хотите?
+[14:48:45] [Client thread/INFO] [CHAT] [10] mink010107 » !да 0 бля
+[14:48:48] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » 10
+[14:48:50] [Client thread/INFO] [CHAT] [30] V ┃ And12botik » Действительно, почему же я не хочу
+[14:48:51] [Client thread/INFO] [CHAT] [10] mink010107 » 0
+[14:49:23] [Client thread/INFO] [CHAT] [30] V ┃ And12botik » ищу друна 13+lvl
+[14:49:29] [Client thread/INFO] [CHAT] [28] KyRtKa22 » чем ты играешь?
+[14:49:29] [Client thread/INFO] [CHAT] [1] Sash105 » !Я друн мне 13
+[14:49:42] [Client thread/INFO] [CHAT] [30] V ┃ And12botik » sash мне в пати чел 13+ лвл нужен
+[14:50:02] [Client thread/INFO] [CHAT] [28] KyRtKa22 » где получил?
+[14:50:07] [Client thread/INFO] [CHAT] [30] V ┃ And12botik » соло скучно просто скипать локи, а так помогу кому-то
+[14:50:12] [Client thread/INFO] [CHAT] [14] tnt4 » 10
+[14:50:17] [Client thread/INFO] [CHAT] [28] KyRtKa22 » оке
+[14:50:19] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » бля не скипайте магаз пж
+[14:50:56] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » не скипайте
+[14:51:04] [Client thread/INFO] [CHAT] [28] KyRtKa22 » он три стрелы выпускает?
+[14:51:44] [Client thread/INFO] [CHAT] [10] mink010107 » ЕБАТЬ ВЫ МЕТКИЕ ПАРНИ
+[14:52:01] [Client thread/INFO] [CHAT] \n  MEDIA ┃ LauraKillYOU  запустил стрим!\n  Платформа: Twitch\n  Напишите /media для проcмотра активных трансляций\n 
+[14:52:26] [Client thread/INFO] [CHAT] [10] mink010107 » !кто приманку взял вы тупые бля
+[14:52:30] [Client thread/INFO] [CHAT] [10] mink010107 » пиздец
+[14:54:10] [Client thread/INFO] [CHAT] [28] KyRtKa22 » как разрезом души играть?
+[14:54:10] [Client thread/INFO] [CHAT] [11] V ┃ BlackHole888 » хватит магаз скипать
+[14:54:37] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » гг
+[14:54:39] [Client thread/INFO] [CHAT] [10] mink010107 » гг
+[14:54:40] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » с начала
+[14:54:48] [Client thread/INFO] [CHAT] [10] mink010107 » из за приманки пиздец
+[14:55:00] [Client thread/INFO] [CHAT] [13] _OPEO_ » как тут трейдится?
+[14:55:03] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » у меня зеркало
+[14:55:04] [Client thread/INFO] [CHAT] [10] mink010107 » никак
+[14:55:13] [Client thread/INFO] [CHAT] [10] mink010107 » так нахуй ты бершь
+[14:55:14] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » тнт умри
+[14:55:18] [Client thread/INFO] [CHAT] [10] mink010107 » зеркола параша
+[14:55:18] [Client thread/INFO] [CHAT] [30] GOD ┃ niwiy » а че тебе баф не дают вначале, ты книгу не выбрал?
+[14:55:24] [Client thread/INFO] [CHAT] [30] GOD ┃ niwiy » там на хп урон или сборщик мусора
+[14:55:28] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » с рулетки упало
+[14:55:29] [Client thread/INFO] [CHAT] [30] GOD ┃ niwiy » за квесты дают
+[14:56:28] [Client thread/INFO] [CHAT] [10] mink010107 » ДА БЕЙ КЛОНА
+[14:57:50] [Client Scheduler/INFO] Found preferred client: ANY
+[14:59:00] [Client thread/INFO] [CHAT] [28] KyRtKa22 » броню снеми
+[15:00:33] [Client thread/INFO] [CHAT] [10] mink010107 » бля не то нажал сука
+[15:01:09] [Client thread/INFO] [CHAT] [10] mink010107 » !не убьёте
+[15:01:13] [Client thread/INFO] [CHAT] [10] mink010107 » он отхиливает все
+[15:01:30] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » гг
+[15:02:18] [Client thread/INFO] [CHAT] [29] KyRtKa22 » что это?
+[15:02:37] [Client thread/INFO] [CHAT] [29] KyRtKa22 » типо шлем?
+[15:02:40] [Client thread/INFO] [CHAT] [30] GOD ┃ niwiy » [Меч последователя бедствия ♨ +9]
+[15:03:20] [Client thread/INFO] [CHAT] [29] KyRtKa22 » вижу
+[15:03:35] [Client thread/INFO] [CHAT] [29] KyRtKa22 » а у тебя епик арболет?
+[15:03:50] [Client thread/INFO] [CHAT] [29] KyRtKa22 » арбалет*
+[15:03:56] [Client thread/INFO] [CHAT] [29] KyRtKa22 » да
+[15:05:50] [Client thread/INFO] [CHAT] [7] V ┃ neBezobraznik » куда раздатчик пихать?
+[15:05:54] [Client thread/INFO] [CHAT] [30] Imilka008 » сколько мышей появляется?
+[15:05:56] [Client thread/INFO] [CHAT] [22] D ┃ AndreWiking » астролог не работает на лег боты?
+[15:06:11] [Client thread/INFO] [CHAT] [30] Imilka008 » сколько мышей появляется?
+[15:06:14] [Client thread/INFO] [CHAT] [22] D ┃ AndreWiking » 10
+[15:06:15] [Client thread/INFO] [CHAT] [14] tnt4 » 10
+[15:06:16] [Client thread/INFO] [CHAT] [30] GOD ┃ niwiy » старт
+[15:07:48] [Client thread/INFO] [CHAT] [14] tnt4 » без усложнений?
+[15:07:53] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » 2е
+[15:08:13] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » умираем
+[15:09:02] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » сек
+[15:09:32] [Client thread/INFO] [CHAT] [11] D ┃ PlayEnotik » без брони
+[15:09:50] [Client thread/INFO] [CHAT] [30] GOD ┃ niwiy » ))
+[15:10:18] [Client thread/INFO] [CHAT] Авто-кликер включен
+[15:11:15] [Client thread/INFO] [CHAT] [12] D ┃ PlayEnotik » тнт
+[15:11:32] [Client thread/INFO] [CHAT] Авто-кликер выключен
+[15:11:33] [Client thread/INFO] [CHAT] Авто-кликер включен
+[15:11:39] [Client thread/INFO] [CHAT] Получено 46 звезд
+[15:11:39] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 1001
+[15:11:43] [Client thread/INFO] [CHAT] Tveiv получил Карта выбора
+[15:12:05] [Client thread/INFO] [CHAT] Tveiv получил Спокойствие разума
+[15:12:06] [Client thread/INFO] [CHAT] Получено 44 звезд
+[15:12:06] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 2914
+[15:12:10] [Client thread/INFO] [CHAT] Tveiv получил Спокойствие разума
+[15:12:11] [Client thread/INFO] [CHAT] Свет, исполняющий Желание: Чего ты желаешь? Я исполню все, что ты хочешь.
+[15:12:13] [Client thread/INFO] [CHAT] [30] GOD ┃ niwiy » старт че хоч
+[15:12:17] [Client thread/INFO] [CHAT] Свет, исполняющий Желание: Ты желаешь раб души? Будет исполнено.
+[15:12:20] [Client thread/INFO] [CHAT] Свет, исполняющий Желание: Ваше желание исполнено.
+[15:12:20] [Client thread/INFO] [CHAT] Tveiv получил Раб души
+[15:12:24] [Client thread/ERROR] Error on png decode
+java.io.EOFException
+	at #bsYhB.sa(Unknown Source:79)
+	at #GkgAM.sb(SourceFile:93)
+	at #VDFNo.sa(SourceFile:75)
+	at #dQqXO.a(SourceFile)
+	at #nAplK.sa(SourceFile:63)
+	at #HqmiC.a(SourceFile)
+	at #nnQRc.sa(SourceFile:243)
+	at #aNAXT.sa(SourceFile:121)
+	at #vwpHV.a(SourceFile:271)
+	at #vwpHV.a(SourceFile)
+	at #DbYtd.sa(SourceFile:169)
+	at #xuJay.a(SourceFile)
+	at #ulhmT.sb(SourceFile:116)
+	at #vYIsP.a(SourceFile)
+	at #wzsmg.sa(SourceFile:51)
+	at #zKIMx.a(SourceFile)
+	at #oQhBa.sa(SourceFile:204)
+	at #srNDu.sa(SourceFile:123)
+	at #srNDu.sa(SourceFile:136)
+	at #wmMBP.sa(SourceFile:268)
+	at #JrUAU.sb(SourceFile:376)
+	at #Czpok.sa(SourceFile:1204)
+	at #ZRpYP.sb(SourceFile:1076)
+	at #DazZV.sa(SourceFile:3489)
+	at #vyeSD.sa(SourceFile:1509)
+	at #lVFyp.st(SourceFile:1640)
+	at #cYnba.sk(SourceFile:487)
+	at net.minecraft.client.main.GameMain.a(SourceFile:220)
+	at net.minecraft.client.main.GameMain.a(SourceFile:156)
+	at #kBJWf.a(Unknown Source)
+	at #kBJWf.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+[15:12:35] [Client thread/INFO] [CHAT] Получено 44 звезд
+[15:12:35] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 1488
+[15:12:38] [Client thread/INFO] [CHAT] Tveiv получил Кровопролитие
+[15:13:08] [Client thread/INFO] [CHAT] Получено 41 звезд
+[15:13:08] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 2346
+[15:13:10] [Client thread/INFO] [CHAT] [29] KyRtKa22 » у нас есть шансы
+[15:13:10] [Client thread/INFO] [CHAT] Tveiv получил Гений звёзд
+[15:13:12] [Client thread/INFO] [CHAT] Tveiv получил Паранойя Победителя
+[15:13:14] [Client thread/INFO] [CHAT] [29] KyRtKa22 » ?
+[15:13:15] [Client thread/INFO] [CHAT] [27] _nay4ok_ » наверно
+[15:13:17] [Client thread/INFO] [CHAT] Потеряно 52 звезд
+[15:13:17] [Client thread/INFO] [CHAT] Tveiv получил Приманка
+[15:13:23] [Client thread/INFO] [CHAT] Потеряно 52 звезд
+[15:13:23] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[15:13:32] [Client thread/ERROR] Error on handle event #VIlGP in Mod{name='VoidMod', version='1.0+ffbf5ac', persistent=false, delegate=dev.a.a.a, modState=LOADED}
+java.lang.NullPointerException: Cannot invoke "!#RHFkw.a()" because "<parameter1>" is null
+	at VoidMod-v1.0+ffbf5ac//dev.a.a.d.b.a.a(SourceFile:54)
+	at VoidMod-v1.0+ffbf5ac//dev.a.a.f.j.a.c.d(SourceFile:15)
+	at VoidMod-v1.0+ffbf5ac//dev.a.a.f.j.a.c.injectedLambda$d$1(SourceFile)
+	at VoidMod-v1.0+ffbf5ac//dev.a.a.f.j.b.a(SourceFile:21)
+	at VoidMod-v1.0+ffbf5ac//dev.a.a.f.j.b.injectedLambda$a$10(SourceFile)
+	at java.base/java.util.ArrayList.forEach(Unknown Source)
+	at VoidMod-v1.0+ffbf5ac//dev.a.a.f.j.b.a(SourceFile:185)
+	at VoidMod-v1.0+ffbf5ac//dev.a.a.f.j.b.injectedLambda$a$0(SourceFile)
+	at #glmBE.sa(SourceFile:56)
+	at #VmcMg.a(Unknown Source)
+	at #VmcMg.accept(Unknown Source)
+	at #Hvwvu.sa(SourceFile:105)
+	at #durGt.a(Unknown Source)
+	at #durGt.accept(Unknown Source)
+	at #IsJOi.sa(SourceFile:59)
+	at #Tuhja.a(SourceFile)
+	at #YLOEq.sa(SourceFile:89)
+	at #qbDVS.sa(SourceFile:100)
+	at #uvNju.unsafeHandle(SourceFile)
+	at #weeOO.sa(SourceFile:50)
+	at #Sgkbh.sa(SourceFile:3463)
+	at #CXdva.sb(SourceFile:3447)
+	at #goWtm.sN(SourceFile:2219)
+	at !#GrWyZ.so(SourceFile:2131)
+	at #eiNMA.sv(SourceFile:2013)
+	at #zSGbB.sa(SourceFile:1482)
+	at #lVFyp.st(SourceFile:1634)
+	at #cYnba.sk(SourceFile:487)
+	at net.minecraft.client.main.GameMain.a(SourceFile:220)
+	at net.minecraft.client.main.GameMain.a(SourceFile:156)
+	at #kBJWf.a(Unknown Source)
+	at #kBJWf.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+[15:13:35] [Client thread/INFO] [CHAT] Потеряно 48 звезд
+[15:13:35] [Client thread/INFO] [CHAT] Tveiv получил Ничего
+[15:13:45] [Client thread/INFO] [CHAT] Tveiv получил Бонус скорости
+[15:13:58] [Client thread/INFO] [CHAT] Получено 41 звезд
+[15:13:58] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 2409
+[15:13:59] [Client thread/INFO] [CHAT] Tveiv получил Ничего
+[15:14:25] [Client thread/INFO] [CHAT] Получено 40 звезд
+[15:14:25] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 4812
+[15:14:27] [Client thread/INFO] [CHAT] Tveiv получил Ничего
+[15:14:31] [Client thread/INFO] [CHAT] Жми SHIFT, чтобы получить эффект левитации и поймать летучих мышей!
+[15:14:38] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:14:39] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:14:40] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:14:41] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:14:44] [Client thread/INFO] [CHAT] Tveiv получил Мышь на Венере
+[15:15:16] [Client thread/INFO] Stopping!
+[15:15:16] [Client thread/INFO] Unloading mod VoidMod/3d8cf415-0003-7b09-3710-368fd93dc259
+[15:15:16] [Client thread/INFO] Unloading mod Wada/6c4c048b-e087-1ef7-8b4c-66f5e1699b9d
+[15:15:16] [Client thread/INFO] Unloading mod Socials/0afcbbdf-1475-212b-bd1a-4c3311e123e1
+[15:15:16] [Client thread/INFO] Unloading mod Gama/cd32a479-424a-b20c-db4e-7f6c9bf12179

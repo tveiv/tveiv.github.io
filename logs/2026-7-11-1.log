@@ -1,0 +1,1981 @@
+[15:03:36] [ForkJoinPool.commonPool-worker-4/INFO] IntegerCache population took 53ms
+[15:03:37] [Client thread/INFO] Setting user: Tveiv
+[15:03:37] [Client thread/INFO] Client Commit: b90cab564
+[15:03:38] [Client thread/INFO] LWJGL Version: 3.4.2-snapshot
+[15:03:38] [ForkJoinPool.commonPool-worker-2/INFO] Bootstrapping took 1364ms
+[15:03:38] [Client thread/INFO] [STDOUT]: [LWJGL] Setting up window
+[15:03:38] [Client thread/INFO] [STDOUT]: [LWJGL] Creating window
+[15:03:38] [Client thread/INFO] [STDOUT]: [LWJGL] Done creating window
+[15:03:39] [Client thread/INFO] Number of textures in a framebuffer: 2
+[15:03:39] [Client thread/WARN] Skipping bad option: lastServer:
+[15:03:39] [Client thread/INFO] Model view matrix stack size: 64
+[15:03:39] [Client thread/INFO] Projection matrix stack size: 8
+[15:03:39] [Client thread/INFO] Texture matrix stack size: 20
+[15:03:39] [Client thread/INFO] [OptiFine] OS: Windows 10 (amd64) version 10.0
+[15:03:39] [Client thread/INFO] [OptiFine] VM: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation / 1.8.0_442-b06
+[15:03:40] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default
+[15:03:40] [Client thread/WARN] Unknown language en_us
+[15:03:40] [Client thread/WARN] Unknown language ru_ru
+[15:03:40] [Client thread/INFO] Current language: ru_ru
+[15:03:41] [Client thread/INFO] Refreshing resources for the first time
+[15:03:41] [Client thread/INFO] Starting up SoundSystem...
+[15:03:41] [Thread-18/INFO] Initializing LWJGL OpenAL
+[15:03:41] [Thread-18/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:03:41] [Thread-18/INFO] OpenAL audio device: OpenAL Soft on Динамики (MCHOSE V9 PRO)
+[15:03:41] [Thread-18/INFO] OpenAL initialized.
+[15:03:41] [Client thread/INFO] Sound engine started
+[15:03:41] [Client thread/INFO] SoundSystem loading took 76ms
+[15:03:41] [Client thread/INFO] Items registration took 14ms
+[15:03:42] [Client thread/INFO] Total 29242 blocks.
+[15:03:42] [Client thread/INFO] Custom blocks registration took 231ms
+[15:03:42] [Client thread/INFO] Search tree population took 130ms
+[15:03:42] [Client thread/INFO] Using standard Java compressor.
+[15:03:42] [Client thread/INFO] Using standard Java cipher.
+[15:03:42] [Client thread/INFO] [Shaders] Load shaders configuration.
+[15:03:42] [Client thread/INFO] [Shaders] Save shaders configuration.
+[15:03:42] [Client thread/INFO] [Shaders] No shaderpack loaded.
+[15:03:42] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default
+[15:03:42] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[15:03:42] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[15:03:42] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[15:03:42] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[15:03:42] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[15:03:42] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[15:03:42] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[15:03:42] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[15:03:42] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[15:03:42] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[15:03:42] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[15:03:42] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[15:03:42] [Client thread/INFO] SoundSystem shutting down...
+[15:03:42] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[15:03:42] [Client thread/INFO] Starting up SoundSystem...
+[15:03:42] [Thread-20/INFO] Initializing LWJGL OpenAL
+[15:03:42] [Thread-20/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:03:42] [Thread-20/INFO] OpenAL audio device: OpenAL Soft on Динамики (MCHOSE V9 PRO)
+[15:03:42] [Thread-20/INFO] OpenAL initialized.
+[15:03:42] [Client thread/INFO] Sound engine reloaded
+[15:03:42] [Client thread/INFO] Starting Watchdog monitor, timeout is: 90000ms/90s
+[15:03:42] [Client thread/INFO] Watchdog init took 2ms
+[15:03:42] [Client thread/INFO] Start loading of mod Socials
+[15:03:42] [Client thread/INFO] Loading classes of Socials
+[15:03:42] [Client thread/INFO] Start loading of mod Wada
+[15:03:42] [Client thread/INFO] Loading classes of Wada
+[15:03:42] [ForkJoinPool.commonPool-worker-3/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[15:03:42] [ForkJoinPool.commonPool-worker-3/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[15:03:42] [ForkJoinPool.commonPool-worker-3/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[15:03:42] [Client thread/INFO] Start loading of mod Gama
+[15:03:42] [Client thread/INFO] Loading classes of Gama
+[15:03:43] [Client thread/INFO] Has Unsafe: true
+[15:03:43] [Client thread/INFO] Direct buffers preferred: false
+[15:03:43] [Client thread/INFO] Byte order: LITTLE_ENDIAN
+[15:03:43] [Client thread/INFO] Timer resolution: 1000000000
+[15:03:43] [Client thread/INFO] Client loaded for (5.961s/6.706s)
+[15:03:43] [ForkJoinPool.commonPool-worker-2/INFO] Socials-v2.2.2+01a6d45: class verification completed in 235ms
+[15:03:43] [ForkJoinPool.commonPool-worker-2/INFO] Socials-v2.2.2+01a6d45: defineClasses completed in 2ms
+[15:03:43] [ForkJoinPool.commonPool-worker-2/INFO] Loaded classes in mod Socials in 240 ms
+[15:03:43] [ForkJoinPool.commonPool-worker-7/INFO] Gama-v1.5.2+f8523d8: class verification completed in 203ms
+[15:03:43] [ForkJoinPool.commonPool-worker-7/INFO] Gama-v1.5.2+f8523d8: defineClasses completed in 1ms
+[15:03:43] [ForkJoinPool.commonPool-worker-7/INFO] Loaded classes in mod Gama in 206 ms
+[15:03:43] [Client Scheduler/INFO] Found preferred client: ANY
+[15:03:43] [ForkJoinPool.commonPool-worker-8/INFO] Wada-v4.13.0+a11c20bc: class verification completed in 333ms
+[15:03:43] [ForkJoinPool.commonPool-worker-8/INFO] Wada-v4.13.0+a11c20bc: defineClasses completed in 3ms
+[15:03:43] [ForkJoinPool.commonPool-worker-8/INFO] Loaded classes in mod Wada in 340 ms
+[15:03:43] [Client thread/INFO] Loading mod Socials v2.2.2+01a6d45 by Cristalix Team
+[15:03:43] [ForkJoinPool.commonPool-worker-3/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[15:03:43] [ForkJoinPool.commonPool-worker-3/WARN] Unable to resolve texture due to upward reference: #cross in minecraft:models/block/chain.json
+[15:03:43] [ForkJoinPool.commonPool-worker-3/WARN] Unable to resolve texture due to upward reference: #cross in minecraft:models/block/chain.json
+[15:03:43] [Client thread/INFO] Loaded mod Socials v2.2.2+01a6d45 in 231 ms
+[15:03:43] [Client thread/INFO] Loading mod Gama v1.5.2+f8523d8 by Cristalix Team
+[15:03:43] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] Mipmap levels: 4
+[15:03:43] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Gama] VAO support: true
+[15:03:43] [Thread-24/INFO] [STDOUT]: Settings successfully saved to social-settings.json.
+[15:03:43] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] Multi-texturing: false
+[15:03:43] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] Multipass connected textures: false
+[15:03:43] [ForkJoinPool.commonPool-worker-3/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:mcpatcher/ctm/default/empty, 1 -> 16
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[15:03:43] [ForkJoinPool.commonPool-worker-3/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[15:03:43] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Gama] Initialization with mod Gama
+[15:03:43] [ForkJoinPool.commonPool-worker-3/INFO] load sprites for 65ms
+[15:03:43] [ForkJoinPool.commonPool-worker-3/INFO] Created: 1024x1024 textures-atlas in 158ms
+[15:03:44] [Client thread/INFO] Loaded mod Gama v1.5.2+f8523d8 in 1064 ms
+[15:03:44] [Client thread/INFO] Loading mod Wada v4.13.0+a11c20bc by Cristalix Team
+[15:03:44] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] VAO support: true
+[15:03:44] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Initialization with mod Wada
+[15:03:44] [Client thread/INFO] Loaded mod Wada v4.13.0+a11c20bc in 189 ms
+[15:03:44] [Thread-25/INFO] [STDOUT]: [Enginex v5.16.3 - Gama] Successfully initialized
+[15:03:44] [ForkJoinPool.commonPool-worker-3/INFO] [DEBUG] Atlas assembly for 5.623ms
+[15:03:44] [Client thread/INFO] [DEBUG] upload atlas for 1.253ms
+[15:03:44] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.044ms
+[15:03:44] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[15:03:44] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[15:03:44] [Client thread/INFO] Textures loaded for 1593.619ms
+[15:03:46] [Thread-26/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Successfully initialized
+[15:04:48] [Network thread/INFO] Protocol upgrade mask: 157
+[15:04:48] [Network thread/INFO] Upgrading protocol
+[15:04:48] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] reload requested: ServerConnect
+[15:04:48] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] cleanAndReload begin: sessionId=1, awaitingHandshake=true
+[15:04:48] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] VAO support: true
+[15:04:48] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Initialization with mod Wada
+[15:04:48] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Successfully initialized
+[15:04:48] [Client thread/INFO] Joining server Хаб #1
+[15:04:49] [Client thread/INFO] Start loading of mod Visual Driver
+[15:04:49] [Client thread/INFO] Loading classes of Visual Driver
+[15:04:49] [Client thread/INFO] Start loading of mod HubMod
+[15:04:49] [Client thread/INFO] Loading classes of HubMod
+[15:04:49] [ForkJoinPool.commonPool-worker-7/INFO] HubMod-v1.4.5: class verification completed in 4ms
+[15:04:49] [ForkJoinPool.commonPool-worker-7/INFO] HubMod-v1.4.5: defineClasses completed in 0ms
+[15:04:49] [ForkJoinPool.commonPool-worker-7/INFO] Loaded classes in mod HubMod in 6 ms
+[15:04:49] [ForkJoinPool.commonPool-worker-2/INFO] Visual Driver-v3.8.31+9da32142: class verification completed in 24ms
+[15:04:49] [ForkJoinPool.commonPool-worker-2/INFO] Visual Driver-v3.8.31+9da32142: defineClasses completed in 0ms
+[15:04:49] [ForkJoinPool.commonPool-worker-2/INFO] Loaded classes in mod Visual Driver in 26 ms
+[15:04:49] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=1
+[15:04:50] [Client thread/INFO] Loading mod HubMod v1.4.5 by Cristalix Team
+[15:04:50] [Client thread/INFO] Loaded mod HubMod v1.4.5 in 83 ms
+[15:04:50] [Client thread/INFO] Loading mod Visual Driver v3.8.31+9da32142 by Cristalix Team
+[15:04:50] [Client thread/INFO] Loaded mod Visual Driver v3.8.31+9da32142 in 76 ms
+[15:04:53] [Network thread/INFO] Protocol upgrade mask: 157
+[15:04:53] [Network thread/INFO] Upgrading protocol
+[15:04:53] [Client thread/INFO] Invalidating server data
+[15:04:53] [Client thread/INFO] Unloading mod Visual Driver/8aa42793-5d07-6f79-ab4b-689f73c55728
+[15:04:53] [Client thread/INFO] Unloading mod HubMod/8bf1beb9-1aa4-6238-01a1-b9e0ab1ce5fa
+[15:04:53] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] reload requested: ServerSwitch
+[15:04:53] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] cleanAndReload begin: sessionId=2, awaitingHandshake=true
+[15:04:53] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] VAO support: true
+[15:04:53] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Initialization with mod Wada
+[15:04:53] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Successfully initialized
+[15:04:53] [Client thread/INFO] Found file C:\Users\tveiv\.cristalix\updates\Minigames\server-resource-packs\40bb4597c7ce6b5b4690666d2a8804747a202ba3 matching requested hash 2a33a213ea168e73eaf34aeab631978eb6603e7b
+[15:04:53] [Client thread/INFO] Allocated new cache for server resource pack
+[15:04:53] [Client thread/INFO] Joining server VoidGame #2
+[15:04:53] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default, 40bb4597c7ce6b5b4690666d2a8804747a202ba3
+[15:04:53] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[15:04:53] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[15:04:53] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[15:04:53] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[15:04:53] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[15:04:53] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[15:04:53] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[15:04:53] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[15:04:53] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[15:04:53] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[15:04:53] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[15:04:53] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[15:04:53] [Client thread/INFO] SoundSystem shutting down...
+[15:04:53] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[15:04:53] [Client thread/INFO] Starting up SoundSystem...
+[15:04:53] [Thread-30/INFO] Initializing LWJGL OpenAL
+[15:04:53] [Thread-30/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[15:04:53] [Thread-30/INFO] OpenAL audio device: OpenAL Soft on Динамики (MCHOSE V9 PRO)
+[15:04:53] [Thread-30/INFO] OpenAL initialized.
+[15:04:53] [Client thread/INFO] Sound engine reloaded
+[15:04:53] [Client thread/INFO] Start loading of mod VoidMod
+[15:04:53] [Client thread/INFO] Loading mod VoidMod v1.0+089d877 by ZeksterP
+[15:04:53] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11-TEST-2 - VoidMod] VAO support: true
+[15:04:53] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11-TEST-2 - VoidMod] Initialization with mod VoidMod
+[15:04:53] [ForkJoinPool.commonPool-worker-7/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[15:04:53] [ForkJoinPool.commonPool-worker-7/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[15:04:53] [ForkJoinPool.commonPool-worker-7/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[15:04:53] [ForkJoinPool.commonPool-worker-7/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[15:04:53] [ForkJoinPool.commonPool-worker-7/INFO] [OptiFine] Mipmap levels: 4
+[15:04:53] [ForkJoinPool.commonPool-worker-7/INFO] [OptiFine] Multi-texturing: false
+[15:04:53] [ForkJoinPool.commonPool-worker-7/INFO] [OptiFine] Multipass connected textures: false
+[15:04:53] [ForkJoinPool.commonPool-worker-7/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[15:04:53] [ForkJoinPool.commonPool-worker-7/ERROR] Using missing texture, unable to load minecraft:textures/items/wooden_sword.png
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/items/bad_omen, 18 -> 32
+[15:04:53] [ForkJoinPool.commonPool-worker-7/FATAL] [OptiFine] Scaled non power of 2: minecraft:mcpatcher/cit/items/trial_omen, 18 -> 32
+[15:04:53] [ForkJoinPool.commonPool-worker-7/INFO] load sprites for 12ms
+[15:04:53] [ForkJoinPool.commonPool-worker-7/INFO] Created: 1024x1024 textures-atlas in 32ms
+[15:04:54] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11-TEST-2 - VoidMod] Successfully initialized
+[15:04:54] [Client thread/INFO] Loaded mod VoidMod v1.0+089d877 in 907 ms
+[15:04:54] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=2
+[15:04:54] [ForkJoinPool.commonPool-worker-7/INFO] [DEBUG] Atlas assembly for 12.563ms
+[15:04:54] [Client thread/INFO] [DEBUG] upload atlas for 2.252ms
+[15:04:54] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.004ms
+[15:04:54] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[15:04:54] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[15:04:54] [Client thread/INFO] Textures loaded for 1283.637ms
+[15:04:54] [Client thread/INFO] [CHAT] [30] P+ ┃ CFIl » кто в точилку зачарованное яблоко клал ваще...
+[15:05:01] [Client thread/INFO] [CHAT] [30] RPG_HouS » [Карта созвездий]
+[15:05:06] [Client thread/INFO] [CHAT] [30] P+ ┃ CFIl » ничего не произойдёт
+[15:06:25] [Client thread/INFO] [CHAT] [30] RPG_HouS » [Заряженный кварц ♨ +5] пизд
+[15:06:37] [Client thread/INFO] [CHAT] [30] RPG_HouS » ! 24 благи и только 5
+[15:07:20] [Client thread/INFO] [CHAT] [30] Goodluck9 » [Шапка из тигриной шкуры ☬ +8]
+[15:07:24] [Client thread/INFO] [CHAT] [30] P+ ┃ APK_Kovbou » такой подставы от игры я не ожидал
+[15:07:25] [Client thread/INFO] [CHAT] [30] Goodluck9 » Учись пока я жив
+[15:07:44] [Client thread/INFO] [CHAT] [30] Goodluck9 » 8/8
+[15:08:25] [Client thread/INFO] [CHAT] [2] I ┃ Yarik_f » 180
+[15:09:03] [Client thread/INFO] [CHAT] [30] P+ ┃ APK_Kovbou » [Роба последователя Бедствия ♨ +7] goodluck9
+[15:09:13] [Client thread/INFO] [CHAT] [30] P+ ┃ APK_Kovbou » у меня не так все радужно
+[15:09:20] [Client thread/INFO] [CHAT] [1] D ┃ jocker090 » t
+[15:09:29] [Client thread/INFO] [CHAT] [30] D ┃ AndreWiking » [Дуновение магии ♡ +8]
+[15:09:57] [Client thread/INFO] [CHAT] [30] P+ ┃ APK_Kovbou » ! andrewiking у меня такое же было
+[15:10:05] [Client thread/INFO] [CHAT] [13] D ┃ PlayEnotik » поможет кто 1 карту на 2 услож?
+[15:10:07] [Client thread/INFO] [CHAT] [30] P+ ┃ APK_Kovbou » [Змеиное копье ☬ +8]
+[15:10:14] [Client thread/INFO] [CHAT] [30] Treefrei66 » [Пожиратель магии ☬ +8]
+[15:10:34] [Client thread/INFO] [CHAT] [30] D ┃ AndreWiking » [Змеиное копье ♨ +8]
+[15:10:39] [Client thread/INFO] [CHAT] [13] D ┃ PlayEnotik » поможет кто 1 карту на 2 услож?
+[15:10:48] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[15:10:52] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:10:53] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:10:53] [Client thread/INFO] [CHAT] Авто-кликер включен
+[15:10:54] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:10:55] [Client thread/INFO] [CHAT] [30] P+ ┃ APK_Kovbou » ! andrewiking сочуствую
+[15:11:00] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:11:00] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 6401
+[15:11:01] [Client thread/INFO] [CHAT] Tveiv получил Спокойствие разума
+[15:11:03] [Client thread/INFO] [CHAT] Ведьмы появляются в комнате и медленно окружают Вас.
+[15:11:04] [Client thread/INFO] [CHAT] Ведьма: Уважаемый Странник Тьмы, поделитесь с нами вашей силой.
+[15:11:04] [Client thread/INFO] [CHAT] [30] P+ ┃ APK_Kovbou » у тебя наверняка каждое +1 ломается
+[15:11:15] [Client thread/INFO] [CHAT] [30] D ┃ AndreWiking » yt
+[15:11:16] [Client thread/INFO] [CHAT] [30] D ┃ AndreWiking » ne
+[15:11:22] [Client thread/INFO] [CHAT] [30] P+ ┃ APK_Kovbou » ну почти
+[15:11:33] [Client thread/INFO] [CHAT] [30] D ┃ AndreWiking » [Капюшон последователя Бедствия ♆ +9]
+[15:11:35] [Client thread/INFO] [CHAT] Получено 39 звезд
+[15:11:35] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 11314
+[15:11:35] [Client thread/INFO] [CHAT] [30] I ┃ JonY_00 » [Жертва ритуалу ♡ +10]
+[15:11:36] [Client thread/INFO] [CHAT] Tveiv получил Бонус здоровья
+[15:11:37] [Client thread/INFO] [CHAT] [30] I ┃ JonY_00 » [Жертва ритуалу ♡ +9]
+[15:11:37] [Client thread/INFO] [CHAT] Исцеление появляется в комнате.
+[15:11:46] [Client thread/INFO] [CHAT] Tveiv получил Взгляд Расимы
+[15:11:46] [Client thread/INFO] [CHAT] Расима: Я не могу помочь тебе, но буду наблюдать.
+[15:12:16] [Client thread/INFO] [CHAT] Получено 37 звезд
+[15:12:16] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 10363
+[15:12:17] [Client thread/INFO] [CHAT] Tveiv получил Охотник за головами
+[15:12:18] [Client thread/INFO] [CHAT] Объект появляется в комнате. Это конец величественных звёзд.
+[15:12:21] [Client thread/INFO] [CHAT] Tveiv получил Дверь во тьму
+[15:12:34] [Client thread/INFO] [CHAT] Tveiv получил Бонус брони
+[15:12:40] [Client thread/INFO] [CHAT] Tveiv получил Дурак
+[15:12:40] [Client thread/INFO] [CHAT] Получено 42 звезд
+[15:12:40] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 12228
+[15:12:41] [Client thread/INFO] [CHAT] Tveiv получил Кукла вуду
+[15:12:43] [Client thread/INFO] [CHAT] Tveiv получил Осквернённое перо
+[15:12:43] [Client thread/INFO] [CHAT] Tveiv получил Небытие
+[15:12:56] [Client thread/INFO] [CHAT] Tveiv получил Бонус урона
+[15:12:58] [Client thread/INFO] [CHAT] Получено 44 звезд
+[15:12:58] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 13565
+[15:12:59] [Client thread/INFO] [CHAT] Tveiv получил Бонус урона
+[15:13:00] [Client thread/INFO] [CHAT] Последователь Этоля появляется в комнате.
+[15:13:01] [Client thread/INFO] [CHAT] Астролог: Странник Тьмы, я рад видеть тебя. Позволь мне помочь в твоих странствиях, давай свою экипировку.
+[15:13:02] [Client thread/INFO] [CHAT] Оружие получает +2 к уровню зачарования, а остальные предметы - +4
+[15:13:05] [Client thread/INFO] [CHAT] [1] timurka444 » здесь можно вдвоем играть ?
+[15:13:17] [Client thread/INFO] [CHAT] [16] I ┃ die7s1 » да
+[15:13:21] [Client thread/INFO] [CHAT] [24] tnt4 » та хоть в четвером
+[15:13:30] [Client thread/INFO] [CHAT] [1] timurka444 » просто в пати?
+[15:13:37] [Client thread/INFO] [CHAT] [30] P+ ┃ CFIl » +
+[15:13:48] [Client thread/INFO] [CHAT] [30] P+ ┃ CFIl » разница не больше 10 лвл
+[15:14:21] [Client thread/INFO] [CHAT] [30] D ┃ AndreWiking » [Раб души ⚝ +8]
+[15:15:14] [Client thread/INFO] [CHAT] [30] P+ ┃ APK_Kovbou » как добыть кошмарную чешую?
+[15:15:26] [Client thread/INFO] [CHAT] [30] P ┃ Tveiv » [Раб души ♨ +8]
+[15:15:35] [Client thread/INFO] [CHAT] [1] timurka444 » так а как вместе на волну зайти ?
+[15:15:40] [Client thread/INFO] [CHAT] [24] BlooD_DemoN12 » [Сабля похитителя звёзд ☠ +10]
+[15:15:52] [Client thread/INFO] [CHAT] [30] P+ ┃ APK_Kovbou » как добыть кошмарную чешую?
+[15:17:52] [Client thread/INFO] [CHAT] [1] timurka444 » как вдвоем на волну зайти подскажите
+[15:18:40] [Client thread/INFO] [CHAT] [24] tnt4 » игрока в пати прийми пропиши /party warp(вроде) и в запуске начни игру
+[15:18:59] [Client thread/INFO] [CHAT] [24] tnt4 » если на кпопку "играть" навестись там написано
+[15:19:26] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » [Пыль феи +8]
+[15:19:27] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » [Отражающий амулет +8]
+[15:19:28] [Client thread/INFO] [CHAT] VoidGame » Ваш инвентарь полон, предмет был выброшен на землю!
+[15:19:41] [Client thread/INFO] [CHAT] [30] V ┃ And12botik » зачем +8 пыль...
+[15:21:51] [Client thread/INFO] [CHAT] [1] ERw87 » !какой клас самый лучший для ночала ?
+[15:22:00] [Client thread/INFO] [CHAT] [13] D ┃ PlayEnotik » 1 dfgh
+[15:22:01] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » [Дуновение магии ♡ +9]
+[15:22:05] [Client thread/INFO] [CHAT] [13] D ┃ PlayEnotik » 1 vrode
+[15:22:19] [Client thread/INFO] [CHAT] [1] ERw87 » ! бетствие
+[15:23:26] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[15:23:36] [Client thread/INFO] [CHAT] Получено 46 звезд
+[15:23:36] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 6726
+[15:23:38] [Client thread/INFO] [CHAT] Tveiv получил Ключ к Победе
+[15:23:50] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:23:50] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 11831
+[15:23:53] [Client thread/INFO] [CHAT] Tveiv получил Пениафобия
+[15:24:17] [Client thread/INFO] [CHAT] Получено 43 звезд
+[15:24:17] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 7143
+[15:24:19] [Client thread/INFO] [CHAT] Tveiv получил Куб неуязвимости
+[15:24:20] [Client thread/INFO] [CHAT] Объект появляется в комнате. Это конец величественных звёзд.
+[15:24:23] [Client thread/INFO] [CHAT] Tveiv получил Дверь во тьму
+[15:24:37] [Client thread/INFO] [CHAT] [26] MVP ┃ Ravile2008 » ой
+[15:24:44] [Client thread/INFO] [CHAT] Получено 41 звезд
+[15:24:44] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 8701
+[15:24:46] [Client thread/INFO] [CHAT] Tveiv получил Замок без ключа
+[15:24:47] [Client thread/INFO] [CHAT] Tveiv получил Осквернённое перо
+[15:24:47] [Client thread/INFO] [CHAT] Tveiv получил Черная магия
+[15:25:07] [Client thread/INFO] [CHAT] [13] D ┃ PlayEnotik » ctre
+[15:25:09] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:25:10] [Client thread/INFO] [CHAT] [13] D ┃ PlayEnotik » стиой
+[15:25:12] [Client thread/INFO] [CHAT] [21] P ┃ TomoHacura » а
+[15:25:13] [Client thread/INFO] [CHAT] [13] D ┃ PlayEnotik » дай отхилюсь
+[15:25:14] [Client thread/INFO] [CHAT] Получено 41 звезд
+[15:25:14] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 11814
+[15:25:16] [Client thread/INFO] [CHAT] Tveiv получил Децидофобия
+[15:25:16] [Client thread/INFO] [CHAT] Tveiv получил Ничего
+[15:25:34] [Client thread/INFO] [CHAT] [13] D ┃ PlayEnotik » а где 3тий?
+[15:25:37] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:25:38] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:25:47] [Client thread/INFO] [CHAT] [13] D ┃ PlayEnotik » фсе гоу
+[15:26:18] [Client thread/INFO] [CHAT] [30] V ┃ And12botik » [Приговор ☬ +10]
+[15:28:47] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[15:29:02] [Client thread/INFO] [CHAT] Tveiv получил Замок без ключа
+[15:29:03] [Client thread/INFO] [CHAT] Получено 44 звезд
+[15:29:03] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 8478
+[15:29:04] [Client thread/INFO] [CHAT] Tveiv получил Фатальная бессонница
+[15:29:22] [Client thread/INFO] [CHAT] Получено 42 звезд
+[15:29:22] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 12765
+[15:29:25] [Client thread/INFO] [CHAT] Tveiv получил Ключ к Победе
+[15:29:30] [Client thread/INFO] [CHAT] [30] P+ ┃ CFIl » чо амулетом отражения отражать у головы...
+[15:29:38] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:29:38] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 7410
+[15:29:40] [Client thread/INFO] [CHAT] Tveiv получил Росток алмазного дерева
+[15:29:54] [Client thread/INFO] [CHAT] Tveiv получил Ничего
+[15:29:56] [Client thread/INFO] [CHAT] Tveiv получил Бонус скорости x2
+[15:29:56] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:29:56] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 11274
+[15:29:57] [Client thread/INFO] [CHAT] Tveiv получил Ножницы пространства
+[15:29:59] [Client thread/INFO] [CHAT] Tveiv получил Приманка
+[15:30:00] [Client thread/INFO] [CHAT] Последователь и его группа ожидают от Вас ответа.
+[15:30:04] [Client thread/INFO] [CHAT] Последователь Этоля: Превосходный ответ, мы ожидаем от тебя свершений.
+[15:30:04] [Client thread/INFO] [CHAT] Tveiv получил Гений звёзд
+[15:30:12] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:30:13] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:30:14] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:30:15] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:30:16] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:30:17] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:30:18] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:30:30] [Client thread/INFO] [CHAT] Получено 39 звезд
+[15:30:30] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 20538
+[15:30:31] [Client thread/INFO] [CHAT] Tveiv получил Мое последнее перерождение в мире звезд, подаренное Исцелением
+[15:30:41] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:30:42] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:30:43] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:30:44] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:30:45] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:30:46] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:30:47] [Client thread/INFO] [CHAT] Tveiv получил Бонус здоровья x2
+[15:30:47] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:30:48] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:30:49] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:30:50] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:31:59] [Client thread/INFO] [CHAT] Авто-кликер выключен
+[15:32:05] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[15:32:19] [Client thread/INFO] [CHAT] Tveiv получил Висп в бутылке
+[15:32:21] [Client thread/INFO] [CHAT] Получено 44 звезд
+[15:32:21] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 7474
+[15:32:22] [Client thread/INFO] [CHAT] Tveiv получил Куб неуязвимости
+[15:32:34] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:32:34] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 11753
+[15:32:37] [Client thread/INFO] [CHAT] Tveiv получил Прогноз погоды
+[15:32:48] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:32:48] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 7306
+[15:32:50] [Client thread/INFO] [CHAT] Tveiv получил Бумажный меч
+[15:32:57] [Client thread/INFO] [CHAT] Tveiv получил Ничего
+[15:32:59] [Client thread/INFO] [CHAT] Tveiv получил Бонус урона x2
+[15:32:59] [Client thread/INFO] [CHAT] Получено 46 звезд
+[15:32:59] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 11407
+[15:33:00] [Client thread/INFO] [CHAT] Tveiv получил Свинцовый слоник
+[15:33:01] [Client thread/INFO] [CHAT] Tveiv получил Сплетение теней
+[15:33:11] [Client thread/INFO] [CHAT] Получено 46 звезд
+[15:33:11] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 11793
+[15:33:13] [Client thread/INFO] [CHAT] Tveiv получил Бонус маны
+[15:33:36] [Client thread/INFO] [CHAT] Получено 40 звезд
+[15:33:36] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 41034
+[15:33:39] [Client thread/INFO] [CHAT] Tveiv получил Гений звёзд
+[15:33:40] [Client thread/INFO] [CHAT] Зверь появляется в комнате.
+[15:33:41] [Client thread/INFO] [CHAT] Tveiv получил Дурак
+[15:33:41] [Client thread/INFO] [CHAT] Tveiv получил Унижение
+[15:33:41] [Client thread/INFO] [CHAT] Tveiv получил Паранойя Победителя
+[15:33:44] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 25%
+[15:33:48] [Client thread/INFO] [CHAT] Tveiv получил Грохот научного триумфа
+[15:33:49] [Client thread/INFO] [CHAT] Получено 46 звезд
+[15:33:49] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 16585
+[15:33:50] [Client thread/INFO] [CHAT] Tveiv получил Башня яркой Луны
+[15:33:52] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 36%
+[15:33:53] [Client thread/INFO] [CHAT] Tveiv получил Ничего
+[15:33:56] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 39%
+[15:33:57] [Client thread/INFO] [CHAT] Получено 47 звезд
+[15:33:57] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 10697
+[15:33:58] [Client thread/INFO] [CHAT] Tveiv получил Кукла вуду
+[15:33:59] [Client thread/INFO] [CHAT] Таинственная дверь появляется в комнате.
+[15:34:02] [Client thread/INFO] [CHAT] Tveiv получил Дверь во тьму
+[15:34:05] [Client thread/INFO] [CHAT] [26] MVP ┃ Ravile2008 » какая планета пятая от солнца?
+[15:34:07] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 34%
+[15:34:09] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 36%
+[15:34:10] [Client thread/INFO] [CHAT] [30] RPG_HouS » ! юпитер
+[15:34:11] [Client thread/INFO] [CHAT] [30] P ┃ Tveiv » земля
+[15:34:11] [Client thread/INFO] [CHAT] [30] Mrplayer228 » юпитер
+[15:34:12] [Client thread/INFO] [CHAT] Получено 46 звезд
+[15:34:12] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 20800
+[15:34:13] [Client thread/INFO] [CHAT] Tveiv получил Внутренняя сила
+[15:34:15] [Client thread/INFO] [CHAT] Tveiv получил Долг боли
+[15:34:15] [Client thread/INFO] [CHAT] Tveiv получил Дух предстоящей победы
+[15:34:15] [Client thread/INFO] [CHAT] Зверь появляется в комнате.
+[15:34:17] [Client thread/INFO] [CHAT] [26] MVP ┃ Ravile2008 » юпитер?
+[15:34:18] [Client thread/INFO] [CHAT] Tveiv получил Дурак
+[15:34:18] [Client thread/INFO] [CHAT] Tveiv получил Унижение
+[15:34:18] [Client thread/INFO] [CHAT] Tveiv получил Паранойя Победителя
+[15:34:22] [Client thread/INFO] [CHAT] [26] MVP ┃ Ravile2008 » спасибо рил
+[15:34:22] [Client thread/INFO] [CHAT] [30] Mrplayer228 » да
+[15:34:23] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 42%
+[15:34:23] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 39%
+[15:34:24] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 37%
+[15:34:29] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:34:29] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 21946
+[15:34:31] [Client thread/INFO] [CHAT] Tveiv получил Охотник за головами
+[15:34:34] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 26%
+[15:34:34] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 43%
+[15:34:35] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 33%
+[15:34:37] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 30%
+[15:34:37] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 36%
+[15:34:38] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 43%
+[15:34:38] [Client thread/INFO] [CHAT] Получено 47 звезд
+[15:34:38] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 12544
+[15:34:39] [Client thread/INFO] [CHAT] Tveiv получил Дьяволица
+[15:34:42] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 40%
+[15:34:44] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 43%
+[15:34:44] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 40%
+[15:34:47] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 33%
+[15:34:49] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 48%
+[15:34:49] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 50%
+[15:34:49] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 50%
+[15:34:50] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 45%
+[15:34:51] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 34%
+[15:34:52] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 47%
+[15:34:53] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 45%
+[15:34:54] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 38%
+[15:34:55] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 32%
+[15:34:55] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 30%
+[15:34:56] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 37%
+[15:34:57] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 41%
+[15:34:57] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 39%
+[15:34:58] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 40%
+[15:35:00] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 40%
+[15:35:02] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 31%
+[15:35:03] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 44%
+[15:35:03] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 41%
+[15:35:04] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 31%
+[15:35:04] [Client thread/INFO] [CHAT] Получено 40 звезд
+[15:35:04] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 29583
+[15:35:06] [Client thread/INFO] [CHAT] Tveiv получил Взгляд Расимы
+[15:35:12] [Client thread/INFO] [CHAT] Последователи Бедствия появляются в комнате.
+[15:35:13] [Client thread/INFO] [CHAT] Наследница Бедствия: Странник Тьмы, ты же направляешься к Расиме?
+[15:35:14] [Client thread/INFO] [CHAT] Наследница Бедствия: Мы можем помочь друг-другу.
+[15:35:15] [Client thread/INFO] [CHAT] [30] Ripperch » Кто пойдёт в 27
+[15:35:16] [Client thread/INFO] [CHAT] Наследница Бедствия: В битве с Расимой, мы будем на твоей стороне. Согласен?
+[15:35:17] [Client thread/INFO] [CHAT] Наследница Бедствия: Прекрасно, скоро мы встретимся.
+[15:35:17] [Client thread/INFO] [CHAT] Tveiv получил Проклятие x3
+[15:35:17] [Client thread/INFO] [CHAT] Tveiv получил Взгляд Расимы
+[15:35:17] [Client thread/INFO] [CHAT] Tveiv получил Последователи Бедствия
+[15:35:19] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 25%
+[15:35:20] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 33%
+[15:35:20] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 36%
+[15:35:22] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 46%
+[15:35:23] [Client thread/INFO] [CHAT] Tveiv получил Бонус маны
+[15:35:25] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 49%
+[15:35:25] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 48%
+[15:35:26] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 45%
+[15:35:26] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 45%
+[15:35:27] [Client thread/INFO] [CHAT] Tveiv получил Ничего
+[15:35:27] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:35:27] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 14958
+[15:35:28] [Client thread/INFO] [CHAT] Tveiv получил Росток алмазного дерева
+[15:35:31] [Client thread/INFO] [CHAT] Потеряно 276 звезд
+[15:35:31] [Client thread/INFO] [CHAT] Tveiv получил Дверь во тьму
+[15:35:35] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 34%
+[15:35:35] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 40%
+[15:35:36] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 25%
+[15:35:37] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 36%
+[15:35:37] [Client thread/INFO] [CHAT] Tveiv получил Бонус урона
+[15:35:39] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 33%
+[15:35:40] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 49%
+[15:35:41] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 34%
+[15:35:42] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 29%
+[15:35:42] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 30%
+[15:35:43] [Client thread/INFO] [CHAT] Tveiv получил Бонус здоровья
+[15:35:43] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:35:43] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 16444
+[15:35:45] [Client thread/INFO] [CHAT] Tveiv получил Бонус урона
+[15:35:47] [Client thread/INFO] [CHAT] Tveiv получил Расимафикация
+[15:35:47] [Client thread/INFO] [CHAT] Tveiv получил Кольцо света
+[15:35:47] [Client thread/INFO] [CHAT] Tveiv получил Самосознающие стрелы
+[15:35:47] [Client thread/INFO] [CHAT] [14] D ┃ PlayEnotik » скок слон дает защиты?
+[15:35:51] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 39%
+[15:35:51] [Client thread/INFO] [CHAT] [30] RPG_HouS » ! 10
+[15:35:55] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 50%
+[15:35:56] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 27%
+[15:35:57] [Client thread/INFO] [CHAT] [30] Mrplayer228 » 10
+[15:35:58] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:36:02] [Client thread/INFO] [CHAT] Авто-кликер включен
+[15:36:03] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 42%
+[15:36:04] [Client thread/INFO] [CHAT] Авто-кликер выключен
+[15:36:04] [Client thread/INFO] [CHAT] Получено 43 звезд
+[15:36:04] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 19366
+[15:36:05] [Client thread/INFO] [CHAT] Tveiv получил Пениафобия
+[15:36:05] [Client thread/INFO] [CHAT] Tveiv получил Разрушитель звёзд
+[15:36:05] [Client thread/INFO] [CHAT] Tveiv получил Самосознающие стрелы
+[15:36:06] [Client thread/INFO] [CHAT] Звезды падают с небес!
+[15:36:09] [Client thread/INFO] [CHAT] [10] GOD ┃ fazzzzer » hi
+[15:36:12] [Client thread/INFO] [CHAT] Tveiv получил Бонус здоровья
+[15:36:12] [Client thread/INFO] [CHAT] Tveiv получил Бонус уклонения
+[15:36:16] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 42%
+[15:36:16] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 37%
+[15:36:17] [Client thread/INFO] [CHAT] [10] GOD ┃ fazzzzer » idi na azik
+[15:36:17] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 49%
+[15:36:19] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 44%
+[15:36:19] [Client thread/INFO] [CHAT] Tveiv получил Бонус скорости
+[15:36:21] [Client thread/INFO] [CHAT] На Вас наложен Яростный взор, Вы получаете урон, когда смотрите на существ
+[15:36:22] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 30%
+[15:36:22] [Client thread/INFO] [CHAT] [10] GOD ┃ fazzzzer » че тут забыл
+[15:36:23] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 36%
+[15:36:24] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 45%
+[15:36:24] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 32%
+[15:36:25] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 49%
+[15:36:26] [Client thread/INFO] [CHAT] Tveiv получил Бонус брони
+[15:36:27] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 42%
+[15:36:28] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 40%
+[15:36:29] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 43%
+[15:36:30] [Client thread/INFO] [CHAT] [30] HE ┃ LexaWinner » нет там патча чет
+[15:36:32] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 27%
+[15:36:54] [Client thread/INFO] [CHAT] [10] GOD ┃ fazzzzer » интересно патч опять гавно будет или нет
+[15:36:58] [Client thread/INFO] [CHAT] [30] HE ┃ LexaWinner » да
+[15:37:16] [Client thread/INFO] [CHAT] [30] V ┃ And12botik » fazzzzer какие люди
+[15:37:27] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[15:37:27] [Client thread/INFO] [CHAT] [10] GOD ┃ fazzzzer » хай
+[15:37:31] [Client thread/INFO] [CHAT] Авто-кликер включен
+[15:37:34] [Client thread/INFO] [CHAT] Tveiv получил Дьяволица
+[15:37:36] [Client thread/INFO] [CHAT] [30] V ┃ And12botik » когда разнос на сктб?
+[15:37:39] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:37:39] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 7945
+[15:37:41] [Client thread/INFO] [CHAT] Tveiv получил Внутренняя сила
+[15:37:48] [Client thread/INFO] [CHAT] [30] V ┃ And12botik » или уже забил
+[15:37:56] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[15:38:02] [Client thread/INFO] [CHAT] [30] I ┃ JonY_00 » [Приговор ☠ +3]
+[15:38:04] [Client thread/INFO] [CHAT] [10] GOD ┃ fazzzzer » тогда же когда и обнова
+[15:38:05] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:38:06] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:38:07] [Client thread/INFO] [CHAT] Tveiv получил Бонус маны
+[15:38:07] [Client thread/INFO] [CHAT] Получено 46 звезд
+[15:38:07] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 8012
+[15:38:08] [Client thread/INFO] [CHAT] Tveiv получил Возвышение на Юпитер
+[15:38:09] [Client thread/INFO] [CHAT] [30] V ┃ And12botik » [Приговор ☬ +10]
+[15:38:11] [Client thread/INFO] [CHAT] У Вас есть 20 секунд, прежде, чем кот сбежит!
+[15:38:11] [Client thread/INFO] [CHAT] Tveiv получил Идол глупцов
+[15:38:21] [Client thread/INFO] [CHAT] [10] GOD ┃ fazzzzer » битошка забрал се сктб после ухода дд и также обновы не делает
+[15:38:22] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:38:22] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 11803
+[15:38:23] [Client thread/INFO] [CHAT] Tveiv получил Черная карта
+[15:38:31] [Client thread/INFO] [CHAT] Получено 46 звезд
+[15:38:31] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 7174
+[15:38:32] [Client thread/INFO] [CHAT] Tveiv получил Дурак x2
+[15:38:40] [Client thread/INFO] [CHAT] Получено 46 звезд
+[15:38:40] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 8967
+[15:38:42] [Client thread/INFO] [CHAT] Tveiv получил Чаша Победителей
+[15:38:43] [Client thread/INFO] [CHAT] Tveiv получил Непобеждаемая слот-машина x2
+[15:38:44] [Client thread/INFO] [CHAT] Жми SHIFT, чтобы получить эффект левитации и поймать летучих мышей!
+[15:39:14] [Client thread/INFO] [CHAT] Испытание провалено
+[15:39:14] [Client thread/INFO] [CHAT] Потеряно 20 звезд
+[15:39:27] [Client thread/INFO] [CHAT] Получено 44 звезд
+[15:39:27] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 12682
+[15:39:28] [Client thread/INFO] [CHAT] [30] D ┃ AndreWiking » [Бумажная Луна ♆]
+[15:39:30] [Client thread/INFO] [CHAT] Tveiv получил Долг судьбы
+[15:39:31] [Client thread/INFO] [CHAT] Жми SHIFT, чтобы получить эффект левитации и поймать летучих мышей!
+[15:40:01] [Client thread/INFO] [CHAT] Испытание провалено
+[15:40:01] [Client thread/INFO] [CHAT] Потеряно 10 звезд
+[15:40:14] [Client thread/INFO] [CHAT] Tveiv получил Бонус урона
+[15:40:15] [Client thread/INFO] [CHAT] Tveiv получил Спокойствие разума x2
+[15:40:36] [Client thread/INFO] [CHAT] Получено 35 звезд
+[15:40:36] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 40294
+[15:40:38] [Client thread/INFO] [CHAT] Tveiv получил Зеркало Катастрофы x2
+[15:40:56] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:40:56] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 15048
+[15:40:56] [Client thread/INFO] [CHAT] Tveiv получил Сфера Повелительницы Болезней x4
+[15:41:07] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:41:07] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 10047
+[15:41:08] [Client thread/INFO] [CHAT] Tveiv получил Бонус здоровья x3
+[15:41:14] [Client thread/INFO] [CHAT] [30] P+ ┃ Enot188 » [Пожиратель магии ♡ +3]
+[15:41:20] [Client thread/INFO] [CHAT] [30] P+ ┃ Enot188 » Как работают эти ботинки?
+[15:41:28] [Client thread/INFO] [CHAT] Получено 44 звезд
+[15:41:28] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 18486
+[15:41:29] [Client thread/INFO] [CHAT] Tveiv получил Мирный сон Бедствия x4
+[15:41:30] [Client thread/INFO] [CHAT] Tveiv получил Приманка x4
+[15:41:30] [Client thread/INFO] [CHAT] Свет, исполняющий Желание: Чего ты желаешь? Я исполню все, что ты хочешь.
+[15:41:33] [Client thread/INFO] [CHAT] [30] V ┃ And12botik » ну одеваешь
+[15:41:38] [Client thread/INFO] [CHAT] [30] V ┃ And12botik » и они пассивно работают
+[15:41:40] [Client thread/INFO] [CHAT] Свет, исполняющий Желание: Ты желаешь дверь во тьму? Будет исполнено.
+[15:41:43] [Client thread/INFO] [CHAT] Свет, исполняющий Желание: Ваше желание исполнено.
+[15:41:43] [Client thread/INFO] [CHAT] Tveiv получил Дверь во тьму
+[15:41:49] [Client thread/INFO] [CHAT] [30] P+ ┃ Enot188 » Что значит размер заклинания?
+[15:41:55] [Client thread/INFO] [CHAT] Tveiv получил Спокойствие разума
+[15:41:56] [Client thread/INFO] [CHAT] [30] P+ ┃ Enot188 » Я в этом плане
+[15:41:57] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:41:59] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:42:00] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:42:01] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[15:42:01] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » Ну как размер писюна
+[15:42:08] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » Чем больше тем лучше
+[15:42:18] [Client thread/INFO] [CHAT] [30] P ┃ Tveiv » а у тебя сколько
+[15:42:21] [Client thread/INFO] [CHAT] [30] P+ ┃ Enot188 » Визуально ничего не меняется от настака
+[15:42:21] [Client thread/INFO] [CHAT] [2] D ┃ jocker090 » t
+[15:42:25] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » 20
+[15:42:28] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » мм
+[15:42:37] [Client thread/INFO] [CHAT] [30] P ┃ Tveiv » воу воу ты куда
+[15:42:40] [Client thread/INFO] [CHAT] [30] I ┃ JonY_00 » У роналдо больше!
+[15:42:40] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » Мега метры шаришь?
+[15:43:28] [Client thread/INFO] [CHAT] [30] I ┃ JonY_00 » [Исполнитель желаний ♡ +8]
+[15:44:14] [Client thread/INFO] [CHAT] [30] Ripperch » [Пожиратель магии ⚝ +1]
+[15:45:14] [Client thread/INFO] [CHAT] [30] V ┃ RENDY221 » [Карта созвездий]
+[15:46:17] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[15:46:31] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:46:31] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 7106
+[15:46:33] [Client thread/INFO] [CHAT] Tveiv получил Бонус скорости
+[15:46:47] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:46:47] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 12636
+[15:46:48] [Client thread/INFO] [CHAT] Tveiv получил Грохот научного триумфа
+[15:46:57] [Client thread/INFO] [CHAT] Получено 46 звезд
+[15:46:57] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 7296
+[15:46:59] [Client thread/INFO] [CHAT] Tveiv получил Смотри на меня
+[15:47:00] [Client thread/INFO] [CHAT] Вы находите лестницу отчаяния. Каждый, кто рискнёт ступить на неё, обречён на невероятные мучения. Но кто знает, что хранит вершина?
+[15:47:03] [Client thread/INFO] [CHAT] Вы убегаете прочь от лестницы со всех ног, Ваша жизнь того не стоит. Её тайна теперь закрыта навсегда.
+[15:47:11] [Client thread/INFO] [CHAT] Получено 46 звезд
+[15:47:11] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 9100
+[15:47:13] [Client thread/INFO] [CHAT] Tveiv получил Мое последнее перерождение в мире звезд, подаренное Исцелением
+[15:47:15] [Client thread/INFO] [CHAT] Tveiv получил Непобеждаемая слот-машина
+[15:47:19] [Client thread/INFO] [CHAT] На горизонте маячат гигантские, черные прямоугольники.
+[15:47:19] [Client thread/INFO] [CHAT] Вы не можете понять, это чьи-то дома, или же пред вами немыслимые, космические создания.
+[15:47:20] [Client thread/INFO] [CHAT] Прямоугольник: хцрЁщъЬЁЬЮдвЙЭх
+[15:47:22] [Client thread/FATAL] Error executing task
+java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at #ankXZ.skOv(SourceFile:46)
+	at #bBoCn.fLx(SourceFile:52)
+	at #lABBH.sgvJ(Unknown Source:1466)
+	at #ZQCSx.shqa(SourceFile:1632)
+	at #kQsKH.smKh(SourceFile:487)
+	at net.minecraft.client.main.GameMain.mgm(SourceFile:220)
+	at net.minecraft.client.main.GameMain.iLJ(SourceFile:156)
+	at #cnUTs.lIs(Unknown Source)
+	at #cnUTs.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.net.URL.of(Unknown Source)
+	at #lccti.sdvz(SourceFile:250)
+	at #YdQwo.seAd(SourceFile:204)
+	at #JLCmF.sgTq(SourceFile:508)
+	at #eeeNb.lcy(Unknown Source)
+	at #eeeNb.run(Unknown Source)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at #ankXZ.skOv(SourceFile:45)
+	... 9 more
+[15:47:22] [Client thread/FATAL] Error executing task
+java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at #ankXZ.skOv(SourceFile:46)
+	at #bBoCn.fLx(SourceFile:52)
+	at #lABBH.sgvJ(Unknown Source:1466)
+	at #ZQCSx.shqa(SourceFile:1632)
+	at #kQsKH.smKh(SourceFile:487)
+	at net.minecraft.client.main.GameMain.mgm(SourceFile:220)
+	at net.minecraft.client.main.GameMain.iLJ(SourceFile:156)
+	at #cnUTs.lIs(Unknown Source)
+	at #cnUTs.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.net.URL.of(Unknown Source)
+	at #lccti.sdvz(SourceFile:250)
+	at #YdQwo.seAd(SourceFile:204)
+	at #JLCmF.sgTq(SourceFile:508)
+	at #eeeNb.lcy(Unknown Source)
+	at #eeeNb.run(Unknown Source)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at #ankXZ.skOv(SourceFile:45)
+	... 9 more
+[15:47:22] [Client thread/FATAL] Error executing task
+java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at #ankXZ.skOv(SourceFile:46)
+	at #bBoCn.fLx(SourceFile:52)
+	at #lABBH.sgvJ(Unknown Source:1466)
+	at #ZQCSx.shqa(SourceFile:1632)
+	at #kQsKH.smKh(SourceFile:487)
+	at net.minecraft.client.main.GameMain.mgm(SourceFile:220)
+	at net.minecraft.client.main.GameMain.iLJ(SourceFile:156)
+	at #cnUTs.lIs(Unknown Source)
+	at #cnUTs.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.net.URL.of(Unknown Source)
+	at #lccti.sdvz(SourceFile:250)
+	at #YdQwo.seAd(SourceFile:204)
+	at #JLCmF.sgTq(SourceFile:508)
+	at #eeeNb.lcy(Unknown Source)
+	at #eeeNb.run(Unknown Source)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at #ankXZ.skOv(SourceFile:45)
+	... 9 more
+[15:47:22] [Client thread/INFO] [CHAT] Прямоугольник: ОТЯ!шрЛНБЗб!
+[15:47:23] [Client thread/INFO] [CHAT] Прямоугольник: нЙийьцОпшУеФчБКлР
+[15:47:23] [Client thread/INFO] [CHAT] Tveiv получил Черные прямоугольники
+[15:47:38] [Client thread/INFO] [CHAT] Получено 43 звезд
+[15:47:38] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 12296
+[15:47:39] [Client thread/INFO] [CHAT] Tveiv получил Спокойствие разума
+[15:47:55] [Client thread/INFO] [CHAT] Авто-кликер выключен
+[15:47:56] [Client thread/INFO] [CHAT] Авто-кликер включен
+[15:48:06] [Client thread/INFO] [CHAT] Получено 41 звезд
+[15:48:06] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 36318
+[15:48:07] [Client thread/INFO] [CHAT] [30] D ┃ AndreWiking » ц
+[15:48:10] [Client thread/INFO] [CHAT] Tveiv получил Бумажный меч
+[15:48:21] [Client thread/INFO] [CHAT] Получено 46 звезд
+[15:48:21] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 14522
+[15:48:23] [Client thread/INFO] [CHAT] Tveiv получил Башня яркой Луны
+[15:48:30] [Client thread/INFO] [CHAT] Получено 47 звезд
+[15:48:30] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 10238
+[15:48:31] [Client thread/INFO] [CHAT] Tveiv получил Бонус маны
+[15:48:32] [Client thread/INFO] [CHAT] Маленькие проклинатели залетают в комнату, Вам следует быть осторожными с ними.
+[15:48:33] [Client thread/INFO] [CHAT] Маленький проклинатель: Сладкий, вкусный Странник Тьмы, просим тебя, прими наши небольшие подарки.
+[15:48:34] [Client thread/INFO] [CHAT] Tveiv получил Мое последнее перерождение в мире звезд, подаренное Исцелением
+[15:48:34] [Client thread/INFO] [CHAT] Tveiv получил Проклятие
+[15:48:36] [Client thread/INFO] [CHAT] Tveiv получил Дверь во тьму
+[15:48:36] [Client thread/INFO] [CHAT] Tveiv получил Проклятие
+[15:48:38] [Client thread/INFO] [CHAT] Tveiv получил Черная карта
+[15:48:38] [Client thread/INFO] [CHAT] Tveiv получил Проклятие
+[15:48:49] [Client thread/INFO] [CHAT] Авто-кликер выключен
+[15:48:50] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:48:50] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 20692
+[15:48:51] [Client thread/INFO] [CHAT] Tveiv получил Бонус скорости
+[15:48:54] [Client thread/INFO] [CHAT] Tveiv получил Унижение x2
+[15:48:54] [Client thread/INFO] [CHAT] Tveiv получил Замок без ключа x2
+[15:48:54] [Client thread/INFO] [CHAT] Авто-кликер включен
+[15:49:00] [Client thread/ERROR] Error on png decode
+java.io.EOFException
+	at #sxZYr.scIq(Unknown Source:79)
+	at #jmezQ.sbRO(SourceFile:93)
+	at #FaKMg.shSw(SourceFile:75)
+	at #QmVcX.RJ(SourceFile)
+	at #zaiJF.sgOp(SourceFile:63)
+	at #LGxKi.RJ(SourceFile)
+	at #RpxQO.skJt(Unknown Source:243)
+	at #WHweF.siKt(SourceFile:121)
+	at #uzDIF.kWZ(SourceFile:271)
+	at #uzDIF.eEI(SourceFile)
+	at #YqJut.sgEU(Unknown Source:169)
+	at #nHEpO.bVe(SourceFile)
+	at #zQMKT.skGM(SourceFile:116)
+	at #NzXqW.bVe(SourceFile)
+	at #YbKeD.sgYm(SourceFile:51)
+	at #fBAIZ.OP(SourceFile)
+	at #iWRkW.smZz(SourceFile:204)
+	at #qLlso.sBf(SourceFile:123)
+	at #qLlso.sBf(SourceFile:136)
+	at #EDvEB.saEh(Unknown Source:268)
+	at #BXaHm.sidN(SourceFile:376)
+	at #RlqYH.scDK(SourceFile:1204)
+	at #KKhTP.smHc(Unknown Source:1076)
+	at #voakw.siTy(SourceFile:3489)
+	at #UDbzx.sjbu(SourceFile:1509)
+	at #ZQCSx.shqa(SourceFile:1640)
+	at #kQsKH.smKh(SourceFile:487)
+	at net.minecraft.client.main.GameMain.mgm(SourceFile:220)
+	at net.minecraft.client.main.GameMain.iLJ(SourceFile:156)
+	at #cnUTs.lIs(Unknown Source)
+	at #cnUTs.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+[15:49:03] [Client thread/INFO] [CHAT] Потеряно 268 звезд
+[15:49:03] [Client thread/INFO] [CHAT] Потеряно 26 звезд
+[15:49:03] [Client thread/INFO] [CHAT] Tveiv получил Дверь во тьму
+[15:49:05] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 28%
+[15:49:05] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 29%
+[15:49:06] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 25%
+[15:49:13] [Client thread/INFO] [CHAT] Получено 46 звезд
+[15:49:13] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 23878
+[15:49:15] [Client thread/INFO] [CHAT] Tveiv получил Кольцо света x2
+[15:49:17] [Client thread/INFO] [CHAT] [24] H4ppY_56 » Сахар в зелье силы что будет
+[15:49:18] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 37%
+[15:49:21] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 49%
+[15:49:23] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 47%
+[15:49:23] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 31%
+[15:49:24] [Client thread/INFO] [CHAT] [30] RPG_HouS » ! ничего
+[15:49:24] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 37%
+[15:49:25] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 37%
+[15:49:27] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:49:27] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 12055
+[15:49:28] [Client thread/INFO] [CHAT] [24] H4ppY_56 » спс
+[15:49:30] [Client thread/INFO] [CHAT] Tveiv получил Гений звёзд
+[15:49:36] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 49%
+[15:49:38] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 47%
+[15:49:38] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 33%
+[15:49:38] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 48%
+[15:49:39] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 44%
+[15:49:39] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 41%
+[15:49:40] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 50%
+[15:49:41] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 43%
+[15:49:41] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 48%
+[15:49:41] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 36%
+[15:49:42] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 35%
+[15:49:43] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 47%
+[15:49:44] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 45%
+[15:49:46] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 32%
+[15:49:46] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 47%
+[15:49:48] [Client thread/INFO] [CHAT] Получено 42 звезд
+[15:49:48] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 30944
+[15:49:50] [Client thread/INFO] [CHAT] Tveiv получил Проклятие мультивыбора x2
+[15:49:50] [Client thread/INFO] [CHAT] Tveiv получил Ничего x2
+[15:49:50] [Client thread/INFO] [CHAT] Tveiv получил Зеркало Катастрофы x2
+[15:49:57] [Client thread/INFO] [CHAT] Последователи Бедствия появляются в комнате.
+[15:49:58] [Client thread/INFO] [CHAT] Наследница Бедствия: Странник Тьмы, ты же направляешься к Расиме?
+[15:49:59] [Client thread/INFO] [CHAT] Наследница Бедствия: Мы можем помочь друг-другу.
+[15:50:01] [Client thread/INFO] [CHAT] Наследница Бедствия: В битве с Расимой, мы будем на твоей стороне. Согласен?
+[15:50:03] [Client thread/INFO] [CHAT] Наследница Бедствия: Ты ещё пожалеешь об этом.
+[15:50:05] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 42%
+[15:50:06] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 39%
+[15:50:08] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 47%
+[15:50:10] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 45%
+[15:50:11] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 26%
+[15:50:13] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 42%
+[15:50:14] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 28%
+[15:50:14] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[15:50:14] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 32%
+[15:50:15] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 41%
+[15:50:15] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 43%
+[15:50:17] [Client thread/INFO] [CHAT] Получено 44 звезд
+[15:50:17] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 18328
+[15:50:18] [Client thread/INFO] [CHAT] Tveiv получил Внутренняя сила x4
+[15:50:20] [Client thread/INFO] [CHAT] На горизонте маячат гигантские, черные прямоугольники.
+[15:50:20] [Client thread/INFO] [CHAT] Вы не можете понять, это чьи-то дома, или же пред вами немыслимые, космические создания.
+[15:50:21] [Client thread/INFO] [CHAT] Прямоугольник: щмсМкЮЙжышиагЗО
+[15:50:22] [Client thread/FATAL] Error executing task
+java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at #ankXZ.skOv(SourceFile:46)
+	at #bBoCn.fLx(SourceFile:52)
+	at #lABBH.sgvJ(Unknown Source:1466)
+	at #ZQCSx.shqa(SourceFile:1632)
+	at #kQsKH.smKh(SourceFile:487)
+	at net.minecraft.client.main.GameMain.mgm(SourceFile:220)
+	at net.minecraft.client.main.GameMain.iLJ(SourceFile:156)
+	at #cnUTs.lIs(Unknown Source)
+	at #cnUTs.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.net.URL.of(Unknown Source)
+	at #lccti.sdvz(SourceFile:250)
+	at #YdQwo.seAd(SourceFile:204)
+	at #JLCmF.sgTq(SourceFile:508)
+	at #eeeNb.lcy(Unknown Source)
+	at #eeeNb.run(Unknown Source)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at #ankXZ.skOv(SourceFile:45)
+	... 9 more
+[15:50:22] [Client thread/FATAL] Error executing task
+java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at #ankXZ.skOv(SourceFile:46)
+	at #bBoCn.fLx(SourceFile:52)
+	at #lABBH.sgvJ(Unknown Source:1466)
+	at #ZQCSx.shqa(SourceFile:1632)
+	at #kQsKH.smKh(SourceFile:487)
+	at net.minecraft.client.main.GameMain.mgm(SourceFile:220)
+	at net.minecraft.client.main.GameMain.iLJ(SourceFile:156)
+	at #cnUTs.lIs(Unknown Source)
+	at #cnUTs.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.net.URL.of(Unknown Source)
+	at #lccti.sdvz(SourceFile:250)
+	at #YdQwo.seAd(SourceFile:204)
+	at #JLCmF.sgTq(SourceFile:508)
+	at #eeeNb.lcy(Unknown Source)
+	at #eeeNb.run(Unknown Source)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at #ankXZ.skOv(SourceFile:45)
+	... 9 more
+[15:50:22] [Client thread/FATAL] Error executing task
+java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at #ankXZ.skOv(SourceFile:46)
+	at #bBoCn.fLx(SourceFile:52)
+	at #lABBH.sgvJ(Unknown Source:1466)
+	at #ZQCSx.shqa(SourceFile:1632)
+	at #kQsKH.smKh(SourceFile:487)
+	at net.minecraft.client.main.GameMain.mgm(SourceFile:220)
+	at net.minecraft.client.main.GameMain.iLJ(SourceFile:156)
+	at #cnUTs.lIs(Unknown Source)
+	at #cnUTs.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.net.URL.of(Unknown Source)
+	at #lccti.sdvz(SourceFile:250)
+	at #YdQwo.seAd(SourceFile:204)
+	at #JLCmF.sgTq(SourceFile:508)
+	at #eeeNb.lcy(Unknown Source)
+	at #eeeNb.run(Unknown Source)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at #ankXZ.skOv(SourceFile:45)
+	... 9 more
+[15:50:23] [Client thread/INFO] [CHAT] Прямоугольник: сафЪёЖБЖнт!а
+[15:50:24] [Client thread/INFO] [CHAT] Прямоугольник: РЧЙЫФРщохРЁбТюЫСу
+[15:50:24] [Client thread/INFO] [CHAT] Tveiv получил Черные прямоугольники
+[15:50:26] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 45%
+[15:50:27] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 34%
+[15:50:27] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 33%
+[15:50:35] [Client thread/INFO] [CHAT] Получено 45 звезд
+[15:50:35] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 14296
+[15:50:36] [Client thread/INFO] [CHAT] Tveiv получил Лалофобия x4
+[15:50:36] [Client thread/INFO] [CHAT] Tveiv получил Мое последнее перерождение в мире звезд, подаренное Исцелением x4
+[15:50:36] [Client thread/INFO] [CHAT] Tveiv получил Игла ярости x4
+[15:50:37] [Client thread/INFO] [CHAT] Tveiv получил Катастрофизация x4
+[15:50:37] [Client thread/INFO] [CHAT] Tveiv получил Маноед x4
+[15:50:37] [Client thread/INFO] [CHAT] Tveiv получил Росток алмазного дерева x4
+[15:50:42] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Крови, Вы получаете урон за каждую нанесенную атаку
+[15:50:42] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:50:42] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Крови, Вы получаете урон за каждую нанесенную атаку
+[15:50:55] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Крови, Вы получаете урон за каждую нанесенную атаку
+[15:50:55] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Крови, Вы получаете урон за каждую нанесенную атаку
+[15:50:55] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Крови, Вы получаете урон за каждую нанесенную атаку
+[15:50:55] [Client thread/INFO] [CHAT] Звезды падают с небес!
+[15:51:01] [Client thread/INFO] [CHAT] Tveiv получил Бонус здоровья
+[15:51:01] [Client thread/INFO] [CHAT] Tveiv получил Бонус уклонения
+[15:51:05] [Client thread/INFO] [CHAT] Вы уклонились на 49%
+[15:51:06] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 43%
+[15:51:07] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 47%
+[15:51:08] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Крови, Вы получаете урон за каждую нанесенную атаку
+[15:51:08] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 41%
+[15:51:08] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 25%
+[15:51:09] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 34%
+[15:51:16] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 26%
+[15:51:17] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 46%
+[15:51:17] [Client thread/INFO] [CHAT] Получено 43 звезд
+[15:51:17] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 17831
+[15:51:18] [Client thread/INFO] [CHAT] Tveiv получил Воронка проклятий x4
+[15:51:19] [Client thread/INFO] [CHAT] На горизонте маячат гигантские, черные прямоугольники.
+[15:51:19] [Client thread/INFO] [CHAT] Вы не можете понять, это чьи-то дома, или же пред вами немыслимые, космические создания.
+[15:51:20] [Client thread/FATAL] Error executing task
+java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at #ankXZ.skOv(SourceFile:46)
+	at #bBoCn.fLx(SourceFile:52)
+	at #lABBH.sgvJ(Unknown Source:1466)
+	at #ZQCSx.shqa(SourceFile:1632)
+	at #kQsKH.smKh(SourceFile:487)
+	at net.minecraft.client.main.GameMain.mgm(SourceFile:220)
+	at net.minecraft.client.main.GameMain.iLJ(SourceFile:156)
+	at #cnUTs.lIs(Unknown Source)
+	at #cnUTs.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.net.URL.of(Unknown Source)
+	at #lccti.sdvz(SourceFile:250)
+	at #YdQwo.seAd(SourceFile:204)
+	at #JLCmF.sgTq(SourceFile:508)
+	at #eeeNb.lcy(Unknown Source)
+	at #eeeNb.run(Unknown Source)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at #ankXZ.skOv(SourceFile:45)
+	... 9 more
+[15:51:20] [Client thread/FATAL] Error executing task
+java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at #ankXZ.skOv(SourceFile:46)
+	at #bBoCn.fLx(SourceFile:52)
+	at #lABBH.sgvJ(Unknown Source:1466)
+	at #ZQCSx.shqa(SourceFile:1632)
+	at #kQsKH.smKh(SourceFile:487)
+	at net.minecraft.client.main.GameMain.mgm(SourceFile:220)
+	at net.minecraft.client.main.GameMain.iLJ(SourceFile:156)
+	at #cnUTs.lIs(Unknown Source)
+	at #cnUTs.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.net.URL.of(Unknown Source)
+	at #lccti.sdvz(SourceFile:250)
+	at #YdQwo.seAd(SourceFile:204)
+	at #JLCmF.sgTq(SourceFile:508)
+	at #eeeNb.lcy(Unknown Source)
+	at #eeeNb.run(Unknown Source)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at #ankXZ.skOv(SourceFile:45)
+	... 9 more
+[15:51:20] [Client thread/FATAL] Error executing task
+java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at #ankXZ.skOv(SourceFile:46)
+	at #bBoCn.fLx(SourceFile:52)
+	at #lABBH.sgvJ(Unknown Source:1466)
+	at #ZQCSx.shqa(SourceFile:1632)
+	at #kQsKH.smKh(SourceFile:487)
+	at net.minecraft.client.main.GameMain.mgm(SourceFile:220)
+	at net.minecraft.client.main.GameMain.iLJ(SourceFile:156)
+	at #cnUTs.lIs(Unknown Source)
+	at #cnUTs.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.net.URL.of(Unknown Source)
+	at #lccti.sdvz(SourceFile:250)
+	at #YdQwo.seAd(SourceFile:204)
+	at #JLCmF.sgTq(SourceFile:508)
+	at #eeeNb.lcy(Unknown Source)
+	at #eeeNb.run(Unknown Source)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at #ankXZ.skOv(SourceFile:45)
+	... 9 more
+[15:51:20] [Client thread/INFO] [CHAT] Прямоугольник: РТЕЩжыУеМпЫНэИл
+[15:51:21] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:51:22] [Client thread/INFO] [CHAT] Прямоугольник: ТГЭЬЧнЪэжЕтф
+[15:51:24] [Client thread/INFO] [CHAT] Прямоугольник: ЫФоеТубеаЫоЫБзучГ
+[15:51:24] [Client thread/INFO] [CHAT] Tveiv получил Черные прямоугольники
+[15:51:29] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 32%
+[15:51:31] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 46%
+[15:51:33] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 49%
+[15:51:34] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:51:34] [Client thread/INFO] [CHAT] На Вас наложен Яростный взор, Вы получаете урон, когда смотрите на существ
+[15:51:38] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 29%
+[15:51:40] [Client thread/INFO] [CHAT] Вампиризм сброшен!
+[15:51:42] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 31%
+[15:51:44] [Client thread/INFO] [CHAT] Вампиризм сброшен!
+[15:51:47] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:51:47] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 35%
+[15:51:48] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 35%
+[15:51:48] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 48%
+[15:51:50] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 41%
+[15:51:51] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 25%
+[15:51:51] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 41%
+[15:51:54] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 45%
+[15:51:55] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 38%
+[15:51:55] [Client thread/INFO] [CHAT] Получено 37 звезд
+[15:51:55] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 44173
+[15:51:56] [Client thread/INFO] [CHAT] Tveiv получил Долг судьбы x4
+[15:51:57] [Client thread/INFO] [CHAT] Вы находите лестницу отчаяния. Каждый, кто рискнёт ступить на неё, обречён на невероятные мучения. Но кто знает, что хранит вершина?
+[15:52:00] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:52:02] [Client thread/INFO] [CHAT] Вы убегаете прочь от лестницы со всех ног, Ваша жизнь того не стоит. Её тайна теперь закрыта навсегда.
+[15:52:05] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 31%
+[15:52:06] [Client thread/INFO] [CHAT] На Вас наложен Яростный взор, Вы получаете урон, когда смотрите на существ
+[15:52:12] [Client thread/INFO] [CHAT] Tveiv получил Бонус маны
+[15:52:14] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 42%
+[15:52:14] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 50%
+[15:52:15] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 31%
+[15:52:17] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 29%
+[15:52:18] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 28%
+[15:52:19] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 39%
+[15:52:20] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 44%
+[15:52:22] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 31%
+[15:52:22] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 50%
+[15:52:24] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 33%
+[15:52:24] [Client thread/INFO] [CHAT] На Вас наложен Яростный взор, Вы получаете урон, когда смотрите на существ
+[15:52:24] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 29%
+[15:52:25] [Client thread/INFO] [CHAT] Вы уклонились на 42%
+[15:52:25] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 35%
+[15:52:26] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 37%
+[15:52:27] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 44%
+[15:52:27] [Client thread/INFO] [CHAT] Получено 40 звезд
+[15:52:27] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 32713
+[15:52:28] [Client thread/INFO] [CHAT] Tveiv получил Ключ к Победе x3
+[15:52:36] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 40%
+[15:52:37] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 44%
+[15:52:38] [Client thread/INFO] [CHAT] Вы уклонились на 32%
+[15:52:43] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 48%
+[15:52:43] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 32%
+[15:52:45] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 33%
+[15:52:47] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 30%
+[15:52:48] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 39%
+[15:52:50] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 25%
+[15:52:51] [Client thread/INFO] [CHAT] Получено 41 звезд
+[15:52:51] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 52269
+[15:52:52] [Client thread/INFO] [CHAT] Tveiv получил Мрачная тень x4
+[15:52:52] [Client thread/INFO] [CHAT] Tveiv получил Карта выбора x4
+[15:52:52] [Client thread/INFO] [CHAT] Tveiv получил Разрушитель звёзд x4
+[15:52:52] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:52:52] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:52:52] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:52:54] [Client thread/INFO] [CHAT] Ведьмы появляются в комнате и медленно окружают Вас.
+[15:52:55] [Client thread/INFO] [CHAT] Ведьма: Уважаемый Странник Тьмы, поделитесь с нами вашей силой.
+[15:52:57] [Client thread/INFO] [CHAT] Tveiv получил Неукротимое бесстрашие
+[15:53:02] [Client thread/INFO] [CHAT] Вы уклонились на 27%
+[15:53:05] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:53:07] [Client thread/INFO] [CHAT] Вы уклонились на 41%
+[15:53:07] [Client thread/INFO] [CHAT] Вы уклонились на 45%
+[15:53:09] [Client thread/INFO] [CHAT] Вы уклонились на 46%
+[15:53:13] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 44%
+[15:53:14] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 38%
+[15:53:18] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:53:21] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 44%
+[15:53:22] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 37%
+[15:53:22] [Client thread/INFO] [CHAT] Вы уклонились на 42%
+[15:53:23] [Client thread/INFO] [CHAT] Получено 40 звезд
+[15:53:23] [Client thread/INFO] [CHAT] Получено 160 звезд
+[15:53:23] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 39532
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Проклятие
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Никтофобия
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Лалофобия
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Децидофобия
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Пениафобия
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Проклятие
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Никтофобия
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Лалофобия
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Децидофобия
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Пениафобия
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Проклятие
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Никтофобия
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Лалофобия
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Децидофобия
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Пениафобия
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Проклятие
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Никтофобия
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Лалофобия
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Децидофобия
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Пениафобия
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Панофобия x4
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Маноед x4
+[15:53:24] [Client thread/INFO] [CHAT] Tveiv получил Спокойствие разума x4
+[15:53:26] [Client thread/INFO] [CHAT] [6] Yaslenko » силы
+[15:53:29] [Client thread/INFO] [CHAT] Потеряно 59 звезд
+[15:53:29] [Client thread/INFO] [CHAT] Получено 17 звезд
+[15:53:29] [Client thread/INFO] [CHAT] Tveiv получил Шестерёнки страха
+[15:53:30] [Client thread/INFO] [CHAT] Потеряно 59 звезд
+[15:53:30] [Client thread/INFO] [CHAT] Получено 17 звезд
+[15:53:30] [Client thread/INFO] [CHAT] Tveiv получил Кольцо света
+[15:53:31] [Client thread/INFO] [CHAT] Потеряно 59 звезд
+[15:53:31] [Client thread/INFO] [CHAT] Получено 17 звезд
+[15:53:31] [Client thread/INFO] [CHAT] Tveiv получил Долг боли
+[15:53:31] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:53:31] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:53:31] [Client thread/INFO] [CHAT] Потеряно 59 звезд
+[15:53:31] [Client thread/INFO] [CHAT] Получено 17 звезд
+[15:53:31] [Client thread/INFO] [CHAT] Tveiv получил Осквернённое перо
+[15:53:32] [Client thread/INFO] [CHAT] Потеряно 59 звезд
+[15:53:32] [Client thread/INFO] [CHAT] Получено 17 звезд
+[15:53:32] [Client thread/INFO] [CHAT] Tveiv получил Рассеянный мозг
+[15:53:33] [Client thread/INFO] [CHAT] Потеряно 59 звезд
+[15:53:33] [Client thread/INFO] [CHAT] Получено 17 звезд
+[15:53:33] [Client thread/INFO] [CHAT] Tveiv получил Внутренняя сила
+[15:53:34] [Client thread/INFO] [CHAT] Потеряно 59 звезд
+[15:53:34] [Client thread/INFO] [CHAT] Получено 17 звезд
+[15:53:34] [Client thread/INFO] [CHAT] Tveiv получил Квазар
+[15:53:41] [Client thread/INFO] [CHAT] [6] Yaslenko » я хочу силы
+[15:53:42] [Client thread/INFO] [CHAT] Потеряно 238 звезд
+[15:53:42] [Client thread/INFO] [CHAT] Потеряно 23 звезд
+[15:53:42] [Client thread/INFO] [CHAT] Tveiv получил Кольцо света
+[15:53:44] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:53:45] [Client thread/INFO] [CHAT] Вы уклонились на 40%
+[15:53:46] [Client thread/INFO] [CHAT] Вы уклонились на 30%
+[15:53:46] [Client thread/INFO] [CHAT] Вы уклонились на 49%
+[15:53:48] [Client thread/INFO] [CHAT] [1] V+ ┃ Curkocuzka » и ти получиш ейо
+[15:53:48] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 48%
+[15:53:49] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 34%
+[15:53:49] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 28%
+[15:53:50] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 46%
+[15:53:51] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 47%
+[15:53:51] [Client thread/INFO] [CHAT] Вы уклонились на 41%
+[15:53:52] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 45%
+[15:53:52] [Client thread/INFO] [CHAT] Вы уклонились на 35%
+[15:53:52] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 40%
+[15:53:52] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 25%
+[15:53:54] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 41%
+[15:54:03] [Client thread/INFO] [CHAT] Расима снижает уровень зачарования Капюшон последователя Бедствия ☬ +4
+[15:54:10] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:54:15] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 32%
+[15:54:16] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 25%
+[15:54:21] [Client thread/INFO] [CHAT] Вы уклонились на 29%
+[15:54:22] [Client thread/INFO] [CHAT] Луч презрения задел Вас! Ваше исцеление снижено на 25% в течении 17 секунд
+[15:54:22] [Client thread/INFO] [CHAT] Луч презрения задел Вас! Ваше исцеление снижено на 25% в течении 17 секунд
+[15:54:22] [Client thread/INFO] [CHAT] Луч презрения задел Вас! Ваше исцеление снижено на 25% в течении 17 секунд
+[15:54:24] [Client thread/INFO] [CHAT] Вы уклонились на 35%
+[15:54:27] [Client thread/INFO] [CHAT] Расима снижает уровень зачарования Шаровары последователя Бедствия ☬ +9
+[15:54:30] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 29%
+[15:54:31] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 35%
+[15:54:32] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 27%
+[15:54:44] [Client thread/INFO] [CHAT] Прошла минута с начала волны! Урон противников увеличен на 25%
+[15:54:47] [Client thread/INFO] [CHAT] Расима снижает уровень зачарования Жертва ритуалу ☬ +7
+[15:54:49] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:54:58] [Client thread/INFO] [CHAT] Луч презрения задел Вас! Ваше исцеление снижено на 25% в течении 17 секунд
+[15:54:58] [Client thread/INFO] [CHAT] Луч презрения задел Вас! Ваше исцеление снижено на 25% в течении 17 секунд
+[15:54:58] [Client thread/INFO] [CHAT] Луч презрения задел Вас! Ваше исцеление снижено на 25% в течении 17 секунд
+[15:54:58] [Client thread/INFO] [CHAT] Вы уклонились на 40%
+[15:55:02] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:55:09] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 45%
+[15:55:09] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 35%
+[15:55:10] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 32%
+[15:55:11] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 30%
+[15:55:12] [Client thread/INFO] [CHAT] Расима снижает уровень зачарования Капюшон последователя Бедствия ☬ +3
+[15:55:12] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 50%
+[15:55:13] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 48%
+[15:55:13] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 26%
+[15:55:14] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 43%
+[15:55:16] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 49%
+[15:55:16] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 45%
+[15:55:17] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 29%
+[15:55:18] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 45%
+[15:55:18] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 39%
+[15:55:19] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 36%
+[15:55:22] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 25%
+[15:55:22] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 32%
+[15:55:23] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 35%
+[15:55:24] [Client thread/INFO] [CHAT] Вы уклонились на 47%
+[15:55:25] [Client thread/INFO] [CHAT] Вы уклонились на 37%
+[15:55:27] [Client thread/INFO] [CHAT] Луч презрения задел Вас! Ваше исцеление снижено на 25% в течении 17 секунд
+[15:55:27] [Client thread/INFO] [CHAT] Луч презрения задел Вас! Ваше исцеление снижено на 25% в течении 17 секунд
+[15:55:36] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 33%
+[15:55:36] [Client thread/INFO] [CHAT] Расима снижает уровень зачарования Роба последователя Бедствия ☬ +7
+[15:55:38] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 47%
+[15:55:38] [Client thread/INFO] [CHAT] Расима: Сколько ещё Вы будете пытаться убить меня?
+[15:55:39] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 48%
+[15:55:40] [Client thread/INFO] [CHAT] Расима: Сгораете в собственной ярости..
+[15:55:42] [Client thread/INFO] [CHAT] Расима: Ваши тела будут исцелены досмерти!
+[15:55:44] [Client thread/INFO] [CHAT] Прошло две минуты с начала волны! Урон противников увеличен на 25%
+[15:55:44] [Client thread/INFO] [CHAT] Вы уклонились на 31%
+[15:55:58] [Client thread/INFO] [CHAT] Вы уклонились на 34%
+[15:55:58] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 36%
+[15:55:59] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:56:02] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 26%
+[15:56:02] [Client thread/INFO] [CHAT] Вы уклонились на 37%
+[15:56:04] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:56:04] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 37%
+[15:56:05] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 43%
+[15:56:06] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 50%
+[15:56:06] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 48%
+[15:56:07] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 31%
+[15:56:07] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:56:08] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 28%
+[15:56:09] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:56:09] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 50%
+[15:56:14] [Client thread/INFO] [CHAT] Расима снижает уровень зачарования Жертва ритуалу ☬ +6
+[15:56:14] [Client thread/INFO] [CHAT] Расима: Звездопад!
+[15:56:14] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:56:15] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 43%
+[15:56:15] [Client thread/INFO] [CHAT] Вы уклонились на 33%
+[15:56:15] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 46%
+[15:56:19] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 33%
+[15:56:19] [Client thread/INFO] [CHAT] Расима: Бледная Луна!
+[15:56:19] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:56:21] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 26%
+[15:56:22] [Client thread/INFO] [CHAT] Вы уклонились на 26%
+[15:56:24] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:56:24] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 32%
+[15:56:25] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 30%
+[15:56:27] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 46%
+[15:56:28] [Client thread/INFO] [CHAT] Расима отнимает Ваше здоровье! Убивайте цветки жизни, чтобы его вернуть.
+[15:56:29] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:56:33] [Client thread/INFO] [CHAT] Вы уклонились на 37%
+[15:56:34] [Client thread/INFO] [CHAT] Расима снижает уровень зачарования Жертва ритуалу ☬ +5
+[15:56:34] [Client thread/INFO] [CHAT] Расима: Звездопад!
+[15:56:34] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:56:39] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:56:44] [Client thread/INFO] [CHAT] Прошло три минуты с начала волны! Урон противников увеличен на 25%
+[15:56:44] [Client thread/INFO] [CHAT] Расима: Бледная Луна!
+[15:56:44] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:56:49] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:56:54] [Client thread/INFO] [CHAT] Расима снижает уровень зачарования Роба последователя Бедствия ☬ +6
+[15:56:54] [Client thread/INFO] [CHAT] Расима: Звездопад!
+[15:56:54] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:56:59] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:57:04] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:57:09] [Client thread/INFO] [CHAT] Расима: Бледная Луна!
+[15:57:09] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:57:10] [Client thread/INFO] [CHAT] Вы уклонились на 38%
+[15:57:12] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:57:12] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:57:12] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:57:14] [Client thread/INFO] [CHAT] Расима снижает уровень зачарования Шаровары последователя Бедствия ☬ +8
+[15:57:14] [Client thread/INFO] [CHAT] Расима: Звездопад!
+[15:57:14] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:57:19] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:57:24] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:57:25] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:57:28] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 34%
+[15:57:29] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:57:34] [Client thread/INFO] [CHAT] Расима снижает уровень зачарования Роба последователя Бедствия ☬ +5
+[15:57:34] [Client thread/INFO] [CHAT] Расима: Звездопад!
+[15:57:34] [Client thread/INFO] [CHAT] Расима: Бледная Луна!
+[15:57:34] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:57:34] [Client thread/INFO] [CHAT] Вы уклонились на 40%
+[15:57:38] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:57:38] [Client thread/INFO] [CHAT] Вы уклонились на 33%
+[15:57:39] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:57:39] [Client thread/INFO] [CHAT] Вы уклонились на 38%
+[15:57:44] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:57:44] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 50%
+[15:57:45] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 41%
+[15:57:45] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 28%
+[15:57:46] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 36%
+[15:57:48] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 46%
+[15:57:49] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:57:51] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:57:54] [Client thread/INFO] [CHAT] Расима снижает уровень зачарования Жертва ритуалу ☬ +4
+[15:57:54] [Client thread/INFO] [CHAT] Расима: Звездопад!
+[15:57:54] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:57:57] [Client thread/INFO] [CHAT] Вы уклонились на 31%
+[15:57:59] [Client thread/INFO] [CHAT] Расима: Пусть мир будет поглощен Черной дырой!
+[15:57:59] [Client thread/INFO] [CHAT] Расима: Бледная Луна!
+[15:57:59] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:58:00] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 28%
+[15:58:01] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 33%
+[15:58:01] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 44%
+[15:58:03] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 35%
+[15:58:04] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:58:04] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:58:04] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:58:04] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 37%
+[15:58:06] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 33%
+[15:58:07] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 30%
+[15:58:08] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 30%
+[15:58:09] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 47%
+[15:58:09] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:58:10] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 31%
+[15:58:10] [Client thread/INFO] [CHAT] Вы уклонились на 28%
+[15:58:12] [Client thread/INFO] [CHAT] Расима отнимает Ваше здоровье! Убивайте цветки жизни, чтобы его вернуть.
+[15:58:14] [Client thread/INFO] [CHAT] Вы уклонились на 31%
+[15:58:15] [Client thread/INFO] [CHAT] Вы уклонились на 44%
+[15:58:15] [Client thread/INFO] [CHAT] Вы уклонились на 42%
+[15:58:16] [Client thread/INFO] [CHAT] Луч презрения задел Вас! Ваше исцеление снижено на 25% в течении 17 секунд
+[15:58:16] [Client thread/INFO] [CHAT] Луч презрения задел Вас! Ваше исцеление снижено на 25% в течении 17 секунд
+[15:58:19] [Client thread/INFO] [CHAT] Расима снижает уровень зачарования Высасывающий клинок Расимы ♨ +7
+[15:58:19] [Client thread/INFO] [CHAT] Расима: Звездопад!
+[15:58:19] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:58:24] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:58:28] [Client thread/INFO] [CHAT] Вы уклонились на 32%
+[15:58:29] [Client thread/INFO] [CHAT] Расима: Бледная Луна!
+[15:58:29] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:58:30] [Client thread/INFO] [CHAT] На Вас наложено Проклятие Страха, Ваш вампиризм заблокирован
+[15:58:30] [Client thread/INFO] [CHAT] Вы уклонились на 31%
+[15:58:33] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 31%
+[15:58:33] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 26%
+[15:58:34] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[15:58:35] [Client thread/INFO] [CHAT] Вы уклонились на 32%
+[15:58:36] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 36%
+[15:58:38] [Client thread/INFO] [CHAT] Цель уклонилась от атаки на 46%
+[15:58:39] [Client thread/INFO] [CHAT] Расима снижает уровень зачарования Капюшон последователя Бедствия ☬ +2
+[15:58:39] [Client thread/INFO] [CHAT] Расима: Звездопад!
+[15:58:39] [Client thread/INFO] [CHAT] Расима сбросила Ваш вампиризм!
+[16:01:00] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[16:01:13] [Client thread/INFO] [CHAT] Tveiv получил Бонус скорости
+[16:01:14] [Client thread/INFO] [CHAT] Получено 44 звезд
+[16:01:14] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 8360
+[16:01:16] [Client thread/INFO] [CHAT] Tveiv получил Мое последнее перерождение в мире звезд, подаренное Исцелением
+[16:01:35] [Client thread/INFO] [CHAT] [3] Alonesrek » как юзать звезды зачара
+[16:01:40] [Client thread/INFO] [CHAT] [3] Alonesrek » ! как юзать звезды зачара
+[16:01:51] [Client thread/INFO] [CHAT] Получено 41 звезд
+[16:01:51] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 11688
+[16:01:53] [Client thread/INFO] [CHAT] Tveiv получил Губка
+[16:01:57] [Client thread/INFO] [CHAT] Потеряно 51 звезд
+[16:01:57] [Client thread/INFO] [CHAT] Tveiv получил Спокойствие разума
+[16:02:09] [Client thread/INFO] [CHAT] Получено 46 звезд
+[16:02:09] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 7184
+[16:02:10] [Client thread/INFO] [CHAT] Tveiv получил Непоколебимость Победителя
+[16:02:20] [Client thread/INFO] [CHAT] Получено 47 звезд
+[16:02:20] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 8911
+[16:02:21] [Client thread/INFO] [CHAT] Tveiv получил Кровопролитие
+[16:02:23] [Client thread/INFO] [CHAT] Tveiv получил Осквернённое перо
+[16:02:32] [Client thread/INFO] [CHAT] Получено 46 звезд
+[16:02:32] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 12292
+[16:02:34] [Client thread/INFO] [CHAT] Tveiv получил Черная магия
+[16:02:47] [Client thread/ERROR] Error on handle event #bUlBe in Mod{name='VoidMod', version='1.0+089d877', persistent=false, delegate=dev.a.a.a, modState=LOADED}
+java.lang.NullPointerException: Cannot invoke "!#RicbX.jS()" because "<parameter1>" is null
+	at VoidMod-v1.0+089d877//dev.a.a.d.b.a.a(SourceFile:54)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.a.c.d(SourceFile:15)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.a.c.injectedLambda$d$1(SourceFile)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.a(SourceFile:21)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.injectedLambda$a$10(SourceFile)
+	at java.base/java.util.ArrayList.forEach(Unknown Source)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.a(SourceFile:185)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.injectedLambda$a$0(SourceFile)
+	at #BHMxk.sanH(Unknown Source:56)
+	at #EDvEB.kcv(Unknown Source)
+	at #EDvEB.accept(Unknown Source)
+	at #gthWo.shRq(SourceFile:105)
+	at #RczXx.iHk(Unknown Source)
+	at #RczXx.accept(Unknown Source)
+	at #tZnke.sjcO(SourceFile:59)
+	at #cCSpT.Ib(SourceFile)
+	at #cVHnR.seEn(Unknown Source:89)
+	at #GItiT.sfDZ(SourceFile:100)
+	at #CFNmt.dZG(SourceFile)
+	at #eFdzA.sgmB(SourceFile:50)
+	at #oZEKS.skYg(SourceFile:3463)
+	at #JxJII.sfCz(SourceFile:3447)
+	at #UwmgL.skmN(SourceFile:2219)
+	at #tZEFi.sdxw(SourceFile:2131)
+	at #ZeCEz.sljt(SourceFile:2013)
+	at #TSEwU.smhy(SourceFile:1482)
+	at #ZQCSx.shqa(SourceFile:1634)
+	at #kQsKH.smKh(SourceFile:487)
+	at net.minecraft.client.main.GameMain.mgm(SourceFile:220)
+	at net.minecraft.client.main.GameMain.iLJ(SourceFile:156)
+	at #cnUTs.lIs(Unknown Source)
+	at #cnUTs.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+[16:02:49] [Client thread/ERROR] Error on handle event #bUlBe in Mod{name='VoidMod', version='1.0+089d877', persistent=false, delegate=dev.a.a.a, modState=LOADED}
+java.lang.NullPointerException: Cannot invoke "!#RicbX.jS()" because "<parameter1>" is null
+	at VoidMod-v1.0+089d877//dev.a.a.d.b.a.a(SourceFile:54)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.a.c.d(SourceFile:15)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.a.c.injectedLambda$d$1(SourceFile)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.a(SourceFile:21)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.injectedLambda$a$10(SourceFile)
+	at java.base/java.util.ArrayList.forEach(Unknown Source)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.a(SourceFile:185)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.injectedLambda$a$0(SourceFile)
+	at #BHMxk.sanH(Unknown Source:56)
+	at #EDvEB.kcv(Unknown Source)
+	at #EDvEB.accept(Unknown Source)
+	at #gthWo.shRq(SourceFile:105)
+	at #RczXx.iHk(Unknown Source)
+	at #RczXx.accept(Unknown Source)
+	at #tZnke.sjcO(SourceFile:59)
+	at #cCSpT.Ib(SourceFile)
+	at #cVHnR.seEn(Unknown Source:89)
+	at #GItiT.sfDZ(SourceFile:100)
+	at #CFNmt.dZG(SourceFile)
+	at #eFdzA.sgmB(SourceFile:50)
+	at #oZEKS.skYg(SourceFile:3463)
+	at #JxJII.sfCz(SourceFile:3447)
+	at #UwmgL.skmN(SourceFile:2219)
+	at #tZEFi.sdxw(SourceFile:2131)
+	at #ZeCEz.sljt(SourceFile:2013)
+	at #TSEwU.smhy(SourceFile:1482)
+	at #ZQCSx.shqa(SourceFile:1634)
+	at #kQsKH.smKh(SourceFile:487)
+	at net.minecraft.client.main.GameMain.mgm(SourceFile:220)
+	at net.minecraft.client.main.GameMain.iLJ(SourceFile:156)
+	at #cnUTs.lIs(Unknown Source)
+	at #cnUTs.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+[16:02:52] [Client thread/INFO] [CHAT] Получено 42 звезд
+[16:02:52] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 37621
+[16:02:54] [Client thread/INFO] [CHAT] Tveiv получил Сетка для ловли звёзд
+[16:02:58] [Client thread/INFO] [CHAT] [14] D ┃ PlayEnotik » идет кто в пати проходить вместе?
+[16:03:00] [Client thread/INFO] [CHAT] Потеряно 53 звезд
+[16:03:00] [Client thread/INFO] [CHAT] Tveiv получил Разрез души
+[16:03:01] [Client thread/INFO] [CHAT] Потеряно 53 звезд
+[16:03:01] [Client thread/INFO] [CHAT] Tveiv получил Пениафобия
+[16:03:02] [Client thread/INFO] [CHAT] Потеряно 53 звезд
+[16:03:02] [Client thread/INFO] [CHAT] Tveiv получил Теневой
+[16:03:03] [Client thread/INFO] [CHAT] Потеряно 53 звезд
+[16:03:03] [Client thread/INFO] [CHAT] Tveiv получил Немногословен
+[16:03:25] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[16:03:36] [Client thread/INFO] [CHAT] Получено 46 звезд
+[16:03:36] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 6375
+[16:03:38] [Client thread/INFO] [CHAT] Tveiv получил Охотник за головами
+[16:03:48] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[16:03:58] [Client thread/INFO] [CHAT] Tveiv получил Бонус скорости
+[16:04:01] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[16:04:13] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[16:04:29] [Client thread/INFO] [CHAT] Получено 43 звезд
+[16:04:29] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 6876
+[16:04:30] [Client thread/INFO] [CHAT] Tveiv получил Губка
+[16:04:32] [Network thread/INFO] Protocol upgrade mask: 157
+[16:04:32] [Network thread/INFO] Upgrading protocol
+[16:04:32] [Client thread/INFO] Invalidating server data
+[16:04:32] [Client thread/INFO] Unloading mod VoidMod/290cbfe2-8beb-21db-017b-66fcae2d767c
+[16:04:32] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] reload requested: ServerSwitch
+[16:04:32] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] cleanAndReload begin: sessionId=3, awaitingHandshake=true
+[16:04:32] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] VAO support: true
+[16:04:32] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Initialization with mod Wada
+[16:04:32] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Successfully initialized
+[16:04:32] [Client thread/INFO] Joining server Хаб #1
+[16:04:32] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default
+[16:04:32] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[16:04:32] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[16:04:32] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[16:04:32] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[16:04:32] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[16:04:32] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[16:04:32] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[16:04:32] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[16:04:32] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[16:04:32] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[16:04:32] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[16:04:32] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[16:04:32] [Client thread/INFO] SoundSystem shutting down...
+[16:04:32] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[16:04:32] [Client thread/INFO] Starting up SoundSystem...
+[16:04:32] [Thread-33/INFO] Initializing LWJGL OpenAL
+[16:04:32] [Thread-33/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:04:32] [Thread-33/INFO] OpenAL audio device: OpenAL Soft on Динамики (MCHOSE V9 PRO)
+[16:04:32] [Thread-33/INFO] OpenAL initialized.
+[16:04:32] [Client thread/INFO] Sound engine reloaded
+[16:04:32] [Client thread/INFO] Loaded mod HubMod/8bf1beb9-1aa4-6238-01a1-b9e0ab1ce5fa v1.4.5 in 11 ms
+[16:04:32] [ForkJoinPool.commonPool-worker-1/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[16:04:32] [ForkJoinPool.commonPool-worker-1/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[16:04:32] [ForkJoinPool.commonPool-worker-1/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[16:04:33] [ForkJoinPool.commonPool-worker-1/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[16:04:33] [ForkJoinPool.commonPool-worker-1/WARN] Unable to resolve texture due to upward reference: #cross in minecraft:models/block/chain.json
+[16:04:33] [ForkJoinPool.commonPool-worker-1/WARN] Unable to resolve texture due to upward reference: #cross in minecraft:models/block/chain.json
+[16:04:33] [ForkJoinPool.commonPool-worker-1/INFO] [OptiFine] Mipmap levels: 4
+[16:04:33] [ForkJoinPool.commonPool-worker-1/INFO] [OptiFine] Multi-texturing: false
+[16:04:33] [ForkJoinPool.commonPool-worker-1/INFO] [OptiFine] Multipass connected textures: false
+[16:04:33] [ForkJoinPool.commonPool-worker-1/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[16:04:33] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[16:04:33] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[16:04:33] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[16:04:33] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[16:04:33] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[16:04:33] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[16:04:33] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[16:04:33] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[16:04:33] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[16:04:33] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[16:04:33] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[16:04:33] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[16:04:33] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[16:04:33] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[16:04:33] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[16:04:33] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[16:04:33] [ForkJoinPool.commonPool-worker-1/INFO] load sprites for 56ms
+[16:04:33] [ForkJoinPool.commonPool-worker-1/INFO] Created: 1024x1024 textures-atlas in 90ms
+[16:04:33] [Client thread/INFO] Loaded mod Visual Driver/8aa42793-5d07-6f79-ab4b-689f73c55728 v3.8.31+9da32142 in 6 ms
+[16:04:33] [ForkJoinPool.commonPool-worker-5/INFO] [DEBUG] Atlas assembly for 5.213ms
+[16:04:33] [Client thread/INFO] [DEBUG] upload atlas for 2.043ms
+[16:04:33] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.004ms
+[16:04:33] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[16:04:33] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[16:04:33] [Client thread/INFO] Textures loaded for 961.980ms
+[16:04:35] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=3
+[16:04:35] [Client thread/INFO] [CHAT] H ┃ MeowFy  Хаб #1 » 㥚
+[16:04:35] [Client thread/WARN] Unknown bedrock format: void_fist.png.mcmeta
+[16:04:37] [Client thread/INFO] [CHAT] HE ┃ _T0rP3Da_ Хаб #1 » 㥚
+[16:04:39] [Network thread/INFO] Protocol upgrade mask: 157
+[16:04:39] [Network thread/INFO] Upgrading protocol
+[16:04:39] [Client thread/INFO] Invalidating server data
+[16:04:39] [Client thread/INFO] Unloading mod Visual Driver/8aa42793-5d07-6f79-ab4b-689f73c55728
+[16:04:39] [Client thread/INFO] Unloading mod HubMod/8bf1beb9-1aa4-6238-01a1-b9e0ab1ce5fa
+[16:04:39] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] reload requested: ServerSwitch
+[16:04:39] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] cleanAndReload begin: sessionId=4, awaitingHandshake=true
+[16:04:39] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] VAO support: true
+[16:04:39] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Initialization with mod Wada
+[16:04:39] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Successfully initialized
+[16:04:39] [Client thread/INFO] Found file C:\Users\tveiv\.cristalix\updates\Minigames\server-resource-packs\40bb4597c7ce6b5b4690666d2a8804747a202ba3 matching requested hash 2a33a213ea168e73eaf34aeab631978eb6603e7b
+[16:04:39] [Client thread/INFO] Cache hit
+[16:04:39] [Client thread/INFO] Joining server VoidGame #2
+[16:04:39] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default, 40bb4597c7ce6b5b4690666d2a8804747a202ba3
+[16:04:39] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[16:04:39] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[16:04:39] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[16:04:39] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[16:04:39] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[16:04:39] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[16:04:39] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[16:04:39] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[16:04:39] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[16:04:39] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[16:04:39] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[16:04:39] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[16:04:39] [Client thread/INFO] SoundSystem shutting down...
+[16:04:39] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[16:04:39] [Client thread/INFO] Starting up SoundSystem...
+[16:04:39] [Thread-37/INFO] Initializing LWJGL OpenAL
+[16:04:39] [Thread-37/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:04:39] [Thread-37/INFO] OpenAL audio device: OpenAL Soft on Динамики (MCHOSE V9 PRO)
+[16:04:39] [Thread-37/INFO] OpenAL initialized.
+[16:04:39] [Client thread/INFO] Sound engine reloaded
+[16:04:40] [ForkJoinPool.commonPool-worker-1/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[16:04:40] [ForkJoinPool.commonPool-worker-1/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[16:04:40] [ForkJoinPool.commonPool-worker-1/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[16:04:40] [ForkJoinPool.commonPool-worker-1/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[16:04:40] [ForkJoinPool.commonPool-worker-1/INFO] [OptiFine] Mipmap levels: 4
+[16:04:40] [ForkJoinPool.commonPool-worker-1/INFO] [OptiFine] Multi-texturing: false
+[16:04:40] [ForkJoinPool.commonPool-worker-1/INFO] [OptiFine] Multipass connected textures: false
+[16:04:40] [ForkJoinPool.commonPool-worker-1/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[16:04:40] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[16:04:40] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[16:04:40] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[16:04:40] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[16:04:40] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[16:04:40] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[16:04:40] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[16:04:40] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[16:04:40] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[16:04:40] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[16:04:40] [ForkJoinPool.commonPool-worker-1/ERROR] Using missing texture, unable to load minecraft:textures/items/wooden_sword.png
+[16:04:40] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[16:04:40] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[16:04:40] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[16:04:40] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[16:04:40] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[16:04:40] [ForkJoinPool.commonPool-worker-1/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[16:04:40] [ForkJoinPool.commonPool-worker-1/INFO] load sprites for 7ms
+[16:04:40] [ForkJoinPool.commonPool-worker-1/INFO] Created: 1024x1024 textures-atlas in 21ms
+[16:04:40] [ForkJoinPool.commonPool-worker-1/INFO] [DEBUG] Atlas assembly for 2.098ms
+[16:04:40] [Client thread/INFO] [DEBUG] upload atlas for 1.166ms
+[16:04:40] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.004ms
+[16:04:40] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[16:04:40] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[16:04:40] [Client thread/INFO] Textures loaded for 319.983ms
+[16:04:40] [Client thread/INFO] Start loading of mod VoidMod
+[16:04:40] [Client thread/INFO] Loading mod VoidMod v1.0+089d877 by ZeksterP
+[16:04:40] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11-TEST-2 - VoidMod] VAO support: true
+[16:04:40] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11-TEST-2 - VoidMod] Initialization with mod VoidMod
+[16:04:41] [Client thread/INFO] [STDOUT]: [Enginex v5.13.11-TEST-2 - VoidMod] Successfully initialized
+[16:04:41] [Client thread/INFO] Loaded mod VoidMod v1.0+089d877 in 870 ms
+[16:04:41] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=4
+[16:04:51] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[16:04:58] [Client thread/INFO] [CHAT] Tveiv получил Бумажный меч
+[16:04:59] [Client thread/INFO] [CHAT] Получено 47 звезд
+[16:04:59] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 8360
+[16:05:01] [Client thread/INFO] [CHAT] Tveiv получил Ножницы пространства
+[16:05:11] [Client thread/INFO] [CHAT] [30] D ┃ AndreWiking » [Исполнитель желаний ☬]
+[16:05:12] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[16:05:12] [Client thread/INFO] [CHAT] [30] D ┃ AndreWiking » [Исполнитель желаний ☬]
+[16:05:13] [Client thread/INFO] [CHAT] [30] D ┃ AndreWiking » [Исполнитель желаний ☬]
+[16:05:15] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » #рука\
+[16:05:17] [Client thread/INFO] [CHAT] [30] D ┃ AndreWiking » клянись
+[16:05:17] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » [Исполнитель желаний ♨ +3]
+[16:05:18] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » [Исполнитель желаний ♨ +3]
+[16:05:22] [Client thread/INFO] [CHAT] Tveiv получил Долг судьбы
+[16:05:23] [Client thread/INFO] [CHAT] [30] D ┃ AndreWiking » 2 за данж
+[16:05:26] [Client thread/INFO] [CHAT] Получено 44 звезд
+[16:05:26] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 8625
+[16:05:27] [Client thread/INFO] [CHAT] Tveiv получил Спокойствие разума
+[16:05:34] [Client thread/INFO] [CHAT] Unknown command. Type "/help" for help.
+[16:05:38] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » [Пыль феи +3]
+[16:05:38] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » [Исполнитель желаний ♨ +3]
+[16:05:38] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » [Благословенная серебряная звезда зачарования x 38]
+[16:05:40] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » [Отражающий амулет +3]
+[16:06:01] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[16:06:08] [Client thread/ERROR] Error on handle event #bUlBe in Mod{name='VoidMod', version='1.0+089d877', persistent=false, delegate=dev.a.a.a, modState=LOADED}
+java.lang.NullPointerException: Cannot invoke "!#RicbX.jS()" because "<parameter1>" is null
+	at VoidMod-v1.0+089d877//dev.a.a.d.b.a.a(SourceFile:54)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.a.c.d(SourceFile:15)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.a.c.injectedLambda$d$1(SourceFile)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.a(SourceFile:21)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.injectedLambda$a$10(SourceFile)
+	at java.base/java.util.ArrayList.forEach(Unknown Source)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.a(SourceFile:185)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.injectedLambda$a$0(SourceFile)
+	at #BHMxk.sanH(Unknown Source:56)
+	at #EDvEB.kcv(Unknown Source)
+	at #EDvEB.accept(Unknown Source)
+	at #gthWo.shRq(SourceFile:105)
+	at #RczXx.iHk(Unknown Source)
+	at #RczXx.accept(Unknown Source)
+	at #tZnke.sjcO(SourceFile:59)
+	at #cCSpT.Ib(SourceFile)
+	at #cVHnR.seEn(Unknown Source:89)
+	at #GItiT.sfDZ(SourceFile:100)
+	at #CFNmt.dZG(SourceFile)
+	at #eFdzA.sgmB(SourceFile:50)
+	at #oZEKS.skYg(SourceFile:3463)
+	at #JxJII.sfCz(SourceFile:3447)
+	at #UwmgL.skmN(SourceFile:2219)
+	at #tZEFi.sdxw(SourceFile:2131)
+	at #ZeCEz.sljt(SourceFile:2013)
+	at #TSEwU.smhy(SourceFile:1482)
+	at #ZQCSx.shqa(SourceFile:1634)
+	at #kQsKH.smKh(SourceFile:487)
+	at net.minecraft.client.main.GameMain.mgm(SourceFile:220)
+	at net.minecraft.client.main.GameMain.iLJ(SourceFile:156)
+	at #cnUTs.lIs(Unknown Source)
+	at #cnUTs.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+[16:06:11] [Client thread/INFO] [CHAT] Получено 46 звезд
+[16:06:11] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 7106
+[16:06:13] [Client thread/INFO] [CHAT] Tveiv получил Непоколебимость Победителя
+[16:06:22] [Client thread/ERROR] Error on handle event #bUlBe in Mod{name='VoidMod', version='1.0+089d877', persistent=false, delegate=dev.a.a.a, modState=LOADED}
+java.lang.NullPointerException: Cannot invoke "!#RicbX.jS()" because "<parameter1>" is null
+	at VoidMod-v1.0+089d877//dev.a.a.d.b.a.a(SourceFile:54)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.a.c.d(SourceFile:15)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.a.c.injectedLambda$d$1(SourceFile)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.a(SourceFile:21)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.injectedLambda$a$10(SourceFile)
+	at java.base/java.util.ArrayList.forEach(Unknown Source)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.a(SourceFile:185)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.injectedLambda$a$0(SourceFile)
+	at #BHMxk.sanH(Unknown Source:56)
+	at #EDvEB.kcv(Unknown Source)
+	at #EDvEB.accept(Unknown Source)
+	at #gthWo.shRq(SourceFile:105)
+	at #RczXx.iHk(Unknown Source)
+	at #RczXx.accept(Unknown Source)
+	at #tZnke.sjcO(SourceFile:59)
+	at #cCSpT.Ib(SourceFile)
+	at #cVHnR.seEn(Unknown Source:89)
+	at #GItiT.sfDZ(SourceFile:100)
+	at #CFNmt.dZG(SourceFile)
+	at #eFdzA.sgmB(SourceFile:50)
+	at #oZEKS.skYg(SourceFile:3463)
+	at #JxJII.sfCz(SourceFile:3447)
+	at #UwmgL.skmN(SourceFile:2219)
+	at #tZEFi.sdxw(SourceFile:2131)
+	at #ZeCEz.sljt(SourceFile:2013)
+	at #TSEwU.smhy(SourceFile:1482)
+	at #ZQCSx.shqa(SourceFile:1634)
+	at #kQsKH.smKh(SourceFile:487)
+	at net.minecraft.client.main.GameMain.mgm(SourceFile:220)
+	at net.minecraft.client.main.GameMain.iLJ(SourceFile:156)
+	at #cnUTs.lIs(Unknown Source)
+	at #cnUTs.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+[16:06:24] [Client thread/ERROR] Error on handle event #bUlBe in Mod{name='VoidMod', version='1.0+089d877', persistent=false, delegate=dev.a.a.a, modState=LOADED}
+java.lang.NullPointerException: Cannot invoke "!#RicbX.jS()" because "<parameter1>" is null
+	at VoidMod-v1.0+089d877//dev.a.a.d.b.a.a(SourceFile:54)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.a.c.d(SourceFile:15)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.a.c.injectedLambda$d$1(SourceFile)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.a(SourceFile:21)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.injectedLambda$a$10(SourceFile)
+	at java.base/java.util.ArrayList.forEach(Unknown Source)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.a(SourceFile:185)
+	at VoidMod-v1.0+089d877//dev.a.a.f.j.b.injectedLambda$a$0(SourceFile)
+	at #BHMxk.sanH(Unknown Source:56)
+	at #EDvEB.kcv(Unknown Source)
+	at #EDvEB.accept(Unknown Source)
+	at #gthWo.shRq(SourceFile:105)
+	at #RczXx.iHk(Unknown Source)
+	at #RczXx.accept(Unknown Source)
+	at #tZnke.sjcO(SourceFile:59)
+	at #cCSpT.Ib(SourceFile)
+	at #cVHnR.seEn(Unknown Source:89)
+	at #GItiT.sfDZ(SourceFile:100)
+	at #CFNmt.dZG(SourceFile)
+	at #eFdzA.sgmB(SourceFile:50)
+	at #oZEKS.skYg(SourceFile:3463)
+	at #JxJII.sfCz(SourceFile:3447)
+	at #UwmgL.skmN(SourceFile:2219)
+	at #tZEFi.sdxw(SourceFile:2131)
+	at #ZeCEz.sljt(SourceFile:2013)
+	at #TSEwU.smhy(SourceFile:1482)
+	at #ZQCSx.shqa(SourceFile:1634)
+	at #kQsKH.smKh(SourceFile:487)
+	at net.minecraft.client.main.GameMain.mgm(SourceFile:220)
+	at net.minecraft.client.main.GameMain.iLJ(SourceFile:156)
+	at #cnUTs.lIs(Unknown Source)
+	at #cnUTs.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+[16:06:42] [Client thread/INFO] [CHAT] Получено 40 звезд
+[16:06:42] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 12331
+[16:06:43] [Client thread/INFO] [CHAT] Tveiv получил Замок без ключа
+[16:06:44] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » [Пыль феи +10]
+[16:06:52] [Client thread/INFO] [CHAT] Получено 46 звезд
+[16:06:52] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 8318
+[16:06:54] [Client thread/INFO] [CHAT] Tveiv получил Викторина Монксельда
+[16:06:56] [Client thread/INFO] [CHAT] Последователь и его группа ожидают от Вас ответа.
+[16:07:01] [Client thread/INFO] [CHAT] Последователь Этоля: Превосходный ответ, мы ожидаем от тебя свершений.
+[16:07:01] [Client thread/INFO] [CHAT] Tveiv получил Спокойствие разума x2
+[16:07:07] [Client thread/INFO] [CHAT] Получено 47 звезд
+[16:07:07] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 8517
+[16:07:09] [Client thread/INFO] [CHAT] Tveiv получил Охотник за головами
+[16:07:10] [Client thread/INFO] [CHAT] Tveiv получил Прострел с Юпитера
+[16:07:15] [Client thread/INFO] [CHAT] Последователь и его группа ожидают от Вас ответа.
+[16:07:19] [Client thread/INFO] [CHAT] Последователь Этоля: Превосходный ответ, мы ожидаем от тебя свершений.
+[16:07:19] [Client thread/INFO] [CHAT] Tveiv получил Острый клинок x2
+[16:07:20] [Client thread/INFO] [CHAT] [30] D ┃ AndreWiking » [Исполнитель желаний ☬ +3]
+[16:07:22] [Client thread/INFO] [CHAT] Tveiv получил Спокойствие разума
+[16:07:25] [Client thread/INFO] [CHAT] Получено 47 звезд
+[16:07:25] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 14191
+[16:07:27] [Client thread/INFO] [CHAT] Tveiv получил Черная магия
+[16:07:41] [Client thread/INFO] [CHAT] Получено 44 звезд
+[16:07:41] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 40167
+[16:07:42] [Client thread/INFO] [CHAT] Tveiv получил Взгляд Расимы
+[16:07:43] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » [Исполнитель желаний ♨ +7]
+[16:07:53] [Client thread/ERROR] Error on handle event #bUlBe in Mod{name='VoidMod', version='1.0+089d877', persistent=false, delegate=dev.a.a.a, modState=LOADED}
+java.lang.NullPointerException
+[16:07:56] [Client thread/INFO] [CHAT] Tveiv получил Зеркало Катастрофы
+[16:07:57] [Client thread/INFO] [CHAT] Получено 47 звезд
+[16:07:57] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 18045
+[16:07:58] [Client thread/INFO] [CHAT] Tveiv получил Бонус брони x2
+[16:08:07] [Client thread/INFO] [CHAT] Получено 46 звезд
+[16:08:07] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 10103
+[16:08:07] [Client thread/INFO] [CHAT] [14] D ┃ PlayEnotik » че за в обьятиях тьмы?
+[16:08:08] [Client thread/INFO] [CHAT] Tveiv получил Лалофобия x2
+[16:08:20] [Client thread/INFO] [CHAT] Авто-кликер включен
+[16:09:06] [Client thread/INFO] [CHAT] [30] D ┃ AndreWiking » [Исполнитель желаний ☬ +4]
+[16:09:20] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » [Исполнитель желаний ♨ +6]
+[16:09:31] [Client thread/INFO] [CHAT] [30] I ┃ JonY_00 » [Жертва ритуалу ♡ +10]
+[16:09:33] [Client thread/INFO] [CHAT] [30] I ┃ JonY_00 » [Жертва ритуалу ♡ +9]
+[16:09:35] [Client thread/INFO] [CHAT] [30] D ┃ AndreWiking » [Исполнитель желаний ♡ +4]
+[16:09:36] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[16:09:46] [Client thread/INFO] [CHAT] Получено 46 звезд
+[16:09:46] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 6420
+[16:09:48] [Client thread/INFO] [CHAT] [30] Treefrei66 » [Пожиратель магии ☬ +8]
+[16:09:48] [Client thread/INFO] [CHAT] Tveiv получил Внутренняя сила
+[16:09:49] [Client thread/INFO] [CHAT] Последователь и его группа ожидают от Вас ответа.
+[16:09:54] [Client thread/INFO] [CHAT] Последователь Этоля: Превосходный ответ, мы ожидаем от тебя свершений.
+[16:09:54] [Client thread/INFO] [CHAT] Tveiv получил Бонус урона
+[16:10:02] [Client thread/INFO] [CHAT] [14] D ┃ PlayEnotik » идет кто в дс вместе проходить?
+[16:10:02] [Client thread/INFO] [CHAT] Получено 46 звезд
+[16:10:02] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 12170
+[16:10:03] [Client thread/INFO] [CHAT] Tveiv получил Разрушитель звёзд
+[16:10:09] [Client thread/INFO] [CHAT] Вы находите лестницу отчаяния. Каждый, кто рискнёт ступить на неё, обречён на невероятные мучения. Но кто знает, что хранит вершина?
+[16:10:11] [Client thread/INFO] [CHAT] [30] Treefrei66 » [Карта созвездий]
+[16:10:11] [Client thread/INFO] [CHAT] Вы убегаете прочь от лестницы со всех ног, Ваша жизнь того не стоит. Её тайна теперь закрыта навсегда.
+[16:10:17] [Client thread/INFO] [CHAT] Получено 47 звезд
+[16:10:17] [Client thread/INFO] [CHAT] Получено 40 звезд
+[16:10:17] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 7620
+[16:10:27] [Client thread/INFO] [CHAT] Получено 46 звезд
+[16:10:27] [Client thread/INFO] [CHAT] Получено 40 звезд
+[16:10:27] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 9061
+[16:10:29] [Client thread/INFO] [CHAT] Tveiv получил Непобеждаемая слот-машина
+[16:10:32] [Client thread/INFO] [CHAT] Последователь Этоля появляется в комнате.
+[16:10:34] [Client thread/INFO] [CHAT] Астролог: Странник Тьмы, я рад видеть тебя. Позволь мне помочь в твоих странствиях, давай свою экипировку.
+[16:10:34] [Client thread/INFO] [CHAT] Оружие получает +2 к уровню зачарования, а остальные предметы - +4
+[16:10:48] [Client thread/INFO] [CHAT] Получено 45 звезд
+[16:10:48] [Client thread/INFO] [CHAT] Получено 40 звезд
+[16:10:48] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 11919
+[16:10:52] [Client thread/INFO] [CHAT] Авто-кликер выключен
+[16:10:53] [Client thread/INFO] [CHAT] Авто-кликер включен
+[16:11:06] [Client thread/INFO] [CHAT] Получено 42 звезд
+[16:11:06] [Client thread/INFO] [CHAT] Получено 40 звезд
+[16:11:06] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 37769
+[16:11:12] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » [Исполнитель желаний ♡ +8] [Исполнитель желаний ♨ +6]
+[16:11:15] [Client thread/INFO] [CHAT] [30] RPG_HouS » [Уничтожение ☬]
+[16:11:20] [Client thread/INFO] [CHAT] У Вас есть 20 секунд, прежде, чем кот сбежит!
+[16:11:24] [Client thread/INFO] [CHAT] Tveiv получил Идол глупцов
+[16:11:24] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[16:11:25] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[16:11:26] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[16:11:27] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[16:11:28] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[16:11:29] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[16:11:30] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[16:11:31] [Client thread/INFO] [CHAT] VoidGame » Мана кончилась и ясность мысли покидает Вас!
+[16:11:33] [Client thread/INFO] [CHAT] [30] V ┃ Paranoiid » [Пыль феи +10]
+[16:11:53] [Client thread/INFO] [CHAT] Tveiv получил Собиратель мусора
+[16:12:07] [Client thread/INFO] [CHAT] Получено 44 звезд
+[16:12:07] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 6689
+[16:12:08] [Client thread/INFO] [CHAT] Tveiv получил Компас заклинателя
+[16:12:09] [Client thread/INFO] [CHAT] Ведьмы появляются в комнате и медленно окружают Вас.
+[16:12:10] [Client thread/INFO] [CHAT] Ведьма: Уважаемый Странник Тьмы, поделитесь с нами вашей силой.
+[16:12:23] [Client thread/INFO] [CHAT] Получено 45 звезд
+[16:12:23] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 12434
+[16:12:27] [Client thread/INFO] [CHAT] Tveiv получил Губка
+[16:12:27] [Client thread/INFO] [CHAT] [14] D ┃ PlayEnotik » идет кто в дс вместе проходить?
+[16:12:27] [Client thread/INFO] [CHAT] Механическое создание ужасающе анализирует Вас. Может, Вам стоит сбежать?
+[16:12:28] [Client thread/INFO] [CHAT] Механический помощник Валотайла: Дай руку.
+[16:12:33] [Client thread/INFO] [CHAT] Создание осматривает вашу руку и..
+[16:12:34] [Client thread/INFO] [CHAT] Резко её отрывает! Оторванная рука сильно кровоточит!
+[16:12:34] [Client thread/INFO] [CHAT] Механический помощник Валотайла: Спасибо.
+[16:12:43] [Client thread/INFO] [CHAT] Получено 46 звезд
+[16:12:43] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 7701
+[16:12:45] [Client thread/INFO] [CHAT] Tveiv получил Небытие
+[16:12:47] [Client thread/INFO] [CHAT] Солнечная армия вторглась в Ваш мир!
+[16:12:56] [Client thread/INFO] [CHAT] Tveiv получил Бонус здоровья
+[16:12:56] [Client thread/INFO] [CHAT] Tveiv получил Бонус урона
+[16:13:05] [Client thread/INFO] [CHAT] Получено 46 звезд
+[16:13:05] [Client thread/INFO] [CHAT] Урон игрока Tveiv: 9286
+[16:13:06] [Client thread/INFO] [CHAT] Tveiv получил Бонус скорости
+[16:13:07] [Client thread/INFO] [CHAT] Tveiv получил Шестерёнки страха
+[16:15:06] [Client thread/INFO] [CHAT] [23] Rizons » [Карта созвездий]
+[16:15:23] [Client thread/INFO] [CHAT] [28] V+ ┃ Killurey0 » скелет исушитель стреляет какими стрелами?
+[16:15:27] [Client thread/INFO] [CHAT] [30] SADITOR » горение
+[16:15:35] [Client thread/INFO] [CHAT] [28] V+ ┃ Killurey0 » спс
+[16:18:20] [Client thread/INFO] [CHAT] [30] RPG_HouS » ! у кого есть карта созвездий крутая
+[16:20:48] [Network thread/INFO] Protocol upgrade mask: 157
+[16:20:48] [Network thread/INFO] Upgrading protocol
+[16:20:48] [Client thread/INFO] Invalidating server data
+[16:20:48] [Client thread/INFO] Unloading mod VoidMod/fd481144-4c6e-ed7d-5a06-effd8a552093
+[16:20:48] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] reload requested: ServerSwitch
+[16:20:48] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] cleanAndReload begin: sessionId=5, awaitingHandshake=true
+[16:20:48] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] VAO support: true
+[16:20:48] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Initialization with mod Wada
+[16:20:48] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] Successfully initialized
+[16:20:48] [Client thread/INFO] Joining server Хаб #1
+[16:20:48] [Client thread/INFO] Reloading ResourceManager: assets-addon.jar, Default
+[16:20:48] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.ambient
+[16:20:48] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_hurt
+[16:20:48] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.hurt
+[16:20:48] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_death
+[16:20:48] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.death
+[16:20:48] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.baby_step
+[16:20:48] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.step
+[16:20:48] [Client thread/WARN] Missing sound for event: minecraft:entity.turtle.swim
+[16:20:48] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.crack
+[16:20:48] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.egg_break
+[16:20:48] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.fall
+[16:20:48] [Client thread/WARN] Missing sound for event: minecraft:block.turtle_egg.hatch
+[16:20:48] [Client thread/INFO] SoundSystem shutting down...
+[16:20:48] [Client thread/WARN] Author: Paul Lamb, www.paulscode.com
+[16:20:48] [Client thread/INFO] Starting up SoundSystem...
+[16:20:48] [Thread-40/INFO] Initializing LWJGL OpenAL
+[16:20:48] [Thread-40/INFO] (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:20:48] [Thread-40/INFO] OpenAL audio device: OpenAL Soft on Динамики (MCHOSE V9 PRO)
+[16:20:48] [Thread-40/INFO] OpenAL initialized.
+[16:20:48] [Client thread/INFO] Sound engine reloaded
+[16:20:49] [ForkJoinPool.commonPool-worker-4/WARN] Unable to load variant: axis=x from minecraft:lodestone#axis=x
+[16:20:49] [ForkJoinPool.commonPool-worker-4/WARN] Unable to load variant: axis=y from minecraft:lodestone#axis=y
+[16:20:49] [ForkJoinPool.commonPool-worker-4/WARN] Unable to load variant: axis=z from minecraft:lodestone#axis=z
+[16:20:49] [ForkJoinPool.commonPool-worker-4/ERROR] Unable to load item model: 'minecraft:mcpatcher/cit/others/megumin_hat#inventory' for item: 'minecraft:mcpatcher/cit/others/megumin_hat'
+[16:20:49] [ForkJoinPool.commonPool-worker-4/WARN] Unable to resolve texture due to upward reference: #cross in minecraft:models/block/chain.json
+[16:20:49] [ForkJoinPool.commonPool-worker-4/WARN] Unable to resolve texture due to upward reference: #cross in minecraft:models/block/chain.json
+[16:20:49] [ForkJoinPool.commonPool-worker-4/INFO] [OptiFine] Mipmap levels: 4
+[16:20:49] [ForkJoinPool.commonPool-worker-4/INFO] [OptiFine] Multi-texturing: false
+[16:20:49] [ForkJoinPool.commonPool-worker-4/INFO] [OptiFine] Multipass connected textures: false
+[16:20:49] [ForkJoinPool.commonPool-worker-4/INFO] [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[16:20:49] [ForkJoinPool.commonPool-worker-4/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_2, 8 -> 16
+[16:20:49] [ForkJoinPool.commonPool-worker-4/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_1, 8 -> 16
+[16:20:49] [ForkJoinPool.commonPool-worker-4/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_0, 8 -> 16
+[16:20:49] [ForkJoinPool.commonPool-worker-4/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_6, 8 -> 16
+[16:20:49] [ForkJoinPool.commonPool-worker-4/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_5, 8 -> 16
+[16:20:49] [ForkJoinPool.commonPool-worker-4/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_4, 8 -> 16
+[16:20:49] [ForkJoinPool.commonPool-worker-4/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_3, 8 -> 16
+[16:20:49] [ForkJoinPool.commonPool-worker-4/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_9, 8 -> 16
+[16:20:49] [ForkJoinPool.commonPool-worker-4/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_8, 8 -> 16
+[16:20:49] [ForkJoinPool.commonPool-worker-4/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_7, 8 -> 16
+[16:20:49] [ForkJoinPool.commonPool-worker-4/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_11, 8 -> 16
+[16:20:49] [ForkJoinPool.commonPool-worker-4/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_10, 8 -> 16
+[16:20:49] [ForkJoinPool.commonPool-worker-4/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_13, 8 -> 16
+[16:20:49] [ForkJoinPool.commonPool-worker-4/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_12, 8 -> 16
+[16:20:49] [ForkJoinPool.commonPool-worker-4/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_15, 8 -> 16
+[16:20:49] [ForkJoinPool.commonPool-worker-4/FATAL] [OptiFine] Scaled too small texture: minecraft:particles/glow_14, 8 -> 16
+[16:20:49] [Client thread/INFO] Loaded mod Visual Driver/8aa42793-5d07-6f79-ab4b-689f73c55728 v3.8.31+9da32142 in 6 ms
+[16:20:49] [ForkJoinPool.commonPool-worker-4/INFO] load sprites for 45ms
+[16:20:49] [ForkJoinPool.commonPool-worker-4/INFO] Created: 1024x1024 textures-atlas in 77ms
+[16:20:49] [ForkJoinPool.commonPool-worker-4/INFO] [DEBUG] Atlas assembly for 6.042ms
+[16:20:49] [Client thread/INFO] [DEBUG] upload atlas for 2.416ms
+[16:20:49] [Client thread/INFO] [DEBUG] Generate mipmaps for 0.004ms
+[16:20:49] [Client thread/INFO] [OptiFine] Animated sprites: 0
+[16:20:49] [Client thread/INFO] [OptiFine] CustomColors: Loading mcpatcher/color.properties
+[16:20:49] [Client thread/INFO] Textures loaded for 895.324ms
+[16:20:49] [Client thread/INFO] Loaded mod HubMod/8bf1beb9-1aa4-6238-01a1-b9e0ab1ce5fa v1.4.5 in 8 ms
+[16:20:51] [Client thread/INFO] [STDOUT]: [Enginex v5.16.3 - Wada] [Wada/debug] handshake complete (w4:load), awaitingHandshake=false, sessionId=5
+[16:21:07] [Client thread/INFO] [CHAT] Stepik2254 Хаб #1 » кто играет в кастл файтс пишите
+[16:21:13] [Client thread/INFO] [CHAT] Stepik2254 Хаб #1 » я
+[16:22:05] [Client thread/INFO] [CHAT] Stepik2254 Хаб #1 » кто играет в кастл файтс пишите я
+[16:22:05] [Client thread/INFO] [CHAT] P ┃ Player_EZ Хаб #1 » китай бугага
+[16:22:19] [Client thread/INFO] Stopping!
+[16:22:19] [Client thread/INFO] Unloading mod Visual Driver/8aa42793-5d07-6f79-ab4b-689f73c55728
+[16:22:19] [Client thread/INFO] Unloading mod HubMod/8bf1beb9-1aa4-6238-01a1-b9e0ab1ce5fa
+[16:22:19] [Client thread/INFO] Unloading mod Wada/a69a0fef-eb1c-a7fe-cba9-9c2d3408b5b8
+[16:22:19] [Client thread/INFO] Unloading mod Socials/98decb7c-85f0-b946-6f6e-e13d34506fd2
+[16:22:19] [Client thread/INFO] Unloading mod Gama/a549f13f-ad09-8f5b-78f3-9214ef1e08ae
