@@ -262,16 +262,16 @@ permalink: /trivia/
     <!-- Список вопросов и ответов -->
     <div class="trivia-list" id="trivia-list">
         
-        <div class="trivia-card" data-keywords="сколько зеленых бонусов обычных рулетка монксельд">
+        <div class="trivia-card" data-keywords="сколько зеленых бонусов обычных рулетка монксельд аккреционном диске">
             <div class="question-row">
                 <span class="q-badge">Вопрос</span>
-                <p class="question-text">Сколько всего зелёных бонусов в игре?</p>
+                <p class="question-text">Сколько всего зелёных бонусов в аккреционном диске?</p>
             </div>
             <div class="answer-row">
                 <span class="a-badge">Ответ</span>
                 <p class="answer-text">4</p>
             </div>
-            <p class="trivia-note"><strong>Контекст:</strong> Имеется в виду количество базовых обычных бонусов, которые падают на регулярных волнах в рулетке (Бонус здоровья, Бонус маны, Бонус скорости, Бонус урона). Многие ошибаются, пытаясь прибавить «Ничего» или «Спокойствие разума».</p>
+            <p class="trivia-note"><strong>Контекст:</strong> Имеется в виду количество базовых обычных бонусов, которые падают на регулярных волнах первого подземелья «Аккреционный диск»</p>
         </div>
         <div class="trivia-card" data-keywords="грибная корова молния тип грибов коричневая">
             <div class="question-row">
@@ -339,17 +339,6 @@ permalink: /trivia/
             </div>
             <p class="trivia-note"><strong>Контекст:</strong> Сахар без предварительного приготовления основы (неловкого зелья) не сварит зелье скорости.</p>
         </div>
-        <div class="trivia-card" data-keywords="зомби максимальный запас хп падение высота жив">
-            <div class="question-row">
-                <span class="q-badge">Вопрос</span>
-                <p class="question-text">Зомби с максимальным запасом здоровья падает с максимальной высоты. Останется ли он жив?</p>
-            </div>
-            <div class="answer-row">
-                <span class="a-badge">Ответ</span>
-                <p class="answer-text">Да, останется жив</p>
-            </div>
-            <p class="trivia-note"><strong>Контекст:</strong> Зомби обладает высоким базовым здоровьем и естественной броней, что позволяет ему пережить падение.</p>
-        </div>
         <div class="trivia-card" data-keywords="молния бьет в звезду незера пропадает звезда">
             <div class="question-row">
                 <span class="q-badge">Вопрос</span>
@@ -416,6 +405,28 @@ permalink: /trivia/
             </div>
             <p class="trivia-note"><strong>Контекст:</strong> При нахождении в радиусе 8 блоков от союзника, ваш шанс критического удара увеличивается на 15☆ (15%☆).</p>
         </div>
+        <div class="trivia-card" data-keywords="свинцовый слоник сколько защиты дает монксельд">
+            <div class="question-row">
+                <span class="q-badge">Вопрос</span>
+                <p class="question-text">Сколько защиты даёт свинцовый слоник?</p>
+            </div>
+            <div class="answer-row">
+                <span class="a-badge">Ответ</span>
+                <p class="answer-text">10%☆</p>
+            </div>
+            <p class="trivia-note"><strong>Контекст:</strong> Редкий синий бонус «Свинцовый слоник» снижает весь входящий урон на 10%☆ и повышает вампиризм на 5%☆, но урезает вашу скорость передвижения на 50%☆ и наносимый урон на 15%☆.</p>
+        </div>
+        <div class="trivia-card" data-keywords="сколько всего фантазий шкатулке этоля монксельд">
+            <div class="question-row">
+                <span class="q-badge">Вопрос</span>
+                <p class="question-text">Сколько всего фантазий в шкатулке Этоля?</p>
+            </div>
+            <div class="answer-row">
+                <span class="a-badge">Ответ</span>
+                <p class="answer-text">16</p>
+            </div>
+            <p class="trivia-note"><strong>Контекст:</strong> В шкатулке Этоля находится ровно 16 фантазий, которые можно разблокировать.</p>
+        </div>
     </div>
 
     <div class="section-divider">💬 Вопросы Игроков (FAQ)</div>
@@ -459,15 +470,7 @@ permalink: /trivia/
                 <p>Да! Он навсегда увеличивает вашу базовую защиту на <b>6%☆</b>. Данный бонус невероятно силён в связке с редким бонусом <b>«Собиратель мусора»</b>, который дарует перманентные характеристики при поднятии зелёных перков.</p>
             </div>
         </div>
-        <div class="faq-card" data-keywords="свинцовый слоник защита вампиризм скорость дебафф">
-            <div class="faq-question">
-                <span class="faq-icon">❓</span>
-                <h4>Сколько защиты даёт свинцовый слоник?</h4>
-            </div>
-            <div class="faq-answer">
-                <p>Редкий синий бонус «Свинцовый слоник» снижает весь входящий урон на <b>10%☆</b> и повышает вампиризм на <b>5%☆</b>, но урезает вашу скорость передвижения на <b>50%☆</b> и наносимый урон на <b>15%☆</b>.</p>
-            </div>
-        </div>
+
         <div class="faq-card" data-keywords="никтофобия векс досаждатель толкает спину">
             <div class="faq-question">
                 <span class="faq-icon">❓</span>
