@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Шпаргалка по Викторине Монксельда"
+title: "Викторина Монксельда"
 permalink: /trivia/
 ---
 
@@ -71,7 +71,17 @@ permalink: /trivia/
     box-shadow: 0 0 10px rgba(255, 82, 82, 0.3);
 }
 
-.trivia-list {
+.section-divider {
+    font-size: 22px;
+    color: #ffd54f;
+    border-bottom: 2px solid rgba(255, 213, 79, 0.2);
+    padding-bottom: 8px;
+    margin: 40px 0 20px 0;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(255, 213, 79, 0.25);
+}
+
+.trivia-list, .faq-list {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -156,6 +166,50 @@ permalink: /trivia/
     color: #bbb;
 }
 
+/* FAQ Styles */
+.faq-card {
+    background: rgba(15, 17, 26, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 16px 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    transition: all 0.2s ease;
+}
+
+.faq-card:hover {
+    border-color: rgba(255, 213, 79, 0.25);
+    background: rgba(20, 22, 33, 0.9);
+}
+
+.faq-question {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.faq-icon {
+    font-size: 18px;
+}
+
+.faq-question h4 {
+    margin: 0;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.faq-answer {
+    font-size: 14px;
+    color: #b0b0b0;
+    line-height: 1.5;
+    padding-left: 28px;
+}
+
+.faq-answer b {
+    color: #ffd54f;
+}
+
 .no-results {
     text-align: center;
     padding: 40px;
@@ -169,13 +223,13 @@ permalink: /trivia/
 
 /* Адаптивность для мобильных телефонов Android 7.0 */
 @media (max-width: 600px) {
-    .trivia-card {
+    .trivia-card, .faq-card {
         padding: 14px 16px;
     }
-    .question-text, .answer-text {
+    .question-text, .answer-text, .faq-question h4 {
         font-size: 15px;
     }
-    .trivia-note {
+    .trivia-note, .faq-answer {
         padding-left: 0;
         margin-top: 12px;
         border-top: 1px dashed rgba(255, 255, 255, 0.05);
@@ -186,7 +240,7 @@ permalink: /trivia/
 
 # Шпаргалка: Викторина Монксельда
 
-Шпаргалка для моментального прохождения викторин от **Монксельда, Тегона и Вазора** во время арен Бездны. 
+Шпаргалка для моментального прохождения викторин от **Монксельда, Тегона и Вазора** во время арен Бездны.
 
 <div class="trivia-container">
     <!-- Баннер с предупреждением -->
@@ -200,8 +254,10 @@ permalink: /trivia/
 
     <!-- Поиск по ключевым словам -->
     <div class="search-section">
-        <input type="text" id="trivia-search" class="search-input" placeholder="Введите ключевое слово (например: корова, яблоко, комар)...">
+        <input type="text" id="trivia-search" class="search-input" placeholder="Введите ключевое слово (например: корова, яблоко, комар, связь)...">
     </div>
+
+    <div class="section-divider">🔮 Вопросы Викторины</div>
 
     <!-- Список вопросов и ответов -->
     <div class="trivia-list" id="trivia-list">
@@ -217,7 +273,6 @@ permalink: /trivia/
             </div>
             <p class="trivia-note"><strong>Контекст:</strong> Имеется в виду количество базовых обычных бонусов, которые падают на регулярных волнах в рулетке (Бонус здоровья, Бонус маны, Бонус скорости, Бонус урона). Многие ошибаются, пытаясь прибавить «Ничего» или «Спокойствие разума».</p>
         </div>
-
         <div class="trivia-card" data-keywords="грибная корова молния тип грибов коричневая">
             <div class="question-row">
                 <span class="q-badge">Вопрос</span>
@@ -229,7 +284,6 @@ permalink: /trivia/
             </div>
             <p class="trivia-note"><strong>Контекст:</strong> Корова превратится из обычной красной грибной коровы в коричневую грибную корову.</p>
         </div>
-
         <div class="trivia-card" data-keywords="скелет иссушитель лук свойство стрелы горение огненные поджог">
             <div class="question-row">
                 <span class="q-badge">Вопрос</span>
@@ -241,7 +295,6 @@ permalink: /trivia/
             </div>
             <p class="trivia-note"><strong>Контекст:</strong> Вопреки ванильной логике иссушения, в игре его стрелы поджигают цель.</p>
         </div>
-
         <div class="trivia-card" data-keywords="сколько летучих мышей событие левитации шифт">
             <div class="question-row">
                 <span class="q-badge">Вопрос</span>
@@ -253,7 +306,6 @@ permalink: /trivia/
             </div>
             <p class="trivia-note"><strong>Контекст:</strong> Появляется ровно 10 летучих мышей, которых нужно поймать, зажимая клавишу Shift.</p>
         </div>
-
         <div class="trivia-card" data-keywords="точильный камень зачарованное золотое яблоко grinder grindstone">
             <div class="question-row">
                 <span class="q-badge">Вопрос</span>
@@ -265,7 +317,6 @@ permalink: /trivia/
             </div>
             <p class="trivia-note"><strong>Контекст:</strong> Точильный камень не взаимодействует с яблоками.</p>
         </div>
-
         <div class="trivia-card" data-keywords="зельеварочная стойка зелье силы светокаменная пыль пыльца сила эффекта">
             <div class="question-row">
                 <span class="q-badge">Вопрос</span>
@@ -277,7 +328,6 @@ permalink: /trivia/
             </div>
             <p class="trivia-note"><strong>Контекст:</strong> Классический крафт усиленного зелья (Сила II) в Minecraft.</p>
         </div>
-
         <div class="trivia-card" data-keywords="зельеварочная стойка сахар ничего">
             <div class="question-row">
                 <span class="q-badge">Вопрос</span>
@@ -289,7 +339,6 @@ permalink: /trivia/
             </div>
             <p class="trivia-note"><strong>Контекст:</strong> Сахар без предварительного приготовления основы (неловкого зелья) не сварит зелье скорости.</p>
         </div>
-
         <div class="trivia-card" data-keywords="зомби максимальный запас хп падение высота жив">
             <div class="question-row">
                 <span class="q-badge">Вопрос</span>
@@ -301,7 +350,6 @@ permalink: /trivia/
             </div>
             <p class="trivia-note"><strong>Контекст:</strong> Зомби обладает высоким базовым здоровьем и естественной броней, что позволяет ему пережить падение.</p>
         </div>
-
         <div class="trivia-card" data-keywords="молния бьет в звезду незера пропадает звезда">
             <div class="question-row">
                 <span class="q-badge">Вопрос</span>
@@ -313,7 +361,131 @@ permalink: /trivia/
             </div>
             <p class="trivia-note"><strong>Контекст:</strong> Физический объект звезды уничтожается молнией.</p>
         </div>
+        <div class="trivia-card" data-keywords="базовый критический крит урон процент по умолчанию">
+            <div class="question-row">
+                <span class="q-badge">Вопрос</span>
+                <p class="question-text">Каков базовый критический урон по умолчанию?</p>
+            </div>
+            <div class="answer-row">
+                <span class="a-badge">Ответ</span>
+                <p class="answer-text">75%☆</p>
+            </div>
+            <p class="trivia-note"><strong>Контекст:</strong> По умолчанию критический удар наносит 75%☆ дополнительного урона.</p>
+        </div>
+        <div class="trivia-card" data-keywords="скелет максимальный запас хп падение высота жив умрет">
+            <div class="question-row">
+                <span class="q-badge">Вопрос</span>
+                <p class="question-text">Скелет с максимальным запасом здоровья (20 HP) падает с максимальной высоты. Останется ли он жив?</p>
+            </div>
+            <div class="answer-row">
+                <span class="a-badge">Ответ</span>
+                <p class="answer-text">Нет, он погибнет</p>
+            </div>
+            <p class="trivia-note"><strong>Контекст:</strong> Скелет имеет 20 единиц здоровья и не обладает врождённой бронёй, поэтому падение с максимальной высоты нанесёт ему смертельный урон.</p>
+        </div>
+        <div class="trivia-card" data-keywords="зомби максимальный запас хп бьют мечом 20 урона жив">
+            <div class="question-row">
+                <span class="q-badge">Вопрос</span>
+                <p class="question-text">Зомби с максимальным запасом здоровья бьют мечом на 20 единиц урона. Останется ли он жив?</p>
+            </div>
+            <div class="answer-row">
+                <span class="a-badge">Ответ</span>
+                <p class="answer-text">Да, останется жив</p>
+            </div>
+            <p class="trivia-note"><strong>Контекст:</strong> У зомби есть врождённая броня в 2 единицы, которая поглощает 8%☆ входящего урона. Удар на 20 урона нанесёт ему лишь 18.4 урона, оставив его с 1.6 ХП☆.</p>
+        </div>
+        <div class="trivia-card" data-keywords="связь душой сколько критического крит урона дает">
+            <div class="question-row">
+                <span class="q-badge">Вопрос</span>
+                <p class="question-text">Сколько критического урона даёт бонус «Связь душой»?</p>
+            </div>
+            <div class="answer-row">
+                <span class="a-badge">Ответ</span>
+                <p class="answer-text">0</p>
+            </div>
+            <p class="trivia-note"><strong>Контекст:</strong> Этот бонус увеличивает обычный урон на 15%☆ и шанс критического удара на 15%☆, но сам критический урон не увеличивает.</p>
+        </div>
+        <div class="trivia-card" data-keywords="связь душой сколько шанса крит крита шанса дает">
+            <div class="question-row">
+                <span class="q-badge">Вопрос</span>
+                <p class="question-text">Сколько шанса критического удара даёт бонус «Связь душой»?</p>
+            </div>
+            <div class="answer-row">
+                <span class="a-badge">Ответ</span>
+                <p class="answer-text">15</p>
+            </div>
+            <p class="trivia-note"><strong>Контекст:</strong> При нахождении в радиусе 8 блоков от союзника, ваш шанс критического удара увеличивается на 15☆ (15%☆).</p>
+        </div>
+    </div>
 
+    <div class="section-divider">💬 Вопросы Игроков (FAQ)</div>
+
+    <!-- Список FAQ -->
+    <div class="faq-list" id="faq-list">
+        
+        <div class="faq-card" data-keywords="передать предмет другу обмен торговать трейд дюп">
+            <div class="faq-question">
+                <span class="faq-icon">❓</span>
+                <h4>Как передать предмет другу или торговать в игре?</h4>
+            </div>
+            <div class="faq-answer">
+                <p><b>Никак☆</b>. Передача предметов и свободный трейд между игроками полностью заблокированы разработчиком во избежание дюпов и уязвимостей.</p>
+            </div>
+        </div>
+        <div class="faq-card" data-keywords="команда пати друг вместе зайти party warp">
+            <div class="faq-question">
+                <span class="faq-icon">❓</span>
+                <h4>Как добавить друга в свою команду (пати)?</h4>
+            </div>
+            <div class="faq-answer">
+                <p>Используйте команду <b>/party [ник]☆</b> для создания группы, а затем команду <b>/party warp☆</b>, чтобы перенести всю команду в ваше лобби или подземелье.</p>
+            </div>
+        </div>
+        <div class="faq-card" data-keywords="использовать способность заклинание мана бинд клавиша">
+            <div class="faq-question">
+                <span class="faq-icon">❓</span>
+                <h4>Как использовать активные способности предметов (заклинания)?</h4>
+            </div>
+            <div class="faq-answer">
+                <p>Вам необходимо зайти в настройки управления или радиальное меню и назначить (забиндьте) активную способность на удобную клавишу (обычно по умолчанию используется <b>G☆</b> или <b>Q☆</b>). На использование способностей расходуется мана.</p>
+            </div>
+        </div>
+        <div class="faq-card" data-keywords="броня зеленый бонус защита собиратель мусора">
+            <div class="faq-question">
+                <span class="faq-icon">❓</span>
+                <h4>Есть ли смысл покупать обычный (зелёный) бонус брони?</h4>
+            </div>
+            <div class="faq-answer">
+                <p>Да! Он навсегда увеличивает вашу базовую защиту на <b>6%☆</b>. Данный бонус невероятно силён в связке с редким бонусом <b>«Собиратель мусора»</b>, который дарует перманентные характеристики при поднятии зелёных перков.</p>
+            </div>
+        </div>
+        <div class="faq-card" data-keywords="свинцовый слоник защита вампиризм скорость дебафф">
+            <div class="faq-question">
+                <span class="faq-icon">❓</span>
+                <h4>Сколько защиты даёт свинцовый слоник?</h4>
+            </div>
+            <div class="faq-answer">
+                <p>Редкий синий бонус «Свинцовый слоник» снижает весь входящий урон на <b>10%☆</b> и повышает вампиризм на <b>5%☆</b>, но урезает вашу скорость передвижения на <b>50%☆</b> и наносимый урон на <b>15%☆</b>.</p>
+            </div>
+        </div>
+        <div class="faq-card" data-keywords="никтофобия векс досаждатель толкает спину">
+            <div class="faq-question">
+                <span class="faq-icon">❓</span>
+                <h4>Что делает проклятие «Никтофобия»?</h4>
+            </div>
+            <div class="faq-answer">
+                <p>Оно призывает на арену невидимого векса (досаждателя), который не наносит урона напрямую, но постоянно и очень неприятно <b>толкает вашего персонажа в спину☆</b> во время боя.</p>
+            </div>
+        </div>
+        <div class="faq-card" data-keywords="паранойя победителя скрыть здоровье хп бар">
+            <div class="faq-question">
+                <span class="faq-icon">❓</span>
+                <h4>Что делает проклятие «Паранойя победителя»?</h4>
+            </div>
+            <div class="faq-answer">
+                <p>Оно скрывает отображение вашей полоски здоровья на <b>5☆</b> секунд каждые 15 секунд, заставляя драться «вслепую».</p>
+            </div>
+        </div>
     </div>
 
     <div class="no-results" id="no-results">
@@ -325,6 +497,7 @@ permalink: /trivia/
 document.addEventListener("DOMContentLoaded", function() {
     const searchInput = document.getElementById("trivia-search");
     const cards = document.querySelectorAll(".trivia-card");
+    const faqs = document.querySelectorAll(".faq-card");
     const noResults = document.getElementById("no-results");
 
     searchInput.addEventListener("input", function() {
@@ -343,6 +516,21 @@ document.addEventListener("DOMContentLoaded", function() {
                 visibleCount++;
             } else {
                 card.style.display = "none";
+            }
+        });
+
+        faqs.forEach(faq => {
+            const keywords = faq.getAttribute("data-keywords") || "";
+            const question = faq.querySelector(".faq-question h4").textContent.toLowerCase();
+            const answer = faq.querySelector(".faq-answer").textContent.toLowerCase();
+
+            const matches = keywords.includes(query) || question.includes(query) || answer.includes(query);
+
+            if (matches) {
+                faq.style.display = "block";
+                visibleCount++;
+            } else {
+                faq.style.display = "none";
             }
         });
 
