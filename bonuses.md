@@ -5,11 +5,12 @@ permalink: /bonuses/
 ---
 
 <style>
-/* CSS для интерактивной Вики-таблицы VoidGame */
+/* CSS для интерактивной энциклопедии бонусов VoidGame */
 .wiki-container {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     color: #e0e0e0;
     margin: 20px 0;
+    box-sizing: border-box;
 }
 
 /* Секция поиска и фильтрации */
@@ -20,11 +21,14 @@ permalink: /bonuses/
     padding: 20px;
     margin-bottom: 25px;
     box-shadow: 0 4px 25px rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
 }
 
 .search-wrapper {
     position: relative;
     margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .search-input {
@@ -37,6 +41,7 @@ permalink: /bonuses/
     font-size: 16px;
     outline: none;
     transition: all 0.3s ease;
+    box-sizing: border-box; /* КРИТИЧЕСКИЙ ФИКС: предотвращает выход за границы */
 }
 
 .search-input:focus {
@@ -48,6 +53,7 @@ permalink: /bonuses/
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    box-sizing: border-box;
 }
 
 .filter-btn {
@@ -59,6 +65,7 @@ permalink: /bonuses/
     font-size: 14px;
     cursor: pointer;
     transition: all 0.2s ease;
+    box-sizing: border-box;
 }
 
 .filter-btn:hover {
@@ -86,12 +93,14 @@ permalink: /bonuses/
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    box-sizing: border-box;
 }
 
 .wiki-table {
     width: 100%;
     border-collapse: collapse;
     text-align: left;
+    box-sizing: border-box;
 }
 
 .wiki-table th, .wiki-table td {
@@ -136,7 +145,7 @@ permalink: /bonuses/
     margin: 0;
 }
 
-/* Minecraft Gold Highlight Styles */
+/* Золотое выделение Minecraft-стиля */
 .wiki-desc b, .wiki-desc strong {
     color: #ffd54f !important;
     text-shadow: 0 0 8px rgba(255, 213, 79, 0.4);
@@ -149,7 +158,7 @@ permalink: /bonuses/
     text-decoration: underline;
 }
 
-/* Баджики редкостей */
+/* Бейджики редкостей */
 .wiki-badge {
     font-size: 11px;
     text-transform: uppercase;
@@ -166,7 +175,7 @@ permalink: /bonuses/
 .badge-legendary { background: rgba(255, 152, 0, 0.15); color: #ffb74d; border: 1px solid rgba(255, 152, 0, 0.3); }
 .badge-curse { background: rgba(198, 40, 40, 0.15); color: #e57373; border: 1px solid rgba(198, 40, 40, 0.3); }
 
-/* Интерактивная подсветка строк в зависимости от редкости */
+/* Интерактивная подсветка строк */
 .wiki-table tr {
     transition: background-color 0.25s ease, box-shadow 0.25s ease;
 }
@@ -185,9 +194,10 @@ permalink: /bonuses/
     border-radius: 12px;
     display: none;
     font-size: 15px;
+    box-sizing: border-box;
 }
 
-/* ===== МОБИЛЬНАЯ АДАПТАЦИЯ (Специально для Android 7.0 и старых WebView) ===== */
+/* ===== МОБИЛЬНАЯ АДАПТАЦИЯ (Для Android 7.0 и старых WebView) ===== */
 @media (max-width: 768px) {
     .wiki-table-container {
         background: transparent;
@@ -202,7 +212,7 @@ permalink: /bonuses/
     }
     
     .wiki-table thead {
-        display: none; /* Скрываем заголовки столбцов */
+        display: none; /* Скрываем десктопную шапку таблицы */
     }
     
     .wiki-table tr {
@@ -230,7 +240,7 @@ permalink: /bonuses/
         float: left;
         width: auto;
         margin-right: 12px;
-        margin-bottom: 0;
+        margin-bottom: 0 !important;
     }
     
     /* Название справа от иконки */
@@ -318,9 +328,7 @@ permalink: /bonuses/
         </table>
     </div>
     
-    <div class="no-results" id="no-results">
-        Ничего не найдено. Попробуйте изменить поисковый запрос или фильтр Бездны.
-    </div>
+    <div class="no-results" id="no-results">Ничего не найдено. Попробуйте изменить поисковый запрос или фильтр Бездны.</div>
 </div>
 
 <script>

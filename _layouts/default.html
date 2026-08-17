@@ -9,27 +9,28 @@
 <body>
 
   <header class="site-header">
-  <a class="site-title" href="/">VoidGame Wiki</a>
+    <a class="site-title" href="/">VoidGame Wiki</a>
 
-  <nav class="site-nav">
+    <nav class="site-nav">
+      <a href="/" {% if page.url == "/" %}class="active"{% endif %}>
+         Главная
+      </a>
 
-  <a href="/"
-     {% if page.url == "/" %}class="active"{% endif %}>
-    Главная
-  </a>
+      <a href="/entities/"
+         {% if page.url contains "/entities" or page.url == "/etol/" or page.url == "/rasima/" or page.url == "/darkness/" or page.url == "/calamity/" or page.url == "/pardimal/" or page.url == "/beast/" or page.url == "/killer/" or page.url == "/valotile/" %}class="active"{% endif %}>
+        Сущности
+      </a>
 
-  <a href="/entities/"
-     {% if page.url contains "/entities" or page.url == "/etol/" or page.url == "/rasima/" or page.url == "/darkness/" or page.url == "/calamity/" or page.url == "/pardimal/" or page.url == "/beast/" or page.url == "/killer/" or page.url == "/valotile/" %}class="active"{% endif %}>
-    Сущности
-  </a>
-
-</nav>
+      <!-- НОВАЯ КНОПКА БОНУСОВ -->
+      <a href="/bonuses/" {% if page.url contains "/bonuses/" %}class="active"{% endif %}>
+        Бонусы
+      </a>
+    </nav>
   </header>
 
   <main>
     {{ content }}
   </main>
-
 
 </body>
 </html>
