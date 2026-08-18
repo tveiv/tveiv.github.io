@@ -5,12 +5,11 @@ permalink: /bonuses/
 ---
 
 <style>
-/* CSS для интерактивной энциклопедии бонусов VoidGame */
+/* CSS для интерактивной Вики-таблицы VoidGame */
 .wiki-container {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     color: #e0e0e0;
     margin: 20px 0;
-    box-sizing: border-box;
 }
 
 /* Секция поиска и фильтрации */
@@ -21,14 +20,11 @@ permalink: /bonuses/
     padding: 20px;
     margin-bottom: 25px;
     box-shadow: 0 4px 25px rgba(0, 0, 0, 0.6);
-    box-sizing: border-box;
 }
 
 .search-wrapper {
     position: relative;
     margin-bottom: 15px;
-    width: 100%;
-    box-sizing: border-box;
 }
 
 .search-input {
@@ -40,8 +36,8 @@ permalink: /bonuses/
     color: #fff;
     font-size: 16px;
     outline: none;
+    box-sizing: border-box; /* КРИТИЧЕСКИЙ ФИКС: упаковывает padding внутрь 100% ширины */
     transition: all 0.3s ease;
-    box-sizing: border-box; /* КРИТИЧЕСКИЙ ФИКС: предотвращает выход за границы */
 }
 
 .search-input:focus {
@@ -53,7 +49,6 @@ permalink: /bonuses/
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    box-sizing: border-box;
 }
 
 .filter-btn {
@@ -65,7 +60,6 @@ permalink: /bonuses/
     font-size: 14px;
     cursor: pointer;
     transition: all 0.2s ease;
-    box-sizing: border-box;
 }
 
 .filter-btn:hover {
@@ -93,14 +87,12 @@ permalink: /bonuses/
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0,0,0,0.5);
-    box-sizing: border-box;
 }
 
 .wiki-table {
     width: 100%;
     border-collapse: collapse;
     text-align: left;
-    box-sizing: border-box;
 }
 
 .wiki-table th, .wiki-table td {
@@ -145,7 +137,7 @@ permalink: /bonuses/
     margin: 0;
 }
 
-/* Золотое выделение Minecraft-стиля */
+/* Minecraft Gold Highlight Styles */
 .wiki-desc b, .wiki-desc strong {
     color: #ffd54f !important;
     text-shadow: 0 0 8px rgba(255, 213, 79, 0.4);
@@ -158,7 +150,7 @@ permalink: /bonuses/
     text-decoration: underline;
 }
 
-/* Бейджики редкостей */
+/* Баджики редкостей */
 .wiki-badge {
     font-size: 11px;
     text-transform: uppercase;
@@ -175,7 +167,7 @@ permalink: /bonuses/
 .badge-legendary { background: rgba(255, 152, 0, 0.15); color: #ffb74d; border: 1px solid rgba(255, 152, 0, 0.3); }
 .badge-curse { background: rgba(198, 40, 40, 0.15); color: #e57373; border: 1px solid rgba(198, 40, 40, 0.3); }
 
-/* Интерактивная подсветка строк */
+/* Интерактивная подсветка строк в зависимости от редкости */
 .wiki-table tr {
     transition: background-color 0.25s ease, box-shadow 0.25s ease;
 }
@@ -194,10 +186,9 @@ permalink: /bonuses/
     border-radius: 12px;
     display: none;
     font-size: 15px;
-    box-sizing: border-box;
 }
 
-/* ===== МОБИЛЬНАЯ АДАПТАЦИЯ (Для Android 7.0 и старых WebView) ===== */
+/* ===== МОБИЛЬНАЯ АДАПТАЦИЯ (Специально для Android 7.0 и старых WebView) ===== */
 @media (max-width: 768px) {
     .wiki-table-container {
         background: transparent;
@@ -212,7 +203,7 @@ permalink: /bonuses/
     }
     
     .wiki-table thead {
-        display: none; /* Скрываем десктопную шапку таблицы */
+        display: none; /* Скрываем заголовки столбцов */
     }
     
     .wiki-table tr {
@@ -240,7 +231,7 @@ permalink: /bonuses/
         float: left;
         width: auto;
         margin-right: 12px;
-        margin-bottom: 0 !important;
+        margin-bottom: 0;
     }
     
     /* Название справа от иконки */
@@ -316,11 +307,11 @@ permalink: /bonuses/
                             {% elsif bonus.rarity == 'blue' %}🔵 Синий
                             {% elsif bonus.rarity == 'legendary' %}🟡 Легендарный
                             {% elsif bonus.rarity == 'curse' %}🔴 Проклятие
-                            {% else %}{{ bonus.rarity }}{% endif %}
+                            {% else %}{{ bonus.rarity_ru }}{% endif %}
                         </span>
                     </td>
                     <td class="td-desc">
-                        <p class="wiki-desc">{{ bonus.description }}</p>
+                        <p class="wiki-desc">{{ bonus.description | markdownify }}</p>
                     </td>
                 </tr>
                 {% endfor %}
@@ -328,30 +319,35 @@ permalink: /bonuses/
         </table>
     </div>
     
-    <div class="no-results" id="no-results">Ничего не найдено. Попробуйте изменить поисковый запрос или фильтр Бездны.</div>
+    <div class="no-results" id="no-results">
+        Ничего не найдено. Попробуйте изменить поисковый запрос или фильтр Бездны.
+    </div>
 </div>
 
 <script>
+// ПОЛНОСТЬЮ СОВМЕСТИМЫЙ ES5 СЦЕНАРИЙ (БЕЗ СТРЕЛОЧНЫХ ФУНКЦИЙ И FOREACH НА NODELIST)
 document.addEventListener("DOMContentLoaded", function() {
-    const searchInput = document.getElementById("wiki-search");
-    const filterButtons = document.querySelectorAll(".filter-btn");
-    const rows = document.querySelectorAll(".bonus-row");
-    const noResults = document.getElementById("no-results");
-    const tableContainer = document.querySelector(".wiki-table-container");
+    var searchInput = document.getElementById("wiki-search");
+    var filterButtons = document.querySelectorAll(".filter-btn");
+    var rows = document.querySelectorAll(".bonus-row");
+    var noResults = document.getElementById("no-results");
+    var tableContainer = document.querySelector(".wiki-table-container");
 
-    function filterData() {
-        const query = searchInput.value.toLowerCase().trim();
-        const activeFilterBtn = document.querySelector(".filter-btn.active");
-        const activeFilter = activeFilterBtn ? activeFilterBtn.getAttribute("data-filter") : "all";
-        let visibleCount = 0;
+    function filterCards() {
+        var query = searchInput ? searchInput.value.toLowerCase().trim() : "";
+        var activeFilterBtn = document.querySelector(".filter-btn.active");
+        var activeFilter = activeFilterBtn ? activeFilterBtn.getAttribute("data-filter") : "all";
+        var visibleCount = 0;
+        var i;
 
-        rows.forEach(row => {
-            const name = row.getAttribute("data-name") || "";
-            const desc = row.getAttribute("data-desc") || "";
-            const cat = row.getAttribute("data-category") || "";
+        for (i = 0; i < rows.length; i++) {
+            var row = rows[i];
+            var name = row.getAttribute("data-name") || "";
+            var desc = row.getAttribute("data-desc") || "";
+            var cat = row.getAttribute("data-category") || "";
 
-            const matchesSearch = name.includes(query) || desc.includes(query);
-            const matchesFilter = (activeFilter === "all") || (cat === activeFilter);
+            var matchesSearch = name.indexOf(query) !== -1 || desc.indexOf(query) !== -1;
+            var matchesFilter = activeFilter === "all" || cat === activeFilter;
 
             if (matchesSearch && matchesFilter) {
                 row.style.display = "";
@@ -359,25 +355,39 @@ document.addEventListener("DOMContentLoaded", function() {
             } else {
                 row.style.display = "none";
             }
-        });
+        }
 
         if (visibleCount === 0) {
             noResults.style.display = "block";
-            tableContainer.style.display = "none";
+            if (tableContainer) tableContainer.style.display = "none";
         } else {
             noResults.style.display = "none";
-            tableContainer.style.display = "block";
+            if (tableContainer) tableContainer.style.display = "block";
         }
     }
 
-    searchInput.addEventListener("input", filterData);
+    if (searchInput) {
+        searchInput.addEventListener("input", filterCards);
+    }
 
-    filterButtons.forEach(btn => {
+    var j;
+    for (j = 0; j < filterButtons.length; j++) {
+        var btn = filterButtons[j];
         btn.addEventListener("click", function() {
-            filterButtons.forEach(b => b.classList.remove("active"));
+            var k;
+            for (k = 0; k < filterButtons.length; k++) {
+                filterButtons[k].classList.remove("active");
+            }
             this.classList.add("active");
-            filterData();
+            filterCards();
         });
-    });
+    }
 });
 </script>
+
+## Особенности механики наград на аренах
+
+В процессе прохождения арен Бездны игроки регулярно сталкиваются с выбором наград между волнами. Здесь действует несколько ключевых правил, определяющих выигрышную стратегию:
+
+1. **Синергия «Небытие + Ничего»** [51]: Как только вам выпадает перк **«Небытие»** (зелёная/синяя редкость), всегда проверяйте наличие варианта **«Ничего»** в выборе наград. Это комбо даёт мощнейший прирост сразу двух характеристик — вы одновременно повышаете урон и получаете уклонение без каких-либо дебаффов.
+2. **Риск проклятий**: Проклятые бонусы (например, **«Паранойя победителя»** [2] или **«Унижение»** [3]) дают сильные награды в двойном объёме или увеличивают локальную награду за волну, но могут сильно усложнить игру за счёт штрафов на характеристики или непроизвольные уклонения врагов.
